@@ -961,5 +961,320 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3d5b7686df73.jpg",
   "caption": "Five Integers Two Differ By 4\n\nProve that among any five integers, two have a difference divisible by four.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "153 Five Integers Two Differ By 4 - Interview Question.mp4"
+ },
+ {
+  "n": 109,
+  "time": "2026-11-02T22:00:00+08:00",
+  "unix": 1793628000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fff0c7f99ba5.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0a47709ef281.jpg",
+  "caption": "Stacking Books For Overhang\n\nYou stack identical books on a table, each book one unit long. With four books, how far past the table edge can the top book reach?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "159 Stacking Books For Overhang - Interview Question.mp4"
+ },
+ {
+  "n": 110,
+  "time": "2026-11-03T12:30:00+08:00",
+  "unix": 1793680200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/918ca0f20816.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3a1575b59126.jpg",
+  "caption": "Hash Map Lookup Worst Case\n\nA hash map lookup is O(1) on average. Under what conditions does it become O(n)?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "197 Hash Map Lookup Worst Case - Interview Question.mp4"
+ },
+ {
+  "n": 111,
+  "time": "2026-11-03T15:30:00+08:00",
+  "unix": 1793691000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0e0ee35b7078.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3ccfa5bf047b.jpg",
+  "caption": "Stock Profit With Many Trades\n\nGiven daily prices seven, one, five, three, six, four, you may buy and sell as many times as you like, holding one share at a time. What's the maximum profit?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "143 Stock Profit With Many Trades - Interview Question.mp4"
+ },
+ {
+  "n": 112,
+  "time": "2026-11-03T18:30:00+08:00",
+  "unix": 1793701800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9551ff6b2e82.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/adb34cf7d3e2.jpg",
+  "caption": "Modular Inverse Of 3 Mod 7\n\nFind a number x such that three times x leaves remainder one when divided by seven.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "161 Modular Inverse Of 3 Mod 7 - Interview Question.mp4"
+ },
+ {
+  "n": 113,
+  "time": "2026-11-03T20:30:00+08:00",
+  "unix": 1793709000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4c67506d7aff.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cb2d1b898fbd.jpg",
+  "caption": "Validate A Binary Search Tree\n\nHow do you check that a binary tree is a valid binary search tree? Is it enough to compare each node with its children?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "148 Validate A Binary Search Tree - Interview Question.mp4"
+ },
+ {
+  "n": 114,
+  "time": "2026-11-03T22:00:00+08:00",
+  "unix": 1793714400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/681e2afa6c8f.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6bec437db8be.jpg",
+  "caption": "Collect All 13 Card Ranks\n\nYou draw a card from a deck, note its rank, and put it back, then repeat. On average, how many draws until you've seen all thirteen ranks?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "102 Collect All 13 Card Ranks - Interview Question.mp4"
+ },
+ {
+  "n": 115,
+  "time": "2026-11-04T12:30:00+08:00",
+  "unix": 1793766600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8c1952e08467.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e715b170a32f.jpg",
+  "caption": "Valid Anagram Check\n\nHow do you check whether two strings are anagrams of each other in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "122 Valid Anagram Check - Interview Question.mp4"
+ },
+ {
+  "n": 116,
+  "time": "2026-11-04T15:30:00+08:00",
+  "unix": 1793777400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/08ec57de0d9c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f0365cbe668e.jpg",
+  "caption": "Dynamic Array Amortized Cost\n\nA dynamic array doubles its capacity when full. Why is appending still constant time on average?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "134 Dynamic Array Amortized Cost - Interview Question.mp4"
+ },
+ {
+  "n": 117,
+  "time": "2026-11-04T18:30:00+08:00",
+  "unix": 1793788200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/dc910d434e89.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cda5ed10420b.jpg",
+  "caption": "Smallest Number Divisible By 1 To 10\n\nWhat is the smallest positive number that is divisible by every integer from one to ten?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "115 Smallest Number Divisible By 1 To 10 - Interview Question.mp4"
+ },
+ {
+  "n": 118,
+  "time": "2026-11-04T20:30:00+08:00",
+  "unix": 1793795400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2b040ec5358c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0fff5d7f1676.jpg",
+  "caption": "Expected Max Of Three Dice\n\nYou roll three fair dice and keep the largest. What's the expected value?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "111 Expected Max Of Three Dice - Interview Question.mp4"
+ },
+ {
+  "n": 119,
+  "time": "2026-11-04T22:00:00+08:00",
+  "unix": 1793800800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ba05450f7e0e.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bf63596db3b4.jpg",
+  "caption": "Merge K Sorted Lists\n\nHow do you merge k sorted lists into one sorted list efficiently?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "190 Merge K Sorted Lists - Interview Question.mp4"
+ },
+ {
+  "n": 120,
+  "time": "2026-11-05T12:30:00+08:00",
+  "unix": 1793853000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/29dc055e6e39.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c81a6df9de84.jpg",
+  "caption": "Seating 6 People Around A Table\n\nIn how many different ways can six people sit around a round table, if rotations of the same arrangement count as the same?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "117 Seating 6 People Around A Table - Interview Question.mp4"
+ },
+ {
+  "n": 121,
+  "time": "2026-11-05T15:30:00+08:00",
+  "unix": 1793863800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c7a2e7e8d235.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9b26fad27d28.jpg",
+  "caption": "Fast Exponentiation 3 To The 100\n\nHow many multiplications are needed to compute three to the one hundredth power, using the fewest with binary exponentiation?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "140 Fast Exponentiation 3 To The 100 - Interview Question.mp4"
+ },
+ {
+  "n": 122,
+  "time": "2026-11-05T18:30:00+08:00",
+  "unix": 1793874600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/163b79821d34.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e30dd5a4fcc9.jpg",
+  "caption": "Fermat's Little Theorem Check\n\nWhat is the remainder of two to the power ten when divided by eleven?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "160 Fermat's Little Theorem Check - Interview Question.mp4"
+ },
+ {
+  "n": 123,
+  "time": "2026-11-05T20:30:00+08:00",
+  "unix": 1793881800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0fbd474bae9c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d31a5ccf71ed.jpg",
+  "caption": "Subsets Of A 10 Element Set\n\nHow many subsets, including the empty set, does a set with ten elements have?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "164 Subsets Of A 10 Element Set - Interview Question.mp4"
+ },
+ {
+  "n": 124,
+  "time": "2026-11-05T22:00:00+08:00",
+  "unix": 1793887200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/abc79c57a8be.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/267d14a4f9ef.jpg",
+  "caption": "Committee Of 3 From 10\n\nIn how many ways can you choose a committee of three people from ten, if order doesn't matter?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "165 Committee Of 3 From 10 - Interview Question.mp4"
+ },
+ {
+  "n": 125,
+  "time": "2026-11-06T12:30:00+08:00",
+  "unix": 1793939400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5c2b3521e6bf.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0de9d9da1878.jpg",
+  "caption": "Product Of Array Except Self\n\nGiven an array of numbers, return an array where each element is the product of all the other elements, without using division, in linear time.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "125 Product Of Array Except Self - Interview Question.mp4"
+ },
+ {
+  "n": 126,
+  "time": "2026-11-06T15:30:00+08:00",
+  "unix": 1793950200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b2e7bf918dfa.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bed8d578ca37.jpg",
+  "caption": "First Unique Character\n\nGiven a string, how do you find the first character that appears only once, in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "123 First Unique Character - Interview Question.mp4"
+ },
+ {
+  "n": 127,
+  "time": "2026-11-06T18:30:00+08:00",
+  "unix": 1793961000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f84262991d35.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/679ef39cd2e3.jpg",
+  "caption": "Three People Share A Birthday\n\nHow many people do you need in a room before there's a better than fifty percent chance that at least three of them share the same birthday?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "106 Three People Share A Birthday - Interview Question.mp4"
+ },
+ {
+  "n": 128,
+  "time": "2026-11-06T20:30:00+08:00",
+  "unix": 1793968200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/26bc0aa5db38.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/35d499caeefe.jpg",
+  "caption": "Trapping Rain Water\n\nGiven bar heights, how much rain water is trapped between them? The heights are zero, one, zero, two, one, zero, one, three, two, one, two, one.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "126 Trapping Rain Water - Interview Question.mp4"
+ },
+ {
+  "n": 129,
+  "time": "2026-11-06T22:00:00+08:00",
+  "unix": 1793973600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/456031c56e60.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/93c421b0163d.jpg",
+  "caption": "Last Two Digits Of 7 To The 100\n\nWhat are the last two digits of seven to the power one hundred?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "162 Last Two Digits Of 7 To The 100 - Interview Question.mp4"
+ },
+ {
+  "n": 130,
+  "time": "2026-11-07T12:30:00+08:00",
+  "unix": 1794025800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/746555ddecb4.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2b848ca2be82.jpg",
+  "caption": "Rule Of 72 Doubling Time\n\nAt eight percent annual interest, roughly how many years does it take for money to double, and how can you estimate it in your head?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "157 Rule Of 72 Doubling Time - Interview Question.mp4"
+ },
+ {
+  "n": 131,
+  "time": "2026-11-07T15:30:00+08:00",
+  "unix": 1794036600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e15a2be8fa21.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/35858689c268.jpg",
+  "caption": "Subarray Sum Equals K\n\nGiven an array one, one, one and a target k equal to two, how many contiguous subarrays sum to k? How do you count them in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "150 Subarray Sum Equals K - Interview Question.mp4"
+ },
+ {
+  "n": 132,
+  "time": "2026-11-07T18:30:00+08:00",
+  "unix": 1794047400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3b9471c60ea2.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cbc20f7d90f8.jpg",
+  "caption": "Quicksort Worst Case\n\nWhat input makes quicksort slow, quadratic time, when the pivot is always the first element?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "133 Quicksort Worst Case - Interview Question.mp4"
+ },
+ {
+  "n": 133,
+  "time": "2026-11-07T20:30:00+08:00",
+  "unix": 1794054600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c60000433f25.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b8dc7b0384e3.jpg",
+  "caption": "Edit Distance Kitten To Sitting\n\nWhat's the minimum number of single character insertions, deletions or substitutions needed to turn kitten into sitting?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "130 Edit Distance Kitten To Sitting - Interview Question.mp4"
+ },
+ {
+  "n": 134,
+  "time": "2026-11-07T22:00:00+08:00",
+  "unix": 1794060000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d73c4e901bcd.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fab9d6b78b60.jpg",
+  "caption": "Merge Overlapping Intervals\n\nGiven a list of intervals like one to three, two to six, eight to ten, fifteen to eighteen, merge all overlapping intervals.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "121 Merge Overlapping Intervals - Interview Question.mp4"
+ },
+ {
+  "n": 135,
+  "time": "2026-11-08T12:30:00+08:00",
+  "unix": 1794112200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/74aebd01930d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/86fa6be60301.jpg",
+  "caption": "Spiral Matrix Order\n\nHow do you return the elements of a matrix in spiral order, starting at the top left and moving clockwise?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "184 Spiral Matrix Order - Interview Question.mp4"
+ },
+ {
+  "n": 136,
+  "time": "2026-11-08T15:30:00+08:00",
+  "unix": 1794123000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/89873b40a41f.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4febfdcaea65.jpg",
+  "caption": "Maximum Depth Of A Tree\n\nHow do you compute the maximum depth of a binary tree?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "180 Maximum Depth Of A Tree - Interview Question.mp4"
+ },
+ {
+  "n": 137,
+  "time": "2026-11-08T18:30:00+08:00",
+  "unix": 1794133800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/21348648db41.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/377454fe5176.jpg",
+  "caption": "Course Schedule Cycle Detection\n\nCourses have prerequisites. Course A needs B, B needs C, and C needs A. How do you check whether all courses can be completed?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "132 Course Schedule Cycle Detection - Interview Question.mp4"
+ },
+ {
+  "n": 138,
+  "time": "2026-11-08T20:30:00+08:00",
+  "unix": 1794141000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3097d89d5c09.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/72679c07ef50.jpg",
+  "caption": "Trailing Zeros Of 1000 Factorial\n\nHow many zeros are at the end of one thousand factorial?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "114 Trailing Zeros Of 1000 Factorial - Interview Question.mp4"
+ },
+ {
+  "n": 139,
+  "time": "2026-11-08T22:00:00+08:00",
+  "unix": 1794146400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fdfbb60a4d76.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/390971d3a60c.jpg",
+  "caption": "Two Aces In A Row\n\nYou draw two cards from a shuffled fifty two card deck without replacement. What's the probability that both are aces?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "104 Two Aces In A Row - Interview Question.mp4"
+ },
+ {
+  "n": 140,
+  "time": "2026-11-09T12:30:00+08:00",
+  "unix": 1794198600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ca1e028be6b6.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e3cd9cc2ab0.jpg",
+  "caption": "Employees Earning More Than Their Manager\n\nGiven an employees table with id, salary and manager id, how do you list employees who earn more than their manager?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "194 Employees Earning More Than Their Manager - Interview Question.mp4"
+ },
+ {
+  "n": 141,
+  "time": "2026-11-09T15:30:00+08:00",
+  "unix": 1794209400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b01a37c8fa5f.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f7fb38a58a40.jpg",
+  "caption": "Reverse The Words In A String\n\nHow do you reverse the order of words in a string, in place?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "182 Reverse The Words In A String - Interview Question.mp4"
+ },
+ {
+  "n": 142,
+  "time": "2026-11-09T18:30:00+08:00",
+  "unix": 1794220200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/297710706c9d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1a9035230d0d.jpg",
+  "caption": "Is 28 A Perfect Number\n\nA perfect number equals the sum of its proper divisors, the divisors less than itself. Is twenty eight perfect?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "152 Is 28 A Perfect Number - Interview Question.mp4"
+ },
+ {
+  "n": 143,
+  "time": "2026-11-09T20:30:00+08:00",
+  "unix": 1794227400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/91348f6a82ca.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8d91b1bd59c5.jpg",
+  "caption": "Find The Celebrity\n\nAt a party of n people, a celebrity is someone everyone knows and who knows no one. You can ask does A know B. How do you find the celebrity with about n questions?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "149 Find The Celebrity - Interview Question.mp4"
  }
 ]
