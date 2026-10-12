@@ -889,5 +889,77 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f5fed84323ab.jpg",
   "caption": "Two Sum With A Hash Map\n\nGiven an array of numbers and a target, find two numbers that add up to the target. How do you do it in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "055 Two Sum With A Hash Map - Interview Question.mp4"
+ },
+ {
+  "n": 101,
+  "time": "2026-11-01T15:30:00+08:00",
+  "unix": 1793518200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2dc73512a177.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cf7bd4a63afa.jpg",
+  "caption": "Merge Two Sorted Lists\n\nHow do you merge two sorted linked lists into one sorted list, in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "177 Merge Two Sorted Lists - Interview Question.mp4"
+ },
+ {
+  "n": 102,
+  "time": "2026-11-01T18:30:00+08:00",
+  "unix": 1793529000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d690c3183c22.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/af80704af1b3.jpg",
+  "caption": "Palindrome With Two Pointers\n\nHow do you check whether a phrase like a man, a plan, a canal, Panama is a palindrome, ignoring spaces and punctuation, in linear time and constant space?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "145 Palindrome With Two Pointers - Interview Question.mp4"
+ },
+ {
+  "n": 103,
+  "time": "2026-11-01T20:30:00+08:00",
+  "unix": 1793536200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7649f9931b4a.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fa42d9d8dd92.jpg",
+  "caption": "Coefficient In The Binomial Expansion\n\nIn the expansion of one plus x, to the power ten, what's the coefficient of x squared?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "168 Coefficient In The Binomial Expansion - Interview Question.mp4"
+ },
+ {
+  "n": 104,
+  "time": "2026-11-01T22:00:00+08:00",
+  "unix": 1793541600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ef6bd4a90936.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/011806b286cc.jpg",
+  "caption": "Rotate A Matrix 90 Degrees\n\nHow do you rotate an n by n matrix ninety degrees clockwise in place?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "146 Rotate A Matrix 90 Degrees - Interview Question.mp4"
+ },
+ {
+  "n": 105,
+  "time": "2026-11-02T12:30:00+08:00",
+  "unix": 1793593800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a8979ce00e8a.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ece164450240.jpg",
+  "caption": "Exactly One Six In Six Dice\n\nYou roll six fair dice. What's the probability that exactly one of them shows a six?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "101 Exactly One Six In Six Dice - Interview Question.mp4"
+ },
+ {
+  "n": 106,
+  "time": "2026-11-02T15:30:00+08:00",
+  "unix": 1793604600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3485e3199eb0.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f2e581c72ee1.jpg",
+  "caption": "Sum Of The First 50 Odd Numbers\n\nWhat's the sum of the first fifty odd numbers, one plus three plus five, and so on?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "118 Sum Of The First 50 Odd Numbers - Interview Question.mp4"
+ },
+ {
+  "n": 107,
+  "time": "2026-11-02T18:30:00+08:00",
+  "unix": 1793615400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4c4676c123d5.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1e9e32eaf5c3.jpg",
+  "caption": "Fibonacci 40 Naive Recursion\n\nThe naive recursive Fibonacci function calls itself twice. How many calls does it make to compute fib of forty, and how do you fix it?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "139 Fibonacci 40 Naive Recursion - Interview Question.mp4"
+ },
+ {
+  "n": 108,
+  "time": "2026-11-02T20:30:00+08:00",
+  "unix": 1793622600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/23b79cb84a72.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3d5b7686df73.jpg",
+  "caption": "Five Integers Two Differ By 4\n\nProve that among any five integers, two have a difference divisible by four.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "153 Five Integers Two Differ By 4 - Interview Question.mp4"
  }
 ]
