@@ -1,0 +1,209 @@
+[
+ {
+  "n": 1,
+  "time": "2026-10-12T15:30:00+08:00",
+  "unix": 1791790200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6002e721d164.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bce1e287f83c.jpg",
+  "caption": "Last Digit Of 7 To The 100\n\nWhat's the last digit of seven to the power of one hundred?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "034 Last Digit Of 7 To The 100 - Interview Question.mp4"
+ },
+ {
+  "n": 2,
+  "time": "2026-10-12T18:30:00+08:00",
+  "unix": 1791801000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b8781a5cd469.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1ac0da3dd0ee.jpg",
+  "caption": "Hat Puzzle Parity Strategy\n\nOne hundred prisoners stand in a line, each facing forward, seeing the hats ahead of them, black or white. From the back, each guesses their own hat colour out loud. They can agree a plan beforehand. How many can you save for...\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "026 Hat Puzzle Parity Strategy - Interview Question.mp4"
+ },
+ {
+  "n": 3,
+  "time": "2026-10-12T20:30:00+08:00",
+  "unix": 1791808200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/063769a48a73.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1ffda9d92006.jpg",
+  "caption": "Sum Of Digits 1 To 1000\n\nWhat is the sum of all the digits of all the numbers from one to one thousand?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "100 Sum Of Digits 1 To 1000 - Interview Question.mp4"
+ },
+ {
+  "n": 4,
+  "time": "2026-10-12T22:00:00+08:00",
+  "unix": 1791813600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f0be7cfd2503.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3f251bb9c46f.jpg",
+  "caption": "Paths In A Grid\n\nA robot starts at the top left of a five by five grid of squares and can only move right or down. How many different paths lead to the bottom right?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "085 Paths In A Grid - Interview Question.mp4"
+ },
+ {
+  "n": 5,
+  "time": "2026-10-13T12:30:00+08:00",
+  "unix": 1791865800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/02e5ed9ff47d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c02fc803b1bc.jpg",
+  "caption": "Deadlock Four Conditions\n\nWhat four conditions must all hold for a deadlock to happen, and how do you break one?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "079 Deadlock Four Conditions - Interview Question.mp4"
+ },
+ {
+  "n": 6,
+  "time": "2026-10-13T15:30:00+08:00",
+  "unix": 1791876600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1b63e61ffc9a.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/748e04901991.jpg",
+  "caption": "Kth Largest Element\n\nHow do you find the kth largest number in a huge stream, using memory proportional to k and about n log k time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "082 Kth Largest Element - Interview Question.mp4"
+ },
+ {
+  "n": 7,
+  "time": "2026-10-13T18:30:00+08:00",
+  "unix": 1791887400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ecbbb6720cb1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/694b7c305bcf.jpg",
+  "caption": "Twelve Balls Three Weighings\n\nYou have twelve balls that look identical. One is slightly heavier or lighter than the others. You have a balance scale and three weighings. How do you find the odd ball and say whether it's heavy or light?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "022 Twelve Balls Three Weighings - Interview Question.mp4"
+ },
+ {
+  "n": 8,
+  "time": "2026-10-13T20:30:00+08:00",
+  "unix": 1791894600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0b7ddf2d77e0.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/925d6d1839eb.jpg",
+  "caption": "Three Heads In A Row\n\nYou toss a fair coin until you get three heads in a row. On average, how many tosses does it take?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "094 Three Heads In A Row - Interview Question.mp4"
+ },
+ {
+  "n": 9,
+  "time": "2026-10-13T22:00:00+08:00",
+  "unix": 1791900000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c9dd27556b5c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/901a0af6958a.jpg",
+  "caption": "Binary Trees Catalan Number\n\nHow many structurally different binary search trees can you build with five distinct keys?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "083 Binary Trees Catalan Number - Interview Question.mp4"
+ },
+ {
+  "n": 10,
+  "time": "2026-10-14T12:30:00+08:00",
+  "unix": 1791952200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/48b4f0c70bc7.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6d61593e540e.jpg",
+  "caption": "Broken Stick Triangle\n\nYou break a stick at two random points. What's the probability that the three pieces can form a triangle?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "002 Broken Stick Triangle - Interview Question.mp4"
+ },
+ {
+  "n": 11,
+  "time": "2026-10-14T15:30:00+08:00",
+  "unix": 1791963000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/96a222f2bb7d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/587a414e40cd.jpg",
+  "caption": "Burning Ropes Forty Five Minutes\n\nYou have two ropes. Each takes exactly one hour to burn, but they burn unevenly. You have a lighter. How do you measure exactly forty five minutes?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "023 Burning Ropes Forty Five Minutes - Interview Question.mp4"
+ },
+ {
+  "n": 12,
+  "time": "2026-10-14T18:30:00+08:00",
+  "unix": 1791973800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fbaa2b44ad22.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3e4c5365e817.jpg",
+  "caption": "Two Eggs 100 Floors\n\nA building has one hundred floors. You have two identical eggs. Above some floor an egg breaks when dropped. What's the fewest drops that guarantees you find that floor?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "001 Two Eggs 100 Floors - Interview Question.mp4"
+ },
+ {
+  "n": 13,
+  "time": "2026-10-14T20:30:00+08:00",
+  "unix": 1791981000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0e63a2297d48.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/52d55eda2fb7.jpg",
+  "caption": "Climbing Stairs 10 Steps\n\nYou climb a staircase of ten steps, taking either one or two steps at a time. How many different ways can you reach the top?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "062 Climbing Stairs 10 Steps - Interview Question.mp4"
+ },
+ {
+  "n": 14,
+  "time": "2026-10-14T22:00:00+08:00",
+  "unix": 1791986400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e434f3b34db7.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/87bfd87857ce.jpg",
+  "caption": "Nested Loop Complexity\n\nWhat's the time complexity of a loop where i runs from zero to n and the inner loop runs j from zero to i?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "074 Nested Loop Complexity - Interview Question.mp4"
+ },
+ {
+  "n": 15,
+  "time": "2026-10-15T12:30:00+08:00",
+  "unix": 1792038600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2446479805fd.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/afa6b31c67a2.jpg",
+  "caption": "Three Switches One Bulb\n\nThree switches are outside a closed room. One of them controls a light bulb inside. You can enter the room only once. How do you find which switch controls the bulb?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "025 Three Switches One Bulb - Interview Question.mp4"
+ },
+ {
+  "n": 16,
+  "time": "2026-10-15T15:30:00+08:00",
+  "unix": 1792049400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6f7d94aa50c4.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/489c3ef84f35.jpg",
+  "caption": "Digits Of 100 Factorial\n\nHow many digits does one hundred factorial have?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "050 Digits Of 100 Factorial - Interview Question.mp4"
+ },
+ {
+  "n": 17,
+  "time": "2026-10-15T18:30:00+08:00",
+  "unix": 1792060200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4275fc96cc1d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/91149ceea03e.jpg",
+  "caption": "Fox Chicken And Grain\n\nA farmer must take a fox, a chicken and a bag of grain across a river in a boat that carries only one item at a time. The fox eats the chicken and the chicken eats the grain if left alone. How does he get everything across?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "027 Fox Chicken And Grain - Interview Question.mp4"
+ },
+ {
+  "n": 18,
+  "time": "2026-10-15T20:30:00+08:00",
+  "unix": 1792067400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d67c87d04dd9.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/45c2f63f34fd.jpg",
+  "caption": "Heavy Coin Among 1000\n\nYou have one thousand coins and exactly one is heavier. You have a balance scale. What's the minimum number of weighings that guarantees you find it?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "045 Heavy Coin Among 1000 - Interview Question.mp4"
+ },
+ {
+  "n": 19,
+  "time": "2026-10-15T22:00:00+08:00",
+  "unix": 1792072800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fb440c3ec3bb.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/809bbeec9571.jpg",
+  "caption": "The Midpoint Overflow Bug\n\nIn binary search, the line mid equals low plus high, divided by two, looks perfectly fine. Why can it be a bug, and how do you fix it?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "077 The Midpoint Overflow Bug - Interview Question.mp4"
+ },
+ {
+  "n": 20,
+  "time": "2026-10-16T12:30:00+08:00",
+  "unix": 1792125000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1c0d97a8e8fd.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f828fdb13848.jpg",
+  "caption": "Queue From Two Stacks\n\nHow can you implement a queue using only two stacks, with constant amortized time per operation?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "080 Queue From Two Stacks - Interview Question.mp4"
+ },
+ {
+  "n": 21,
+  "time": "2026-10-16T15:30:00+08:00",
+  "unix": 1792135800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0a5b7b83339d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5bedc86b8c2e.jpg",
+  "caption": "Remainder Of 2 To The 100\n\nWhat is the remainder when two to the power one hundred is divided by seven?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "048 Remainder Of 2 To The 100 - Interview Question.mp4"
+ },
+ {
+  "n": 22,
+  "time": "2026-10-16T18:30:00+08:00",
+  "unix": 1792146600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b7c1c9a30d29.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/be0f2420b58b.jpg",
+  "caption": "One Hundred Prisoners\n\nOne hundred prisoners are numbered one to one hundred. Their numbers are shuffled into one hundred closed boxes. Each prisoner may open fifty boxes. If every single one finds their own number, they all go free. Otherwise, they...\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "003 One Hundred Prisoners - Interview Question.mp4"
+ },
+ {
+  "n": 23,
+  "time": "2026-10-16T20:30:00+08:00",
+  "unix": 1792153800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b7d7df0b548b.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/14038365aa33.jpg",
+  "caption": "Detect A Cycle In A Linked List\n\nGiven a linked list, how can you tell whether it contains a cycle, using only constant extra memory?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "052 Detect A Cycle In A Linked List - Interview Question.mp4"
+ }
+]
