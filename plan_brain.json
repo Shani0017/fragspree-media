@@ -1,32 +1,5 @@
 [
  {
-  "n": 2,
-  "time": "2026-10-12T18:30:00+08:00",
-  "unix": 1791801000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b8781a5cd469.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1ac0da3dd0ee.jpg",
-  "caption": "Hat Puzzle Parity Strategy\n\nOne hundred prisoners stand in a line, each facing forward, seeing the hats ahead of them, black or white. From the back, each guesses their own hat colour out loud. They can agree a plan beforehand. How many can you save for...\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "026 Hat Puzzle Parity Strategy - Interview Question.mp4"
- },
- {
-  "n": 3,
-  "time": "2026-10-12T20:30:00+08:00",
-  "unix": 1791808200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/063769a48a73.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1ffda9d92006.jpg",
-  "caption": "Sum Of Digits 1 To 1000\n\nWhat is the sum of all the digits of all the numbers from one to one thousand?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "100 Sum Of Digits 1 To 1000 - Interview Question.mp4"
- },
- {
-  "n": 4,
-  "time": "2026-10-12T22:00:00+08:00",
-  "unix": 1791813600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f0be7cfd2503.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3f251bb9c46f.jpg",
-  "caption": "Paths In A Grid\n\nA robot starts at the top left of a five by five grid of squares and can only move right or down. How many different paths lead to the bottom right?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "085 Paths In A Grid - Interview Question.mp4"
- },
- {
   "n": 5,
   "time": "2026-10-13T12:30:00+08:00",
   "unix": 1791865800,
@@ -1276,5 +1249,14 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8d91b1bd59c5.jpg",
   "caption": "Find The Celebrity\n\nAt a party of n people, a celebrity is someone everyone knows and who knows no one. You can ask does A know B. How do you find the celebrity with about n questions?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "149 Find The Celebrity - Interview Question.mp4"
+ },
+ {
+  "n": 144,
+  "time": "2026-11-09T22:00:00+08:00",
+  "unix": 1794232800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/83827fef0220.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2c7ff35c37bd.jpg",
+  "caption": "Half Plus A Quarter Plus An Eighth\n\nYou walk half the distance to a wall, then half of what remains, then half again, forever. Do you ever reach the wall, and what do the distances add up to?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "158 Half Plus A Quarter Plus An Eighth - Interview Question.mp4"
  }
 ]
