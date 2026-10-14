@@ -1312,5 +1312,14 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3828bc4a8027.jpg",
   "caption": "Longest Increasing Subsequence\n\nGiven ten, nine, two, five, three, seven, one hundred one, eighteen, what's the length of the longest strictly increasing subsequence?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "129 Longest Increasing Subsequence - Interview Question.mp4"
+ },
+ {
+  "n": 156,
+  "time": "2026-11-11T10:00:00+08:00",
+  "unix": 1794362400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5ed8d546e736.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/684cf3a7068c.jpg",
+  "caption": "Angles Of A 12 Sided Polygon\n\nWhat is the sum of the interior angles of a twelve sided polygon?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "155 Angles Of A 12 Sided Polygon - Interview Question.mp4"
  }
 ]
