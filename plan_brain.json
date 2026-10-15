@@ -1,14 +1,5 @@
 [
  {
-  "n": 15,
-  "time": "2026-10-15T14:00:00+08:00",
-  "unix": 1792044000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2446479805fd.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/afa6b31c67a2.jpg",
-  "caption": "Three Switches One Bulb\n\nThree switches are outside a closed room. One of them controls a light bulb inside. You can enter the room only once. How do you find which switch controls the bulb?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "025 Three Switches One Bulb - Interview Question.mp4"
- },
- {
   "n": 16,
   "time": "2026-10-15T18:00:00+08:00",
   "unix": 1792058400,
@@ -358,24 +349,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 60,
-  "time": "2026-10-15T12:00:00+08:00",
-  "unix": 1792036800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c25fa3cbecfe.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1387de544ba1.jpg",
-  "caption": "Pigeonhole Hair Count\n\nA typical human head has fewer than one hundred fifty thousand hairs. In a city of one million people, must two people have exactly the same number of hairs?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "044 Pigeonhole Hair Count - Interview Question.mp4"
- },
- {
-  "n": 61,
-  "time": "2026-10-15T16:00:00+08:00",
-  "unix": 1792051200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1b461ecd3aae.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/072cbac57797.jpg",
-  "caption": "Children Until A Boy And A Girl\n\nA couple has children until they have at least one boy and at least one girl. Each child is equally likely to be either. How many children do they have on average?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "095 Children Until A Boy And A Girl - Interview Question.mp4"
  },
  {
   "n": 62,
