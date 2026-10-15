@@ -360,15 +360,6 @@
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
  },
  {
-  "n": 59,
-  "time": "2026-10-15T10:00:00+08:00",
-  "unix": 1792029600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/beb874b95c08.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/967fc59c6cce.jpg",
-  "caption": "Design An LRU Cache\n\nDesign a cache of fixed size that evicts the least recently used item when full, with constant time get and put.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "068 Design An LRU Cache - Interview Question.mp4"
- },
- {
   "n": 60,
   "time": "2026-10-15T12:00:00+08:00",
   "unix": 1792036800,
