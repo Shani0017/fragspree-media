@@ -234,7 +234,7 @@ def suggest_batch(items):
                   "if the viewer gives an answer, say kindly whether it matches the correct answer, and if it is wrong give a one-line hint from the solution without being rude; "
                   "if they ask about the solution, answer it from the solution summary; if they ask something we cannot know, say you'll look into it; if they suggest a video, thank them "
                   "and say it is noted; if it is praise, thank them in a specific way that mentions the video's topic; never invent facts that are not in the data; if the comment is rude "
-                  "or spam leave the reply empty. Vary the wording so replies do not look copied. Return ONLY a JSON list like [{{\"i\":0,\"reply\":\"...\"}}].\n\n").format(acct=items[0]["acct"]) + json.dumps(payload)
+                  "or spam leave the reply empty; also leave it empty if the comment contains a stereotype or anything offensive about a group of people, or if you are not sure what the viewer means (never guess: a person may be bragging about what happened to them, joking, or only greeting). Do not agree with or praise a comparison you have not understood. Vary the wording so replies do not look copied. Return ONLY a JSON list like [{{\"i\":0,\"reply\":\"...\"}}].\n\n").format(acct=items[0]["acct"]) + json.dumps(payload)
         try:
             r = requests.post("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent", params={"key": GEMINI},
                               json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.8}}, timeout=90).json()
