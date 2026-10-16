@@ -166,6 +166,15 @@ def yt_token(token_file):
     return r["access_token"], ""
 
 
+def yt_why(j):
+    r = ((j.get("error") or {}).get("errors") or [{}])[0].get("reason", "")
+    if r in ("quotaExceeded", "rateLimitExceeded", "dailyLimitExceeded"):
+        return "YouTube's daily quota is used up (it resets at 15:00 Malaysia time), will retry automatically"
+    if r in ("authError", "forbidden", "insufficientPermissions") or (j.get("error") or {}).get("code") in (401, 403):
+        return "YouTube sign-in problem: run the YouTube comment sign-in .bat again and re-paste"
+    return "YouTube channel lookup failed" + (f" ({r})" if r else "")
+
+
 def yt_fetch(acct, token_file, since):
     tok, err = yt_token(token_file)
     if not tok:
@@ -174,7 +183,7 @@ def yt_fetch(acct, token_file, since):
     api = "https://www.googleapis.com/youtube/v3"
     ch = requests.get(f"{api}/channels", params={"part": "id", "mine": "true"}, headers=h, timeout=30).json()
     if "items" not in ch:
-        return [], "YouTube channel lookup failed"
+        return [], yt_why(ch)
     cid = ch["items"][0]["id"]
     out, page, n = [], None, 0
     while n < 5:
@@ -551,7 +560,7 @@ def main():
     for it in STATE["items"].values():      # re-write old suggestions once so they carry the safe/unsafe flag
         if it.get("status") == "new" and "auto_ok" not in it:
             it["suggestion"], it["sugg_done"] = "", False
-    analytics.init(HERE, env, ACCOUNTS, yt_token)
+    analytics.init(HERE, env, ACCOUNTS, yt_token, yt_why)
     if not DEMO:
         threading.Thread(target=analytics.loop, daemon=True).start()
     if AUTO and not DEMO:
