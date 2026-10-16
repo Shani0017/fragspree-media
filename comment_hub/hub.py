@@ -133,16 +133,17 @@ def ig_fetch(acct, e, since):
         if not m.get("comments_count"):
             continue
         expected += m["comments_count"]
-        c = requests.get(f"{base}/{m['id']}/comments", params={"fields": "id,text,username,timestamp,replies{username}", "limit": 50, "access_token": tok}, timeout=30).json()
+        c = requests.get(f"{base}/{m['id']}/comments", params={"fields": "id,text,from{username},username,timestamp,replies{id}", "limit": 50, "access_token": tok}, timeout=30).json()
         if "error" in c:
             blocked = True
             continue
         for x in c.get("data", []):
             ts = dt.datetime.fromisoformat(x["timestamp"].replace("+0000", "+00:00"))
-            if ts < since or (x.get("username") or "").lower() == own:
+            who = ((x.get("from") or {}).get("username") or x.get("username") or "").lower()
+            if ts < since or who == own:
                 continue
-            answered = any((r.get("username") or "").lower() == own for r in (x.get("replies") or {}).get("data", []))
-            out.append(dict(acct=acct, platform="Instagram", id=x["id"], text=x.get("text", ""), user=x.get("username", "?"), time=ts.isoformat(),
+            answered = bool((x.get("replies") or {}).get("data"))       # any reply already under it (the API does not say who wrote nested replies)
+            out.append(dict(acct=acct, platform="Instagram", id=x["id"], text=x.get("text", ""), user=who or "?", time=ts.isoformat(),
                             where=(m.get("caption") or "")[:90].replace("\n", " "), link=m.get("permalink", ""), answered=answered))
     note = ""
     if expected and not out and not blocked:
@@ -424,11 +425,19 @@ def auto_loop():
 import analytics
 ANPAGE = open(HERE / "analytics.html", encoding="utf-8").read() if (HERE / "analytics.html").exists() else "<h1>analytics.html missing</h1>"
 PAGE = open(HERE / "index.html", encoding="utf-8").read() if (HERE / "index.html").exists() else "<h1>index.html missing</h1>"
-LOGIN = """<!doctype html><meta name=viewport content="width=device-width,initial-scale=1"><title>Comment Hub</title>
-<body style="font-family:system-ui;background:#0f1220;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;margin:0">
-<form method=post action=/login style="width:min(320px,86vw)"><h2>Comment Hub</h2><input type=password name=p placeholder=Password autofocus
-style="width:100%;padding:14px;border-radius:12px;border:0;font-size:18px"><button style="margin-top:12px;width:100%;padding:14px;border-radius:12px;border:0;background:#6d5efc;color:#fff;font-size:18px">Open</button>
-<p style="color:#f77">{msg}</p></form>"""
+LOGIN = """<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#0a0c12"><title>Sign in - Comment Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel=stylesheet>
+<style>*{{box-sizing:border-box}}body{{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(900px 480px at 70% -10%,rgba(124,107,255,.16),transparent 60%),#0a0c12;color:#e9ebf3;font:15px/1.5 Inter,system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}}
+.card{{width:min(380px,calc(100vw - 32px));background:#12151d;border:1px solid #232938;border-radius:20px;padding:32px 28px;box-shadow:0 24px 60px rgba(0,0,0,.45)}}
+.mark{{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,#7c6bff,#5b8cff);display:grid;place-items:center;box-shadow:0 10px 24px rgba(124,107,255,.4);margin-bottom:18px}}
+.mark svg{{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}}
+h1{{margin:0;font-size:24px;letter-spacing:-.02em}}p.s{{margin:4px 0 22px;color:#8c94aa;font-size:14px}}
+label{{display:block;font-size:12.5px;font-weight:600;color:#8c94aa;margin-bottom:6px}}
+input{{width:100%;padding:13px 14px;border-radius:12px;border:1px solid #2d3447;background:#0e1118;color:#fff;font:inherit;font-size:16px}}
+input:focus{{outline:2px solid #7c6bff;outline-offset:-1px;border-color:transparent}}
+button{{margin-top:16px;width:100%;padding:13px;border-radius:12px;border:0;background:linear-gradient(135deg,#7c6bff,#5b8cff);color:#fff;font:inherit;font-weight:600;font-size:16px;cursor:pointer;box-shadow:0 8px 20px rgba(124,107,255,.3)}}
+button:hover{{filter:brightness(1.08)}}.err{{color:#f87171;font-size:13.5px;min-height:20px;margin:12px 0 0}}</style>
+<form class=card method=post action=/login><div class=mark><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div><h1>Comment Hub</h1><p class=s>Sign in to manage replies and analytics.</p><label for=p>Password</label><input id=p type=password name=p placeholder="Enter your password" autofocus autocomplete=current-password><button>Sign in</button><p class=err>{msg}</p></form>"""
 
 
 class H(http.server.BaseHTTPRequestHandler):
@@ -460,6 +469,8 @@ class H(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self):
         path = urllib.parse.urlparse(self.path).path
+        if path == "/ui.css":
+            return self.send(200, (HERE / "ui.css").read_bytes(), "text/css; charset=utf-8")
         if not self.authed():
             return self.send(200, LOGIN.format(msg=""))
         if path == "/":
