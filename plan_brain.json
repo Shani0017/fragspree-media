@@ -1,14 +1,5 @@
 [
  {
-  "n": 20,
-  "time": "2026-10-16T14:00:00+08:00",
-  "unix": 1792130400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1c0d97a8e8fd.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f828fdb13848.jpg",
-  "caption": "Queue From Two Stacks\n\nHow can you implement a queue using only two stacks, with constant amortized time per operation?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "080 Queue From Two Stacks - Interview Question.mp4"
- },
- {
   "n": 21,
   "time": "2026-10-16T18:00:00+08:00",
   "unix": 1792144800,
@@ -313,15 +304,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 68,
-  "time": "2026-10-16T16:00:00+08:00",
-  "unix": 1792137600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b6f4efb341dc.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bfa3810216f8.jpg",
-  "caption": "Balanced Parentheses With A Stack\n\nHow do you check whether a string of brackets, like open paren open bracket close bracket close paren, is balanced?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "063 Balanced Parentheses With A Stack - Interview Question.mp4"
  },
  {
   "n": 69,
