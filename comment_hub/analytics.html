@@ -103,7 +103,7 @@ document.querySelectorAll('#presets button').forEach(b=>b.onclick=()=>setPreset(
 ['acct','plat','kind'].forEach(i=>$(i).onchange=load);
 function bars(rows,key,showEng,hl){const mx=Math.max(1,...rows.map(r=>r[key]));const bestName=hl&&rows.filter(r=>r.posts>=2).sort((a,b)=>b[key]-a[key])[0];
   return rows.length?rows.map(r=>`<div class="row ${bestName&&bestName.name===r.name?'best':''}"><span class="nm">${esc(r.name)}</span><span class="tr"><i style="width:${Math.max(3,100*r[key]/mx)}%"></i></span><span class="val"><b>${fmt(r[key])}</b> &middot; ${r.posts} post${r.posts===1?'':'s'}${showEng?` &middot; ${r.eng}%`:''}</span></div>`).join(''):'<div class="empty">No posts in this range.</div>';}
-function spark(series){if(series.length<2)return '';const v=series.map(s=>s[1]),mn=Math.min(...v),mx=Math.max(...v),w=240,h=44;
+function spark(series){if(series.length<2||new Set(series.map(s=>s[1])).size<2)return '';const v=series.map(s=>s[1]),mn=Math.min(...v),mx=Math.max(...v),w=240,h=44;
   const pts=series.map((s,i)=>[(i/(series.length-1))*w,h-5-((s[1]-mn)/Math.max(1,mx-mn))*(h-10)]);const line=pts.map(p=>p.join(',')).join(' ');
   return `<svg viewBox="0 0 ${w} ${h}" style="margin-top:8px"><defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7c6bff" stop-opacity=".35"/><stop offset="1" stop-color="#7c6bff" stop-opacity="0"/></linearGradient></defs><polygon fill="url(#sg)" points="0,${h} ${line} ${w},${h}"/><polyline fill="none" stroke="#9d8cff" stroke-width="2" stroke-linejoin="round" points="${line}"/></svg>`;}
 function dailyChart(rows){if(!rows.length)return '<div class="empty">No posts in this range.</div>';
