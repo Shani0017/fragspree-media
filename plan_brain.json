@@ -1,14 +1,5 @@
 [
  {
-  "n": 21,
-  "time": "2026-10-16T18:00:00+08:00",
-  "unix": 1792144800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0a5b7b83339d.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5bedc86b8c2e.jpg",
-  "caption": "Remainder Of 2 To The 100\n\nWhat is the remainder when two to the power one hundred is divided by seven?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "048 Remainder Of 2 To The 100 - Interview Question.mp4"
- },
- {
   "n": 22,
   "time": "2026-10-16T20:00:00+08:00",
   "unix": 1792152000,
@@ -1491,5 +1482,905 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6584c4411737.jpg",
   "caption": "Seven Bridges Of Konigsberg\n\nA city has four land areas connected by seven bridges. Can you take a walk that crosses every bridge exactly once?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "154 Seven Bridges Of Konigsberg - Interview Question.mp4"
+ },
+ {
+  "n": 201,
+  "time": "2026-10-30T14:00:00+08:00",
+  "unix": 1793340000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f7290bed89c8.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2def28d896ad.jpg",
+  "caption": "Spot The Bug Forever Loop\n\nLook at the code on screen. Forever Loop. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "234 Spot The Bug Forever Loop - Interview Question.mp4"
+ },
+ {
+  "n": 202,
+  "time": "2026-10-30T16:00:00+08:00",
+  "unix": 1793347200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6c84e84db983.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b3d4aa280f1a.jpg",
+  "caption": "Guess The Output Capital Letters Compare\n\nPython, capital letters compare. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "226 Guess The Output Capital Letters Compare - Interview Question.mp4"
+ },
+ {
+  "n": 203,
+  "time": "2026-10-30T18:00:00+08:00",
+  "unix": 1793354400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/18cf02eae690.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/72e81086b81a.jpg",
+  "caption": "Hat Check Disaster\n\nTen people check their hats, and the hats come back completely shuffled. What is the chance nobody gets their own hat?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "300 Hat Check Disaster - Interview Question.mp4"
+ },
+ {
+  "n": 204,
+  "time": "2026-10-30T20:00:00+08:00",
+  "unix": 1793361600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a27173cf1ac3.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2fb2e2ccb755.jpg",
+  "caption": "Why Are You Leaving Your Job\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "285 Why Are You Leaving Your Job - Interview Question.mp4"
+ },
+ {
+  "n": 205,
+  "time": "2026-10-30T22:00:00+08:00",
+  "unix": 1793368800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/35e518277799.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/551d595108d3.jpg",
+  "caption": "Stable Sort Merge Or Quick\n\nWhich of these is a stable sort, merge sort or quick sort?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "279 Stable Sort Merge Or Quick - Interview Question.mp4"
+ },
+ {
+  "n": 206,
+  "time": "2026-10-31T00:00:00+08:00",
+  "unix": 1793376000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1e70d22113c0.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cde36993ef24.jpg",
+  "caption": "Your Biggest Weakness\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "282 Your Biggest Weakness - Interview Question.mp4"
+ },
+ {
+  "n": 207,
+  "time": "2026-10-31T02:00:00+08:00",
+  "unix": 1793383200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cf2017238a08.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d1084b03a40b.jpg",
+  "caption": "Guess The Output Plus Equals Versus Plus\n\nPython, plus equals versus plus. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "222 Guess The Output Plus Equals Versus Plus - Interview Question.mp4"
+ },
+ {
+  "n": 208,
+  "time": "2026-10-31T04:00:00+08:00",
+  "unix": 1793390400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3da2bd572a48.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1b6411b236e3.jpg",
+  "caption": "Two Children One Is A Boy\n\nA family has two children, and at least one is a boy. What is the chance that both are boys? We check families that match.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "294 Two Children One Is A Boy - Interview Question.mp4"
+ },
+ {
+  "n": 209,
+  "time": "2026-10-31T06:00:00+08:00",
+  "unix": 1793397600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e2410beda0ce.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5126f0ca275a.jpg",
+  "caption": "Where Do You See Yourself In Five Years\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "283 Where Do You See Yourself In Five Years - Interview Question.mp4"
+ },
+ {
+  "n": 210,
+  "time": "2026-10-31T08:00:00+08:00",
+  "unix": 1793404800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a5ce6d96a825.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2c482386a938.jpg",
+  "caption": "Guess The Output Mutable Default\n\nPython, mutable default. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "202 Guess The Output Mutable Default - Interview Question.mp4"
+ },
+ {
+  "n": 211,
+  "time": "2026-10-31T10:00:00+08:00",
+  "unix": 1793412000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fcf9747a117e.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2dc60e8a5d11.jpg",
+  "caption": "Guess The Output Truncate Versus Floor\n\nPython, truncate versus floor. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "223 Guess The Output Truncate Versus Floor - Interview Question.mp4"
+ },
+ {
+  "n": 212,
+  "time": "2026-10-31T12:00:00+08:00",
+  "unix": 1793419200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b5fe2508554f.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b37c181120f4.jpg",
+  "caption": "Guess The Output Float Equality\n\nPython, float equality. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "201 Guess The Output Float Equality - Interview Question.mp4"
+ },
+ {
+  "n": 213,
+  "time": "2026-10-31T14:00:00+08:00",
+  "unix": 1793426400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/451945d45e7d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f508a0c2bd71.jpg",
+  "caption": "Windows In Manhattan\n\nHow many windows are there in Manhattan? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "262 Windows In Manhattan - Interview Question.mp4"
+ },
+ {
+  "n": 214,
+  "time": "2026-10-31T16:00:00+08:00",
+  "unix": 1793433600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a1390ddc0ca9.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0a4c071fc5cb.jpg",
+  "caption": "SQL Or NoSQL For Banking\n\nA bank moves money between accounts and must never lose a cent. SQL or NoSQL?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "274 SQL Or NoSQL For Banking - Interview Question.mp4"
+ },
+ {
+  "n": 215,
+  "time": "2026-10-31T18:00:00+08:00",
+  "unix": 1793440800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/198ead63b514.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7d70103b6a57.jpg",
+  "caption": "Guess The Output Any And All\n\nPython, any and all. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "225 Guess The Output Any And All - Interview Question.mp4"
+ },
+ {
+  "n": 216,
+  "time": "2026-10-31T20:00:00+08:00",
+  "unix": 1793448000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0f580e873ae1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2073c6c76072.jpg",
+  "caption": "Top Earner Per Department\n\nReturn the best paid person in each department.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "250 Top Earner Per Department - Interview Question.mp4"
+ },
+ {
+  "n": 217,
+  "time": "2026-10-31T22:00:00+08:00",
+  "unix": 1793455200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e8b059b9847f.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/45b24eee1acb.jpg",
+  "caption": "Guess The Output String Math\n\nPython, string math. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "227 Guess The Output String Math - Interview Question.mp4"
+ },
+ {
+  "n": 218,
+  "time": "2026-11-01T00:00:00+08:00",
+  "unix": 1793462400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d4ce8dc77476.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a46617cf252d.jpg",
+  "caption": "Spot The Bug Average Of Nothing\n\nLook at the code on screen. Average Of Nothing. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "245 Spot The Bug Average Of Nothing - Interview Question.mp4"
+ },
+ {
+  "n": 219,
+  "time": "2026-11-01T02:00:00+08:00",
+  "unix": 1793469600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/286985544fad.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/eaffeadfb162.jpg",
+  "caption": "Which Is Bigger Two To The Twenty\n\nWhich is bigger, two to the power of twenty, or one million?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "277 Which Is Bigger Two To The Twenty - Interview Question.mp4"
+ },
+ {
+  "n": 220,
+  "time": "2026-11-01T04:00:00+08:00",
+  "unix": 1793476800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8a2681ea1353.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/06bae7ce06f4.jpg",
+  "caption": "Memory Array Or Linked List\n\nOne million integers. Which uses more memory, an array or a linked list?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "280 Memory Array Or Linked List - Interview Question.mp4"
+ },
+ {
+  "n": 221,
+  "time": "2026-11-01T06:00:00+08:00",
+  "unix": 1793484000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c4f25b942be7.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c15e74590a3b.jpg",
+  "caption": "Earns More Than The Manager\n\nFind the employees who earn more than their own manager.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "248 Earns More Than The Manager - Interview Question.mp4"
+ },
+ {
+  "n": 222,
+  "time": "2026-11-01T08:00:00+08:00",
+  "unix": 1793491200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d51cff5281d5.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/860b896c953b.jpg",
+  "caption": "Guess The Output Unique Letters\n\nPython, unique letters. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "203 Guess The Output Unique Letters - Interview Question.mp4"
+ },
+ {
+  "n": 223,
+  "time": "2026-11-01T10:00:00+08:00",
+  "unix": 1793498400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6a53a9996ee1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/182cc09b4d41.jpg",
+  "caption": "Customers With Two Or More Orders\n\nSix orders from three customers. Who has placed two or more orders?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "252 Customers With Two Or More Orders - Interview Question.mp4"
+ },
+ {
+  "n": 224,
+  "time": "2026-11-01T12:00:00+08:00",
+  "unix": 1793505600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/44b8ef423b7e.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8ff9588d4fe2.jpg",
+  "caption": "Spot The Bug Factorial\n\nLook at the code on screen. Factorial. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "239 Spot The Bug Factorial - Interview Question.mp4"
+ },
+ {
+  "n": 225,
+  "time": "2026-11-01T14:00:00+08:00",
+  "unix": 1793512800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ac28254c394f.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a05ad6a210b6.jpg",
+  "caption": "Guess The Output Plus Signs\n\nPython, plus signs. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "215 Guess The Output Plus Signs - Interview Question.mp4"
+ },
+ {
+  "n": 226,
+  "time": "2026-11-01T16:00:00+08:00",
+  "unix": 1793520000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/10241872bfb5.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2366962fd000.jpg",
+  "caption": "Find Duplicate Emails\n\nA table of emails. Find the emails that appear more than once.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "249 Find Duplicate Emails - Interview Question.mp4"
+ },
+ {
+  "n": 227,
+  "time": "2026-11-01T18:00:00+08:00",
+  "unix": 1793527200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/97ed88d05a46.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0e2fcab6bf8d.jpg",
+  "caption": "Guess The Output Finally Always Runs\n\nPython, finally always runs. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "211 Guess The Output Finally Always Runs - Interview Question.mp4"
+ },
+ {
+  "n": 228,
+  "time": "2026-11-01T20:00:00+08:00",
+  "unix": 1793534400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/240f0a78ec84.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8c1b55a9c7e7.jpg",
+  "caption": "Spot The Bug Binary Search\n\nLook at the code on screen. Binary Search. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "233 Spot The Bug Binary Search - Interview Question.mp4"
+ },
+ {
+  "n": 229,
+  "time": "2026-11-01T22:00:00+08:00",
+  "unix": 1793541600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/570e73643749.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5e7867c109ec.jpg",
+  "caption": "Guess The Output Bool Is An Int\n\nPython, bool is an int. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "217 Guess The Output Bool Is An Int - Interview Question.mp4"
+ },
+ {
+  "n": 230,
+  "time": "2026-11-02T00:00:00+08:00",
+  "unix": 1793548800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/be2a5cb94aa1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fe3ddfb46b2d.jpg",
+  "caption": "Collect All Six Dice Faces\n\nHow many times must you roll a die before you have seen every face at least once? We average ten, a hundred, and a thousand attempts.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "295 Collect All Six Dice Faces - Interview Question.mp4"
+ },
+ {
+  "n": 231,
+  "time": "2026-11-02T02:00:00+08:00",
+  "unix": 1793556000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9c975e6fa539.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/18c1e8d08679.jpg",
+  "caption": "List Or Set Lookup\n\nYou test whether a number is in a collection of one million numbers, again and again. Which is faster, a list or a set?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "266 List Or Set Lookup - Interview Question.mp4"
+ },
+ {
+  "n": 232,
+  "time": "2026-11-02T04:00:00+08:00",
+  "unix": 1793563200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bffbe453be41.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a590f3a14bc8.jpg",
+  "caption": "Array Or Linked List\n\nYou need to jump straight to the five hundredth element, many times. Array or linked list?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "270 Array Or Linked List - Interview Question.mp4"
+ },
+ {
+  "n": 233,
+  "time": "2026-11-02T06:00:00+08:00",
+  "unix": 1793570400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9464ec783bfd.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/34f9fec3a407.jpg",
+  "caption": "Spot The Bug Changing A String\n\nLook at the code on screen. Changing A String. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "243 Spot The Bug Changing A String - Interview Question.mp4"
+ },
+ {
+  "n": 234,
+  "time": "2026-11-02T08:00:00+08:00",
+  "unix": 1793577600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/70653d57689d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6243787480cb.jpg",
+  "caption": "Ping Pong Balls In A 747\n\nHow many ping pong balls fit inside a Boeing seven forty seven? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "260 Ping Pong Balls In A 747 - Interview Question.mp4"
+ },
+ {
+  "n": 235,
+  "time": "2026-11-02T10:00:00+08:00",
+  "unix": 1793584800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fd0ea7e69760.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ffbe9a20f8b6.jpg",
+  "caption": "Why This Company\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "289 Why This Company - Interview Question.mp4"
+ },
+ {
+  "n": 236,
+  "time": "2026-11-02T12:00:00+08:00",
+  "unix": 1793592000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/37bd537ea5f7.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1a294f65273f.jpg",
+  "caption": "Random Walk Distance\n\nA drunk man takes one hundred random steps, each one forward or back. How far from the start is he, on average?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "299 Random Walk Distance - Interview Question.mp4"
+ },
+ {
+  "n": 237,
+  "time": "2026-11-02T14:00:00+08:00",
+  "unix": 1793599200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a88743ca60b7.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/97deeeaf470c.jpg",
+  "caption": "Binary Or Linear Search\n\nThe array is sorted and has a million items. Which finds a value faster, binary search or linear search?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "267 Binary Or Linear Search - Interview Question.mp4"
+ },
+ {
+  "n": 238,
+  "time": "2026-11-02T16:00:00+08:00",
+  "unix": 1793606400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7192d5a6457b.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c74bfda55a97.jpg",
+  "caption": "Monty Hall With Five Doors\n\nFive doors, one car. You pick one, and the host opens three goat doors. Do you stay, or switch to the last closed door?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "292 Monty Hall With Five Doors - Interview Question.mp4"
+ },
+ {
+  "n": 239,
+  "time": "2026-11-02T18:00:00+08:00",
+  "unix": 1793613600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/68a2b7042866.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9aaeeae3c8b5.jpg",
+  "caption": "Pizzas Eaten In The US\n\nHow many pizzas do Americans eat in a year? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "258 Pizzas Eaten In The US - Interview Question.mp4"
+ },
+ {
+  "n": 240,
+  "time": "2026-11-02T20:00:00+08:00",
+  "unix": 1793620800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/01c4f6fe02eb.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b885ae302999.jpg",
+  "caption": "Guess The Output While Else\n\nPython, while else. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "230 Guess The Output While Else - Interview Question.mp4"
+ },
+ {
+  "n": 241,
+  "time": "2026-11-02T22:00:00+08:00",
+  "unix": 1793628000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/77000c4b9762.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5ffceb5d6c85.jpg",
+  "caption": "Guess The Output Reverse And Shout\n\nPython, reverse and shout. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "221 Guess The Output Reverse And Shout - Interview Question.mp4"
+ },
+ {
+  "n": 242,
+  "time": "2026-11-03T00:00:00+08:00",
+  "unix": 1793635200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7dd28a179322.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/eb620c19c3ea.jpg",
+  "caption": "Do You Have Any Questions\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "288 Do You Have Any Questions - Interview Question.mp4"
+ },
+ {
+  "n": 243,
+  "time": "2026-11-03T02:00:00+08:00",
+  "unix": 1793642400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d871ae817e8a.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5494fda043ce.jpg",
+  "caption": "Spot The Bug Text Numbers\n\nLook at the code on screen. Text Numbers. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "235 Spot The Bug Text Numbers - Interview Question.mp4"
+ },
+ {
+  "n": 244,
+  "time": "2026-11-03T04:00:00+08:00",
+  "unix": 1793649600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/22d9fb6c8e2a.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4e553e2095f0.jpg",
+  "caption": "Piano Tuners In Chicago\n\nHow many piano tuners work in Chicago? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "261 Piano Tuners In Chicago - Interview Question.mp4"
+ },
+ {
+  "n": 245,
+  "time": "2026-11-03T06:00:00+08:00",
+  "unix": 1793656800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7788afadd434.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/79a5ce014cb1.jpg",
+  "caption": "Spot The Bug Shared Box\n\nLook at the code on screen. Shared Box. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "232 Spot The Bug Shared Box - Interview Question.mp4"
+ },
+ {
+  "n": 246,
+  "time": "2026-11-03T08:00:00+08:00",
+  "unix": 1793664000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c871f43f2e39.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/37d67ba898b2.jpg",
+  "caption": "Guess The Output Local Variable Trap\n\nPython, local variable trap. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "214 Guess The Output Local Variable Trap - Interview Question.mp4"
+ },
+ {
+  "n": 247,
+  "time": "2026-11-03T10:00:00+08:00",
+  "unix": 1793671200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/04799e5fce8b.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a3bb9fa75b27.jpg",
+  "caption": "Words In A Novel\n\nHow many words are in a typical novel? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "264 Words In A Novel - Interview Question.mp4"
+ },
+ {
+  "n": 248,
+  "time": "2026-11-03T12:00:00+08:00",
+  "unix": 1793678400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e99be5d582ae.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c096664fd7db.jpg",
+  "caption": "Guess The Output Truthy String\n\nPython, truthy string. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "204 Guess The Output Truthy String - Interview Question.mp4"
+ },
+ {
+  "n": 249,
+  "time": "2026-11-03T14:00:00+08:00",
+  "unix": 1793685600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/25e2887994cb.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/02da5a0bdbfa.jpg",
+  "caption": "Heartbeats In A Lifetime\n\nHow many times does a heart beat in a lifetime? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "257 Heartbeats In A Lifetime - Interview Question.mp4"
+ },
+ {
+  "n": 250,
+  "time": "2026-11-03T16:00:00+08:00",
+  "unix": 1793692800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7f3dceb5ce04.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2491add0dcca.jpg",
+  "caption": "Salary Expectations\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "287 Salary Expectations - Interview Question.mp4"
+ },
+ {
+  "n": 251,
+  "time": "2026-11-03T18:00:00+08:00",
+  "unix": 1793700000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/09823ec7a9d5.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7a196f43efc1.jpg",
+  "caption": "Second Highest Salary 3000 To 8000\n\nThe table has five salaries. Return the second highest. Eight thousand appears twice.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "246 Second Highest Salary 3000 To 8000 - Interview Question.mp4"
+ },
+ {
+  "n": 252,
+  "time": "2026-11-03T20:00:00+08:00",
+  "unix": 1793707200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ea8d5674b84e.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/90fc24fff8f8.jpg",
+  "caption": "Water Drunk In A Lifetime\n\nHow much water does a person drink in a lifetime? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "263 Water Drunk In A Lifetime - Interview Question.mp4"
+ },
+ {
+  "n": 253,
+  "time": "2026-11-03T22:00:00+08:00",
+  "unix": 1793714400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8de465c38e1e.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/13081d6a4051.jpg",
+  "caption": "Petrol Stations In Malaysia\n\nHow many petrol stations are there in Malaysia? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "259 Petrol Stations In Malaysia - Interview Question.mp4"
+ },
+ {
+  "n": 254,
+  "time": "2026-11-04T00:00:00+08:00",
+  "unix": 1793721600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/58569d28de15.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d9274d660505.jpg",
+  "caption": "Guess The Output Shared Rows\n\nPython, shared rows. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "224 Guess The Output Shared Rows - Interview Question.mp4"
+ },
+ {
+  "n": 255,
+  "time": "2026-11-04T02:00:00+08:00",
+  "unix": 1793728800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/00afd082a6cb.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/797e33d6cfc0.jpg",
+  "caption": "The Birthday Paradox\n\nHow many people do you need in a room before two of them probably share a birthday? We test rooms of ten, twenty three and forty.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "293 The Birthday Paradox - Interview Question.mp4"
+ },
+ {
+  "n": 256,
+  "time": "2026-11-04T04:00:00+08:00",
+  "unix": 1793736000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1e1192d958f2.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/af919dce2e91.jpg",
+  "caption": "Spot The Bug Word Counter\n\nLook at the code on screen. Word Counter. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "241 Spot The Bug Word Counter - Interview Question.mp4"
+ },
+ {
+  "n": 257,
+  "time": "2026-11-04T06:00:00+08:00",
+  "unix": 1793743200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a54e13d223c2.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4930dfb465e8.jpg",
+  "caption": "Spot The Bug Same Row Three Times\n\nLook at the code on screen. Same Row Three Times. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "237 Spot The Bug Same Row Three Times - Interview Question.mp4"
+ },
+ {
+  "n": 258,
+  "time": "2026-11-04T08:00:00+08:00",
+  "unix": 1793750400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9fb54d100430.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8dd0c9530282.jpg",
+  "caption": "TCP Or UDP For Live Video\n\nYou are streaming live video and a little loss is fine, but delay is not. TCP or UDP?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "268 TCP Or UDP For Live Video - Interview Question.mp4"
+ },
+ {
+  "n": 259,
+  "time": "2026-11-04T10:00:00+08:00",
+  "unix": 1793757600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/22ced1ddccc8.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/52a2c316f8c9.jpg",
+  "caption": "Process Or Thread\n\nWhich one shares memory with its siblings, a process or a thread?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "272 Process Or Thread - Interview Question.mp4"
+ },
+ {
+  "n": 260,
+  "time": "2026-11-04T12:00:00+08:00",
+  "unix": 1793764800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d8a3ad245d5b.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/873a58b3b0d7.jpg",
+  "caption": "Why Should We Hire You\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "281 Why Should We Hire You - Interview Question.mp4"
+ },
+ {
+  "n": 261,
+  "time": "2026-11-04T14:00:00+08:00",
+  "unix": 1793772000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/22caebdd0cd1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d16e4e1a9286.jpg",
+  "caption": "Spot The Bug Missing First Item\n\nLook at the code on screen. Missing First Item. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "244 Spot The Bug Missing First Item - Interview Question.mp4"
+ },
+ {
+  "n": 262,
+  "time": "2026-11-04T16:00:00+08:00",
+  "unix": 1793779200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/136e030f6b00.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4b3d67156d9d.jpg",
+  "caption": "Pass And Fail Counts\n\nScores forty, seventy five, ninety, thirty and sixty. Pass mark is fifty. Count the passes and the fails in one query.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "253 Pass And Fail Counts - Interview Question.mp4"
+ },
+ {
+  "n": 263,
+  "time": "2026-11-04T18:00:00+08:00",
+  "unix": 1793786400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/300961e53f75.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/74ad2ed91d2f.jpg",
+  "caption": "Spot The Bug Skipping Items\n\nLook at the code on screen. Skipping Items. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "236 Spot The Bug Skipping Items - Interview Question.mp4"
+ },
+ {
+  "n": 264,
+  "time": "2026-11-04T20:00:00+08:00",
+  "unix": 1793793600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/98dde8f869a1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/584961eddcde.jpg",
+  "caption": "Spot The Bug Lambda Loop\n\nLook at the code on screen. Lambda Loop. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "240 Spot The Bug Lambda Loop - Interview Question.mp4"
+ },
+ {
+  "n": 265,
+  "time": "2026-11-04T22:00:00+08:00",
+  "unix": 1793800800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/49c6d63a2e93.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/71ed35f30dd6.jpg",
+  "caption": "BFS Or DFS Shortest Path\n\nFind the shortest path in an unweighted graph. BFS or DFS?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "276 BFS Or DFS Shortest Path - Interview Question.mp4"
+ },
+ {
+  "n": 266,
+  "time": "2026-11-05T00:00:00+08:00",
+  "unix": 1793808000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1afb8f2a9cfc.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0548eca9fd27.jpg",
+  "caption": "Guess The Output Sorting Letters\n\nPython, sorting letters. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "219 Guess The Output Sorting Letters - Interview Question.mp4"
+ },
+ {
+  "n": 267,
+  "time": "2026-11-05T02:00:00+08:00",
+  "unix": 1793815200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a3ec8132c693.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/da6f354b3c46.jpg",
+  "caption": "Broken Stick Simulation\n\nBreak a stick in two random places. What is the chance the three pieces can form a triangle?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "297 Broken Stick Simulation - Interview Question.mp4"
+ },
+ {
+  "n": 268,
+  "time": "2026-11-05T04:00:00+08:00",
+  "unix": 1793822400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a65bd88e4e00.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0f8bf5d0db3f.jpg",
+  "caption": "Spot The Bug Point One Plus Point Two\n\nLook at the code on screen. Point One Plus Point Two. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "238 Spot The Bug Point One Plus Point Two - Interview Question.mp4"
+ },
+ {
+  "n": 269,
+  "time": "2026-11-05T06:00:00+08:00",
+  "unix": 1793829600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3b5118238790.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5953bee53a12.jpg",
+  "caption": "Guess The Output Accented Letters\n\nPython, accented letters. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "218 Guess The Output Accented Letters - Interview Question.mp4"
+ },
+ {
+  "n": 270,
+  "time": "2026-11-05T08:00:00+08:00",
+  "unix": 1793836800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e53eecb2942.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a5746cc083cb.jpg",
+  "caption": "Guess The Output Floor Division\n\nPython, floor division. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "206 Guess The Output Floor Division - Interview Question.mp4"
+ },
+ {
+  "n": 271,
+  "time": "2026-11-05T10:00:00+08:00",
+  "unix": 1793844000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6be55cec50f1.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/42f67d615121.jpg",
+  "caption": "Simulate Monty Hall\n\nThree doors, one car. You pick one, the host opens a goat door. Should you stay or switch? We play it ten, a hundred, and a thousand times.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "291 Simulate Monty Hall - Interview Question.mp4"
+ },
+ {
+  "n": 272,
+  "time": "2026-11-05T12:00:00+08:00",
+  "unix": 1793851200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bf7bebaced0c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/91a645f2b935.jpg",
+  "caption": "Rolls Until A Six\n\nHow many times do you roll a die, on average, before you get your first six?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "296 Rolls Until A Six - Interview Question.mp4"
+ },
+ {
+  "n": 273,
+  "time": "2026-11-05T14:00:00+08:00",
+  "unix": 1793858400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/258c9db081ad.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1a694ef66c8f.jpg",
+  "caption": "Two Dice Sums\n\nYou roll two dice and add them. Which total comes up most often? We roll thirty six, three hundred and sixty, and three thousand six hundred times.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "298 Two Dice Sums - Interview Question.mp4"
+ },
+ {
+  "n": 274,
+  "time": "2026-11-05T16:00:00+08:00",
+  "unix": 1793865600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/24c10842ee89.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/45e6b3b4f956.jpg",
+  "caption": "Row Or Column Traversal\n\nIn a big two dimensional array in C, which loop order is faster, rows first or columns first?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "278 Row Or Column Traversal - Interview Question.mp4"
+ },
+ {
+  "n": 275,
+  "time": "2026-11-05T18:00:00+08:00",
+  "unix": 1793872800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/236134e5d370.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4fd666aa79e9.jpg",
+  "caption": "Guess The Output None Is Not False\n\nPython, none is not false. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "229 Guess The Output None Is Not False - Interview Question.mp4"
+ },
+ {
+  "n": 276,
+  "time": "2026-11-05T20:00:00+08:00",
+  "unix": 1793880000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0b541a4a07a7.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/22191c4fddee.jpg",
+  "caption": "Guess The Output Divmod\n\nPython, divmod. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "216 Guess The Output Divmod - Interview Question.mp4"
+ },
+ {
+  "n": 277,
+  "time": "2026-11-05T22:00:00+08:00",
+  "unix": 1793887200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ec441b575fcd.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bc13bd235987.jpg",
+  "caption": "GET Or POST For Login\n\nA login form sends a password. GET or POST?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "273 GET Or POST For Login - Interview Question.mp4"
+ },
+ {
+  "n": 278,
+  "time": "2026-11-06T00:00:00+08:00",
+  "unix": 1793894400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cea2b910c1f2.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/77371720f248.jpg",
+  "caption": "Describe Your Leadership\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "290 Describe Your Leadership - Interview Question.mp4"
+ },
+ {
+  "n": 279,
+  "time": "2026-11-06T02:00:00+08:00",
+  "unix": 1793901600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/955edfa8d987.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c0cdb92e3086.jpg",
+  "caption": "Above The Average Salary\n\nSalaries are three thousand, four thousand, five thousand and eight thousand. Return the salaries above the average.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "255 Above The Average Salary - Interview Question.mp4"
+ },
+ {
+  "n": 280,
+  "time": "2026-11-06T04:00:00+08:00",
+  "unix": 1793908800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b0af0f7ce237.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3e152d9ea4bc.jpg",
+  "caption": "Hash Map Or Tree Map\n\nYou need to read the keys in sorted order. Hash map or tree map?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "271 Hash Map Or Tree Map - Interview Question.mp4"
+ },
+ {
+  "n": 281,
+  "time": "2026-11-06T06:00:00+08:00",
+  "unix": 1793916000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c4057a74b78c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/04ca143b92b4.jpg",
+  "caption": "Tell Me About A Failure\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "286 Tell Me About A Failure - Interview Question.mp4"
+ },
+ {
+  "n": 282,
+  "time": "2026-11-06T08:00:00+08:00",
+  "unix": 1793923200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/375a77313193.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/998a94421638.jpg",
+  "caption": "Spot The Bug Biggest Number\n\nLook at the code on screen. Biggest Number. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "231 Spot The Bug Biggest Number - Interview Question.mp4"
+ },
+ {
+  "n": 283,
+  "time": "2026-11-06T10:00:00+08:00",
+  "unix": 1793930400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a7c74b45f0d0.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5e8ba93a586a.jpg",
+  "caption": "Guess The Output Remove While Looping\n\nPython, remove while looping. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "209 Guess The Output Remove While Looping - Interview Question.mp4"
+ },
+ {
+  "n": 284,
+  "time": "2026-11-06T12:00:00+08:00",
+  "unix": 1793937600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b09ce78ab6c3.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/92cf81a6c64a.jpg",
+  "caption": "Keep The Lowest Id\n\nDelete the duplicate emails but keep the row with the lowest id for each email. Which ids survive?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "254 Keep The Lowest Id - Interview Question.mp4"
+ },
+ {
+  "n": 285,
+  "time": "2026-11-06T14:00:00+08:00",
+  "unix": 1793944800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/224dac1ad981.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/234033dbc52b.jpg",
+  "caption": "Golf Balls In A School Bus\n\nHow many golf balls fit inside a school bus? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "256 Golf Balls In A School Bus - Interview Question.mp4"
+ },
+ {
+  "n": 286,
+  "time": "2026-11-06T16:00:00+08:00",
+  "unix": 1793952000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/798d8af89dfb.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0db8cba365c8.jpg",
+  "caption": "Guess The Output Empty All\n\nPython, empty all. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "212 Guess The Output Empty All - Interview Question.mp4"
+ },
+ {
+  "n": 287,
+  "time": "2026-11-06T18:00:00+08:00",
+  "unix": 1793959200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/aa424c545d3c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5874c433be18.jpg",
+  "caption": "Guess The Output Banker Rounding\n\nPython, banker rounding. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "205 Guess The Output Banker Rounding - Interview Question.mp4"
+ },
+ {
+  "n": 288,
+  "time": "2026-11-06T20:00:00+08:00",
+  "unix": 1793966400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e529c052a469.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c8bca354e014.jpg",
+  "caption": "Guess The Output Args And Kwargs\n\nPython, args and kwargs. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "228 Guess The Output Args And Kwargs - Interview Question.mp4"
+ },
+ {
+  "n": 289,
+  "time": "2026-11-06T22:00:00+08:00",
+  "unix": 1793973600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/39267e1f4caf.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2f1e7b5d56f0.jpg",
+  "caption": "Fans On A Football Pitch\n\nHow many people could stand on a football pitch? Break it into steps.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "265 Fans On A Football Pitch - Interview Question.mp4"
+ },
+ {
+  "n": 290,
+  "time": "2026-11-07T00:00:00+08:00",
+  "unix": 1793980800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/50912da0286a.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c9fe100e4ed0.jpg",
+  "caption": "Guess The Output One And One Point Zero\n\nPython, one and one point zero. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "208 Guess The Output One And One Point Zero - Interview Question.mp4"
+ },
+ {
+  "n": 291,
+  "time": "2026-11-07T02:00:00+08:00",
+  "unix": 1793988000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/410335926fd2.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/70b039c80858.jpg",
+  "caption": "Mutex Or Semaphore\n\nExactly one thread may use a resource at a time. Mutex or semaphore?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "275 Mutex Or Semaphore - Interview Question.mp4"
+ },
+ {
+  "n": 292,
+  "time": "2026-11-07T04:00:00+08:00",
+  "unix": 1793995200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b6bd86cb1c19.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0657df2cfe58.jpg",
+  "caption": "Customers With No Orders\n\nCustomers Ann, Bob and Cy. Orders belong to customer one, one and three. Which customers never ordered?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "247 Customers With No Orders - Interview Question.mp4"
+ },
+ {
+  "n": 293,
+  "time": "2026-11-07T06:00:00+08:00",
+  "unix": 1794002400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5235fd6d6078.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c1309e548c5e.jpg",
+  "caption": "Guess The Output Tuple With A List\n\nPython, tuple with a list. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "213 Guess The Output Tuple With A List - Interview Question.mp4"
+ },
+ {
+  "n": 294,
+  "time": "2026-11-07T08:00:00+08:00",
+  "unix": 1794009600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/985b6164f861.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1a86d6a31d8d.jpg",
+  "caption": "Stack Or Queue For Undo\n\nAn editor needs an undo button that reverses the last action first. Stack or queue?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "269 Stack Or Queue For Undo - Interview Question.mp4"
+ },
+ {
+  "n": 295,
+  "time": "2026-11-07T10:00:00+08:00",
+  "unix": 1794016800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e63b94872487.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/228cee63c13c.jpg",
+  "caption": "Guess The Output Chained Comparison\n\nPython, chained comparison. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "210 Guess The Output Chained Comparison - Interview Question.mp4"
+ },
+ {
+  "n": 296,
+  "time": "2026-11-07T12:00:00+08:00",
+  "unix": 1794024000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/31c6fa584590.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a377079d2118.jpg",
+  "caption": "Guess The Output Sum Of Lists\n\nPython, sum of lists. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "207 Guess The Output Sum Of Lists - Interview Question.mp4"
+ },
+ {
+  "n": 297,
+  "time": "2026-11-07T14:00:00+08:00",
+  "unix": 1794031200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ba992ead4f0c.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/55f1233a153a.jpg",
+  "caption": "Tell Me About A Conflict\n\nHere is the answer most people give, and here is the one that gets the job.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "284 Tell Me About A Conflict - Interview Question.mp4"
+ },
+ {
+  "n": 298,
+  "time": "2026-11-07T16:00:00+08:00",
+  "unix": 1794038400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a4397dfd7965.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cc6c389dba4e.jpg",
+  "caption": "Running Total\n\nSales per day are ten, twenty, five and fifteen. Return the running total.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "251 Running Total - Interview Question.mp4"
+ },
+ {
+  "n": 299,
+  "time": "2026-11-07T18:00:00+08:00",
+  "unix": 1794045600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/073e78346750.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b2ce7882b4cc.jpg",
+  "caption": "Guess The Output Map And Filter\n\nPython, map and filter. Look at the code on screen. What does it print? Take five seconds to think.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "220 Guess The Output Map And Filter - Interview Question.mp4"
+ },
+ {
+  "n": 300,
+  "time": "2026-11-07T20:00:00+08:00",
+  "unix": 1794052800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/dcf13114c22d.mp4",
+  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fb5749de4c44.jpg",
+  "caption": "Spot The Bug Shadowed Name\n\nLook at the code on screen. Shadowed Name. Where is the bug?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
+  "file": "242 Spot The Bug Shadowed Name - Interview Question.mp4"
  }
 ]
