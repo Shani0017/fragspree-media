@@ -13,35 +13,35 @@
 .kpis{grid-template-columns:repeat(auto-fit,minmax(138px,1fr))}
 .kpi{padding:16px 18px;position:relative;overflow:hidden}
 .kpi .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:#b9b0ff;margin-bottom:12px}
-.kpi .k{color:var(--muted);font-size:13px;font-weight:500}
-.kpi .v{font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.15;margin-top:2px;font-variant-numeric:tabular-nums}
-.kpi .s{color:var(--faint);font-size:12px;margin-top:4px}
+.kpi .k{color:var(--muted);font-size:15px;font-weight:500}
+.kpi .v{font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.15;margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi .s{color:var(--muted);font-size:13.5px;margin-top:5px}
 .kpi.hero{background:linear-gradient(135deg,rgba(124,107,255,.22),rgba(91,140,255,.10)),var(--surface);border-color:rgba(124,107,255,.35)}
 .insight{padding:18px 20px;margin-top:16px;background:linear-gradient(135deg,rgba(52,211,153,.10),rgba(52,211,153,.03)),var(--surface);border-color:rgba(52,211,153,.28)}
 .insight h3{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:8px}
 .insight h3 svg{stroke:var(--ok)}
 .insight ul{margin:0;padding:0;list-style:none;display:grid;gap:14px 24px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.insight li{display:flex;flex-direction:column;gap:2px;font-size:14px}
-.insight li span{color:var(--muted);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.insight li{display:flex;flex-direction:column;gap:3px;font-size:15.5px}
+.insight li span{color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
 .gcards{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
 .g{padding:16px 18px}
-.g .nm{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px;font-weight:500}
+.g .nm{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:15px;font-weight:500}
 .g .big{font-size:28px;font-weight:700;letter-spacing:-.02em;margin:6px 0 2px;font-variant-numeric:tabular-nums}
 .delta{display:inline-flex;align-items:center;gap:3px;font-size:13px;font-weight:600;padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}
 .delta.up{background:var(--ok-soft);color:var(--ok)}.delta.dn{background:var(--bad-soft);color:var(--bad)}.delta.fl{background:var(--raise);color:var(--muted)}
 .two{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
 .panel{padding:18px 20px}
-.panel h3{margin:0 0 4px;font-size:15px}.panel .sub{margin:0 0 14px;color:var(--faint);font-size:12.5px}
-.row{display:grid;grid-template-columns:96px 1fr auto;gap:12px;align-items:center;margin:9px 0;font-size:13.5px}
+.panel h3{margin:0 0 4px;font-size:17px}.panel .sub{margin:0 0 14px;color:var(--muted);font-size:14px}
+.row{display:grid;grid-template-columns:110px 1fr auto;gap:12px;align-items:center;margin:10px 0;font-size:15px}
 .row .nm{color:var(--text);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .row .tr{height:10px;border-radius:999px;background:var(--raise);overflow:hidden}
 .row .tr i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
 .row.best .tr i{background:linear-gradient(90deg,#22c3a6,var(--ok))}
-.row .val{color:var(--muted);font-size:12.5px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.row .val{color:var(--muted);font-size:14px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
 .row .val b{color:var(--text);font-weight:600}
 .tbl{overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
-th{color:var(--faint);font-weight:600;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;text-align:right;padding:0 10px 10px}
+table{width:100%;border-collapse:collapse;font-size:15px;min-width:560px}
+th{color:var(--muted);font-weight:600;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;text-align:right;padding:0 10px 10px}
 td{padding:11px 10px;border-top:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums}
 th:first-child,td:first-child{text-align:left;padding-left:0}
 td.ti{max-width:360px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
@@ -49,8 +49,8 @@ td.ti a{text-decoration:none}td.ti a:hover{color:#b9b0ff}
 .rk{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--raise);color:var(--muted);font-size:12px;font-weight:700;margin-right:10px}
 .chart svg{width:100%;height:auto;display:block;overflow:visible}
 .empty{padding:34px 10px;text-align:center;color:var(--faint);font-size:14px}
-.foot{margin-top:26px;color:var(--faint);font-size:12.5px;line-height:1.6}
-@media(max-width:700px){.row{grid-template-columns:78px 1fr auto}.two{grid-template-columns:1fr}.kpi .v{font-size:26px}.filters .seg{width:100%}.filters .seg button{flex:1}}
+.foot{margin-top:26px;color:var(--muted);font-size:14px;line-height:1.6}
+@media(max-width:700px){.row{grid-template-columns:78px 1fr auto}.two{grid-template-columns:1fr}.kpi .v{font-size:30px}.filters .seg{width:100%}.filters .seg button{flex:1}}
 </style></head>
 <body>
 <header class="top"><div class="top-in">
@@ -108,9 +108,9 @@ function spark(series){if(series.length<2||new Set(series.map(s=>s[1])).size<2)r
   return `<svg viewBox="0 0 ${w} ${h}" style="margin-top:8px"><defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7c6bff" stop-opacity=".35"/><stop offset="1" stop-color="#7c6bff" stop-opacity="0"/></linearGradient></defs><polygon fill="url(#sg)" points="0,${h} ${line} ${w},${h}"/><polyline fill="none" stroke="#9d8cff" stroke-width="2" stroke-linejoin="round" points="${line}"/></svg>`;}
 function dailyChart(rows){if(!rows.length)return '<div class="empty">No posts in this range.</div>';
   const w=900,h=220,l=44,b=28,t=10,r=8,mx=Math.max(1,...rows.map(x=>x.views)),cw=(w-l-r)/rows.length,bw=Math.max(3,Math.min(34,cw-4));
-  const grid=[0,.5,1].map(f=>{const y=t+(1-f)*(h-t-b);return `<line x1="${l}" x2="${w-r}" y1="${y}" y2="${y}" stroke="#232938"/><text x="${l-8}" y="${y+4}" text-anchor="end" fill="#5f677c" font-size="11">${fmt(Math.round(mx*f))}</text>`}).join('');
+  const grid=[0,.5,1].map(f=>{const y=t+(1-f)*(h-t-b);return `<line x1="${l}" x2="${w-r}" y1="${y}" y2="${y}" stroke="#232938"/><text x="${l-8}" y="${y+4}" text-anchor="end" fill="#8d96ad" font-size="13">${fmt(Math.round(mx*f))}</text>`}).join('');
   const bars=rows.map((x,i)=>{const bh=(x.views/mx)*(h-t-b),cx=l+i*cw+cw/2;return `<rect x="${cx-bw/2}" y="${h-b-bh}" width="${bw}" height="${Math.max(2,bh)}" rx="4" fill="url(#bg)"><title>${x.day}: ${fmt(x.views)} views, ${x.likes} likes, ${x.comments} comments, ${x.posts} posts</title></rect>`}).join('');
-  const step=Math.ceil(rows.length/7),lab=rows.map((x,i)=>i%step===0?`<text x="${l+i*cw+cw/2}" y="${h-8}" text-anchor="middle" fill="#5f677c" font-size="11">${x.day.slice(5)}</text>`:'').join('');
+  const step=Math.ceil(rows.length/7),lab=rows.map((x,i)=>i%step===0?`<text x="${l+i*cw+cw/2}" y="${h-8}" text-anchor="middle" fill="#8d96ad" font-size="13">${x.day.slice(5)}</text>`:'').join('');
   return `<svg viewBox="0 0 ${w} ${h}"><defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#9d8cff"/><stop offset="1" stop-color="#5b8cff"/></linearGradient></defs>${grid}${bars}${lab}</svg>`;}
 function best(rows){return rows.filter(r=>r.posts>=2).sort((a,b)=>b.avg_views-a.avg_views)[0];}
 async function load(){
