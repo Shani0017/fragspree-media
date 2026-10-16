@@ -9,6 +9,7 @@
   color-scheme:dark;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
 html{background:var(--bg)}
 body{margin:0;background:radial-gradient(1200px 500px at 70% -10%,rgba(124,107,255,.10),transparent 60%),var(--bg);color:var(--text);
   font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
