@@ -46,7 +46,7 @@ Register-ScheduledTask -TaskName CommentHubTunnel -Action $b -Trigger $t -Settin
 Stop-ScheduledTask -TaskName CommentHub -ErrorAction SilentlyContinue
 Start-Sleep 2
 Start-ScheduledTask -TaskName CommentHub
-if (-not (Get-Process cloudflared -ErrorAction SilentlyContinue)) { Start-ScheduledTask -TaskName CommentHubTunnel }
+Start-ScheduledTask -TaskName CommentHubTunnel
 $url = $null
 for ($i = 0; $i -lt 30 -and -not $url; $i++) {
     Start-Sleep 2
