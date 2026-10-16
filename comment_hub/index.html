@@ -47,6 +47,7 @@ footer .info{font-size:13px;color:var(--dim);margin-bottom:8px;min-height:18px}
 </header>
 <div id="demo" class="demo" hidden>TEST MODE: real comments are shown, but nothing is posted until DRY_RUN=0.</div>
 <div id="notes" class="notes" hidden></div>
+<div id="bulk" style="margin:8px 16px;display:flex;gap:8px"><button class="small" id="selall">Select all</button><button class="small" id="selnone">Clear all</button><span id="selinfo" style="color:var(--dim);align-self:center;font-size:13px"></span></div>
 <main id="list"></main>
 <footer>
   <div class="info" id="info"></div>
@@ -89,7 +90,7 @@ function render(){
 }
 function toSend(){return visible().filter(i=>i.status==='new'&&checked[i.key]&&((i.key in edits?edits[i.key]:i.suggestion)||'').trim());}
 function count(){
-  const n=toSend().length;$('send').textContent=busy?'Sending...':(n?`Approve & send ${n} repl${n===1?'y':'ies'}`:'Nothing selected');$('send').disabled=busy||!n;
+  const n=toSend().length;$('selinfo').textContent=`${n} selected`;$('send').textContent=busy?'Sending...':(n?`Approve & send ${n} repl${n===1?'y':'ies'}`:'Nothing selected');$('send').disabled=busy||!n;
   $('info').textContent=`Today sent - Instagram ${sentToday.Instagram||0}/${caps.Instagram||'-'} · YouTube ${sentToday.YouTube||0}/${caps.YouTube||'-'}   (one reply every ~20 s, like a person)`;
 }
 async function load(){
@@ -101,6 +102,8 @@ async function load(){
   if(!document.activeElement||document.activeElement.tagName!=='TEXTAREA')render();else count();
   return d;
 }
+function bulk(on){visible().forEach(i=>{if(i.status==='new'&&((i.key in edits?edits[i.key]:i.suggestion)||'').trim())checked[i.key]=on;});render();}
+$('selall').onclick=()=>bulk(true);$('selnone').onclick=()=>bulk(false);
 $('refresh').onclick=async()=>{await api('/api/refresh',{});poll();};
 $('send').onclick=async()=>{
   const list=toSend();if(!list.length)return;
