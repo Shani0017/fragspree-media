@@ -1,96 +1,137 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Analytics - Comment Hub</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0c12"><title>Analytics - Comment Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/ui.css">
 <style>
-:root{--bg:#0f1220;--card:#181c33;--ink:#eef0ff;--dim:#8f95b8;--line:#262b4d;--acc:#6d5efc;--ok:#2fd27a;--bad:#ff6b6b;color-scheme:dark}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px system-ui,Segoe UI,sans-serif}
-header{position:sticky;top:0;background:var(--bg);padding:12px 16px 8px;border-bottom:1px solid var(--line);z-index:5}
-h1{margin:0 0 8px;font-size:20px;display:flex;justify-content:space-between;align-items:center;gap:8px}
-nav a{color:var(--dim);text-decoration:none;font-size:14px;margin-right:12px}nav a.on{color:var(--ink);font-weight:600}
-button,select,input{font:inherit;color:var(--ink);background:#222750;border:1px solid var(--line);border-radius:10px;padding:7px 10px}
-button.on{background:var(--acc);border-color:var(--acc)}button.primary{background:var(--acc);border-color:var(--acc);font-weight:600}
-.row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0;align-items:center}
-main{padding:12px 16px 40px;max-width:1100px;margin:auto}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
-.k{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.04em}.v{font-size:26px;font-weight:700;margin-top:2px}.s{color:var(--dim);font-size:12px;margin-top:2px}
-h2{font-size:16px;margin:22px 0 8px}
-.bar{display:grid;grid-template-columns:90px 1fr 120px;gap:8px;align-items:center;margin:5px 0;font-size:13px}
-.bar i{display:block;height:14px;border-radius:7px;background:linear-gradient(90deg,#6d5efc,#9d8cff)}
-.bar span.t{color:var(--dim);text-align:right}
-.pos{color:var(--ok)}.neg{color:var(--bad)}
-table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}
-td a{color:#b9b0ff;text-decoration:none}td.ti{max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.insight{background:#143a2a;color:#a8f0c9;border-radius:12px;padding:10px 12px;margin:10px 0;font-size:14px;line-height:1.5}
-.note{background:#3a2a14;color:#ffd9a0;border-radius:12px;padding:8px 12px;margin:8px 0;font-size:13px}
-.dim{color:var(--dim);font-size:12px}
-svg{width:100%;height:auto;display:block}
-@media(max-width:600px){.bar{grid-template-columns:70px 1fr 100px}td.ti{max-width:150px}}
-</style></head><body>
-<header>
-<h1><span>Analytics</span><button class="primary" id="refresh">Refresh data</button></h1>
-<nav><a href="/">Comments</a><a href="/analytics" class="on">Analytics</a></nav>
-<div class="row" id="presets"></div>
-<div class="row"><input type="date" id="from"><span class="dim">to</span><input type="date" id="to">
-<select id="acct"><option value="">Both accounts</option><option>FragSpree</option><option>Brain Massage</option></select>
-<select id="plat"><option value="">All platforms</option><option>Instagram</option><option>YouTube</option></select>
-<select id="kind"><option value="">All content</option><option>ASMR</option><option>Math</option><option>Interview</option><option>Music</option></select></div>
-</header>
-<main>
-<div id="notes"></div>
-<div id="insight"></div>
-<div class="grid" id="kpi"></div>
-<h2>Followers / subscribers</h2><div class="grid" id="growth"></div>
-<div class="dim" id="growthnote"></div>
-<h2>Views by day posted</h2><div class="card"><div id="daily"></div></div>
-<h2>Which content works (average per post)</h2><div class="card" id="bykind"></div>
-<h2>Best time to post (Malaysia time, average views)</h2><div class="card" id="byhour"></div>
-<h2>Best weekday</h2><div class="card" id="bywd"></div>
-<h2>By account and platform</h2><div class="card" id="byacct"></div>
-<h2>Top posts</h2><div class="card" style="overflow-x:auto"><table id="top"></table></div>
-<p class="dim" id="foot"></p>
-</main>
+.wrap{padding-bottom:60px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:6px}
+.filters .dates{display:flex;gap:8px;align-items:center;color:var(--faint)}
+.filters input[type=date]{color-scheme:dark}
+.grid{display:grid;gap:12px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(138px,1fr))}
+.kpi{padding:16px 18px;position:relative;overflow:hidden}
+.kpi .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:#b9b0ff;margin-bottom:12px}
+.kpi .k{color:var(--muted);font-size:13px;font-weight:500}
+.kpi .v{font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.15;margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi .s{color:var(--faint);font-size:12px;margin-top:4px}
+.kpi.hero{background:linear-gradient(135deg,rgba(124,107,255,.22),rgba(91,140,255,.10)),var(--surface);border-color:rgba(124,107,255,.35)}
+.insight{padding:18px 20px;margin-top:16px;background:linear-gradient(135deg,rgba(52,211,153,.10),rgba(52,211,153,.03)),var(--surface);border-color:rgba(52,211,153,.28)}
+.insight h3{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:8px}
+.insight h3 svg{stroke:var(--ok)}
+.insight ul{margin:0;padding:0;list-style:none;display:grid;gap:14px 24px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.insight li{display:flex;flex-direction:column;gap:2px;font-size:14px}
+.insight li span{color:var(--muted);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.gcards{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.g{padding:16px 18px}
+.g .nm{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px;font-weight:500}
+.g .big{font-size:28px;font-weight:700;letter-spacing:-.02em;margin:6px 0 2px;font-variant-numeric:tabular-nums}
+.delta{display:inline-flex;align-items:center;gap:3px;font-size:13px;font-weight:600;padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}
+.delta.up{background:var(--ok-soft);color:var(--ok)}.delta.dn{background:var(--bad-soft);color:var(--bad)}.delta.fl{background:var(--raise);color:var(--muted)}
+.two{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.panel{padding:18px 20px}
+.panel h3{margin:0 0 4px;font-size:15px}.panel .sub{margin:0 0 14px;color:var(--faint);font-size:12.5px}
+.row{display:grid;grid-template-columns:96px 1fr auto;gap:12px;align-items:center;margin:9px 0;font-size:13.5px}
+.row .nm{color:var(--text);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .tr{height:10px;border-radius:999px;background:var(--raise);overflow:hidden}
+.row .tr i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.row.best .tr i{background:linear-gradient(90deg,#22c3a6,var(--ok))}
+.row .val{color:var(--muted);font-size:12.5px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.row .val b{color:var(--text);font-weight:600}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+th{color:var(--faint);font-weight:600;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;text-align:right;padding:0 10px 10px}
+td{padding:11px 10px;border-top:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+td.ti{max-width:360px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+td.ti a{text-decoration:none}td.ti a:hover{color:#b9b0ff}
+.rk{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--raise);color:var(--muted);font-size:12px;font-weight:700;margin-right:10px}
+.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.empty{padding:34px 10px;text-align:center;color:var(--faint);font-size:14px}
+.foot{margin-top:26px;color:var(--faint);font-size:12.5px;line-height:1.6}
+@media(max-width:700px){.row{grid-template-columns:78px 1fr auto}.two{grid-template-columns:1fr}.kpi .v{font-size:26px}.filters .seg{width:100%}.filters .seg button{flex:1}}
+</style></head>
+<body>
+<header class="top"><div class="top-in">
+  <div class="brand"><div class="mark"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>Comment Hub</div>
+  <nav class="tabs"><a href="/"><svg class="i" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Comments</a><a href="/analytics" class="on"><svg class="i" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Analytics</a></nav>
+  <button class="btn primary" id="refresh"><svg class="i" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v5h-5"/></svg><span id="rtxt">Refresh data</span></button>
+</div></header>
+<div class="wrap">
+  <div class="filters">
+    <div class="seg" id="presets"></div>
+    <div class="dates"><input type="date" class="field" id="from"><span>to</span><input type="date" class="field" id="to"></div>
+    <select class="field" id="acct"><option value="">Both accounts</option><option>FragSpree</option><option>Brain Massage</option></select>
+    <select class="field" id="plat"><option value="">All platforms</option><option>Instagram</option><option>YouTube</option></select>
+    <select class="field" id="kind"><option value="">All content</option><option>ASMR</option><option>Math</option><option>Interview</option><option>Music</option></select>
+  </div>
+  <div id="notes"></div>
+  <div id="insight"></div>
+  <h2 class="sec">Performance</h2><div class="grid kpis" id="kpi"></div>
+  <h2 class="sec">Followers &amp; subscribers</h2><div class="grid gcards" id="growth"></div>
+  <p class="faint small" id="growthnote" style="margin:10px 2px 0"></p>
+  <h2 class="sec">Views by day posted</h2><div class="card panel chart" id="daily"></div>
+  <h2 class="sec">What works</h2>
+  <div class="grid two">
+    <div class="card panel"><h3>Content type</h3><p class="sub">Average views per post and engagement</p><div id="bykind"></div></div>
+    <div class="card panel"><h3>Account &amp; platform</h3><p class="sub">Average views per post</p><div id="byacct"></div></div>
+    <div class="card panel"><h3>Best time to post</h3><p class="sub">Malaysia time, average views</p><div id="byhour"></div></div>
+    <div class="card panel"><h3>Best weekday</h3><p class="sub">Average views</p><div id="bywd"></div></div>
+  </div>
+  <h2 class="sec">Top posts</h2><div class="card panel tbl"><table id="top"></table></div>
+  <p class="foot" id="foot"></p>
+</div>
 <script>
 const $=id=>document.getElementById(id);
 const api=(p,b)=>fetch(p,b===undefined?{}:{method:'POST',headers:{'Content-Type':'application/json','X-Hub':'1'},body:JSON.stringify(b)}).then(r=>r.json());
-const fmt=n=>n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'k':String(n);
+const fmt=n=>n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'k':Number(n).toLocaleString();
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const P=p=>`<svg class="i" viewBox="0 0 24 24">${p}</svg>`;
+const IC={views:P('<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/>'),likes:P('<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/>'),
+ comments:P('<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/>'),shares:P('<path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/>'),saves:P('<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>'),
+ reach:P('<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>'),eng:P('<path d="M22 12h-4l-3 9L9 3l-3 9H2"/>'),
+ spark:P('<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/>'),warn:P('<path d="M12 9v4M12 17h.01M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/>')};
 const PRE=[['Today',0],['7 days',6],['14 days',13],['30 days',29],['90 days',89],['All time',-1]];
-let preset='30 days';
 $('presets').innerHTML=PRE.map(([l])=>`<button data-p="${l}">${l}</button>`).join('');
-function setPreset(l){preset=l;const n=PRE.find(x=>x[0]===l)[1];const t=new Date();
+function setPreset(l){const n=PRE.find(x=>x[0]===l)[1];const t=new Date();
   if(n<0){$('from').value='';$('to').value='';}else{const f=new Date();f.setDate(t.getDate()-n);$('from').value=iso(f);$('to').value=iso(t);}
   document.querySelectorAll('#presets button').forEach(b=>b.classList.toggle('on',b.dataset.p===l));load();}
 document.querySelectorAll('#presets button').forEach(b=>b.onclick=()=>setPreset(b.dataset.p));
 ['from','to'].forEach(i=>$(i).onchange=()=>{document.querySelectorAll('#presets button').forEach(b=>b.classList.remove('on'));load();});
 ['acct','plat','kind'].forEach(i=>$(i).onchange=load);
-function bars(rows,key,label){const mx=Math.max(1,...rows.map(r=>r[key]));
-  return rows.length?rows.map(r=>`<div class="bar"><span>${esc(r.name)}</span><i style="width:${Math.max(2,100*r[key]/mx)}%"></i><span class="t">${fmt(r[key])} avg &middot; ${r.posts} post${r.posts===1?'':'s'}${label?` &middot; ${r.eng}%`:''}</span></div>`).join(''):'<span class="dim">No posts in this range.</span>';}
-function spark(series){if(series.length<2)return '';const v=series.map(s=>s[1]),mn=Math.min(...v),mx=Math.max(...v),w=240,h=40;
-  const pts=series.map((s,i)=>`${(i/(series.length-1))*w},${h-4-((s[1]-mn)/Math.max(1,mx-mn))*(h-8)}`).join(' ');
-  return `<svg viewBox="0 0 ${w} ${h}"><polyline fill="none" stroke="#9d8cff" stroke-width="2" points="${pts}"/></svg>`;}
-function dailyChart(rows){if(!rows.length)return '<span class="dim">No posts in this range.</span>';const w=700,h=170,p=24,mx=Math.max(1,...rows.map(r=>r.views)),bw=Math.max(3,(w-p*2)/rows.length-3);
-  return `<svg viewBox="0 0 ${w} ${h}">`+rows.map((r,i)=>{const x=p+i*((w-p*2)/rows.length),bh=(r.views/mx)*(h-p*2);return `<rect x="${x}" y="${h-p-bh}" width="${bw}" height="${bh}" rx="3" fill="#6d5efc"><title>${r.day}: ${r.views} views, ${r.likes} likes, ${r.comments} comments, ${r.posts} posts</title></rect>`}).join('')
-   +`<text x="${p}" y="${h-6}" fill="#8f95b8" font-size="11">${rows[0].day}</text><text x="${w-p}" y="${h-6}" fill="#8f95b8" font-size="11" text-anchor="end">${rows[rows.length-1].day}</text><text x="${p}" y="14" fill="#8f95b8" font-size="11">max ${fmt(mx)} views</text></svg>`;}
+function bars(rows,key,showEng,hl){const mx=Math.max(1,...rows.map(r=>r[key]));const bestName=hl&&rows.filter(r=>r.posts>=2).sort((a,b)=>b[key]-a[key])[0];
+  return rows.length?rows.map(r=>`<div class="row ${bestName&&bestName.name===r.name?'best':''}"><span class="nm">${esc(r.name)}</span><span class="tr"><i style="width:${Math.max(3,100*r[key]/mx)}%"></i></span><span class="val"><b>${fmt(r[key])}</b> &middot; ${r.posts} post${r.posts===1?'':'s'}${showEng?` &middot; ${r.eng}%`:''}</span></div>`).join(''):'<div class="empty">No posts in this range.</div>';}
+function spark(series){if(series.length<2)return '';const v=series.map(s=>s[1]),mn=Math.min(...v),mx=Math.max(...v),w=240,h=44;
+  const pts=series.map((s,i)=>[(i/(series.length-1))*w,h-5-((s[1]-mn)/Math.max(1,mx-mn))*(h-10)]);const line=pts.map(p=>p.join(',')).join(' ');
+  return `<svg viewBox="0 0 ${w} ${h}" style="margin-top:8px"><defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7c6bff" stop-opacity=".35"/><stop offset="1" stop-color="#7c6bff" stop-opacity="0"/></linearGradient></defs><polygon fill="url(#sg)" points="0,${h} ${line} ${w},${h}"/><polyline fill="none" stroke="#9d8cff" stroke-width="2" stroke-linejoin="round" points="${line}"/></svg>`;}
+function dailyChart(rows){if(!rows.length)return '<div class="empty">No posts in this range.</div>';
+  const w=900,h=220,l=44,b=28,t=10,r=8,mx=Math.max(1,...rows.map(x=>x.views)),cw=(w-l-r)/rows.length,bw=Math.max(3,Math.min(34,cw-4));
+  const grid=[0,.5,1].map(f=>{const y=t+(1-f)*(h-t-b);return `<line x1="${l}" x2="${w-r}" y1="${y}" y2="${y}" stroke="#232938"/><text x="${l-8}" y="${y+4}" text-anchor="end" fill="#5f677c" font-size="11">${fmt(Math.round(mx*f))}</text>`}).join('');
+  const bars=rows.map((x,i)=>{const bh=(x.views/mx)*(h-t-b),cx=l+i*cw+cw/2;return `<rect x="${cx-bw/2}" y="${h-b-bh}" width="${bw}" height="${Math.max(2,bh)}" rx="4" fill="url(#bg)"><title>${x.day}: ${fmt(x.views)} views, ${x.likes} likes, ${x.comments} comments, ${x.posts} posts</title></rect>`}).join('');
+  const step=Math.ceil(rows.length/7),lab=rows.map((x,i)=>i%step===0?`<text x="${l+i*cw+cw/2}" y="${h-8}" text-anchor="middle" fill="#5f677c" font-size="11">${x.day.slice(5)}</text>`:'').join('');
+  return `<svg viewBox="0 0 ${w} ${h}"><defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#9d8cff"/><stop offset="1" stop-color="#5b8cff"/></linearGradient></defs>${grid}${bars}${lab}</svg>`;}
 function best(rows){return rows.filter(r=>r.posts>=2).sort((a,b)=>b.avg_views-a.avg_views)[0];}
 async function load(){
   const q=new URLSearchParams({from:$('from').value,to:$('to').value,acct:$('acct').value,plat:$('plat').value,kind:$('kind').value});
   const d=await api('/api/analytics?'+q);const t=d.totals;
-  $('notes').innerHTML=(d.notes||[]).map(n=>`<div class="note">${esc(n)}</div>`).join('');
-  $('refresh').textContent=d.running?(d.msg||'Reading...'):'Refresh data';$('refresh').disabled=d.running;
+  $('notes').innerHTML=(d.notes||[]).map(n=>`<div class="alert">${IC.warn}<span>${esc(n)}</span></div>`).join('');
+  $('rtxt').textContent=d.running?(d.msg||'Reading...'):'Refresh data';$('refresh').disabled=d.running;
   const bk=best(d.by_kind),bh=best(d.by_hour),bw=best(d.by_weekday);
-  $('insight').innerHTML=t.posts?'<div class="insight"><b>What is working</b><br>'+[bk&&`Best content: <b>${bk.name}</b> (${fmt(bk.avg_views)} views per post, ${bk.eng}% engagement)`,bh&&`Best hour: <b>${bh.name}</b> (${fmt(bh.avg_views)} avg views)`,bw&&`Best day: <b>${bw.name}</b> (${fmt(bw.avg_views)} avg views)`,d.top[0]&&`Top post: <b>${esc(d.top[0].title)}</b> (${fmt(d.top[0].views)} views)`].filter(Boolean).join('<br>')+'<br><span class="dim" style="color:#7fc9a2">"Best" needs at least 2 posts in that group.</span></div>':'';
-  $('kpi').innerHTML=[['Views',fmt(t.views),`${t.posts} posts, avg ${fmt(t.avg_views)}`],['Likes',fmt(t.likes),''],['Comments',fmt(t.comments),''],['Shares',fmt(t.shares),'Instagram only'],['Saves',fmt(t.saves),'Instagram only'],['Reach',fmt(t.reach),'Instagram only'],['Engagement',t.engagement+'%','likes+comments+shares+saves per view']].map(([k,v,s])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
-  $('growth').innerHTML=d.growth.length?d.growth.map(g=>`<div class="card"><div class="k">${esc(g.name)}</div><div class="v">${fmt(g.now)} <span class="${g.gain>=0?'pos':'neg'}" style="font-size:15px">${g.gain>=0?'+':''}${g.gain}</span></div><div class="s">since ${g.since}</div>${spark(g.series)}</div>`).join(''):'<div class="card dim">No follower data yet - tap Refresh data.</div>';
-  $('growthnote').textContent=d.first_snapshot?`Followers and subscribers are counted from our own daily snapshots, which began on ${d.first_snapshot}; the platforms do not give past history. The change is only for the days you have selected from that date on.`:'';
+  const li=[bk&&['Best content',`<b>${esc(bk.name)}</b> &middot; ${fmt(bk.avg_views)} views per post, ${bk.eng}% engagement`],bh&&['Best hour',`<b>${bh.name}</b> &middot; ${fmt(bh.avg_views)} average views`],bw&&['Best day',`<b>${bw.name}</b> &middot; ${fmt(bw.avg_views)} average views`],d.top[0]&&['Top post',`<b>${esc(d.top[0].title)}</b> &middot; ${fmt(d.top[0].views)} views`]].filter(Boolean);
+  $('insight').innerHTML=t.posts&&li.length?`<div class="card insight"><h3>${IC.spark}What is working</h3><ul>${li.map(([a,b])=>`<li><span>${a}</span><div>${b}</div></li>`).join('')}</ul><p class="faint small" style="margin:12px 0 0">A group needs at least 2 posts to be called best.</p></div>`:'';
+  const K=[['views','Views',fmt(t.views),`${t.posts} posts &middot; avg ${fmt(t.avg_views)}`,1],['likes','Likes',fmt(t.likes),''],['comments','Comments',fmt(t.comments),''],['shares','Shares',fmt(t.shares),'Instagram only'],['saves','Saves',fmt(t.saves),'Instagram only'],['reach','Reach',fmt(t.reach),'Instagram only'],['eng','Engagement',t.engagement+'%','per view']];
+  $('kpi').innerHTML=K.map(([i,k,v,s,h])=>`<div class="card kpi ${h?'hero':''}"><div class="ic">${IC[i]}</div><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s||'&nbsp;'}</div></div>`).join('');
+  $('growth').innerHTML=d.growth.length?d.growth.map(g=>`<div class="card g"><div class="nm"><span class="pill ${g.name.includes('Instagram')?'ig':'yt'}">${g.name.includes('Instagram')?'IG':'YT'}</span>${esc(g.name.replace(' Instagram','').replace(' YouTube',''))}</div><div class="big">${fmt(g.now)}<span class="delta ${g.gain>0?'up':g.gain<0?'dn':'fl'}">${g.gain>0?'+':''}${g.gain}</span></div><div class="faint small">since ${g.since}</div>${spark(g.series)}</div>`).join(''):'<div class="card g empty" style="grid-column:1/-1">No follower data yet. Tap Refresh data.</div>';
+  $('growthnote').textContent=d.first_snapshot?`Counted from our own daily snapshots, which began on ${d.first_snapshot}. The platforms do not provide past history, so the change only covers days since then.`:'';
   $('daily').innerHTML=dailyChart(d.daily);
-  $('bykind').innerHTML=bars(d.by_kind,'avg_views',true);
-  $('byhour').innerHTML=bars(d.by_hour,'avg_views',false);
-  $('bywd').innerHTML=bars(d.by_weekday,'avg_views',false);
-  $('byacct').innerHTML=bars(d.by_account,'avg_views',true);
-  $('top').innerHTML='<tr><th>Post</th><th>Where</th><th>Type</th><th>Posted</th><th>Views</th><th>Likes</th><th>Cmts</th></tr>'+d.top.map(p=>`<tr><td class="ti"><a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.title||'(no title)')}</a></td><td>${esc(p.acct)} ${p.plat==='Instagram'?'IG':'YT'}</td><td>${p.kind}</td><td>${p.day.slice(5)}</td><td>${fmt(p.views)}</td><td>${p.likes}</td><td>${p.comments}</td></tr>`).join('');
-  $('foot').textContent=(d.updated?'Data read '+new Date(d.updated).toLocaleString()+' and refreshed every 3 hours. ':'')+`${d.n_posts_all} posts tracked. Post numbers are the current lifetime totals of posts published in the chosen dates. Facebook is not included yet.`;
+  $('bykind').innerHTML=bars(d.by_kind,'avg_views',true,true);
+  $('byacct').innerHTML=bars(d.by_account,'avg_views',true,true);
+  $('byhour').innerHTML=bars(d.by_hour,'avg_views',false,true);
+  $('bywd').innerHTML=bars(d.by_weekday,'avg_views',false,true);
+  $('top').innerHTML=d.top.length?'<tr><th>Post</th><th>Where</th><th>Type</th><th>Posted</th><th>Views</th><th>Likes</th><th>Comments</th></tr>'+d.top.map((p,i)=>`<tr><td class="ti"><span class="rk">${i+1}</span><a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.title||'(no title)')}</a></td><td>${esc(p.acct)} <span class="pill ${p.plat==='Instagram'?'ig':'yt'}">${p.plat==='Instagram'?'IG':'YT'}</span></td><td>${p.kind}</td><td>${p.day.slice(5)}</td><td><b>${fmt(p.views)}</b></td><td>${p.likes}</td><td>${p.comments}</td></tr>`).join(''):'<tr><td class="empty">No posts in this range.</td></tr>';
+  $('foot').textContent=(d.updated?'Data read '+new Date(d.updated).toLocaleString()+', refreshed every 3 hours. ':'')+`${d.n_posts_all} posts tracked. Numbers are the current lifetime totals of posts published in the chosen dates. Facebook is not included yet.`;
   if(d.running)setTimeout(load,3000);
 }
 $('refresh').onclick=async()=>{await api('/api/an_refresh',{});setTimeout(load,1500);};
