@@ -146,7 +146,7 @@ def ig_fetch(acct, e, since):
                             where=(m.get("caption") or "")[:90].replace("\n", " "), link=m.get("permalink", ""), answered=answered))
     note = ""
     if expected and not out and not blocked:
-        note = "Instagram returned no comments: the token needs the comments permission"
+        note = f"Instagram counts {expected} comments but will not show them: switch the Meta app to Live mode (App Mode switch at the top of the app dashboard), then Refresh"
     if blocked:
         note = "Instagram refused some comment calls: the token needs the comments permission"
     return out, note
@@ -421,6 +421,8 @@ def auto_loop():
 
 
 # ------------------------------------------------------------------ web
+import analytics
+ANPAGE = open(HERE / "analytics.html", encoding="utf-8").read() if (HERE / "analytics.html").exists() else "<h1>analytics.html missing</h1>"
 PAGE = open(HERE / "index.html", encoding="utf-8").read() if (HERE / "index.html").exists() else "<h1>index.html missing</h1>"
 LOGIN = """<!doctype html><meta name=viewport content="width=device-width,initial-scale=1"><title>Comment Hub</title>
 <body style="font-family:system-ui;background:#0f1220;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;margin:0">
@@ -462,6 +464,11 @@ class H(http.server.BaseHTTPRequestHandler):
             return self.send(200, LOGIN.format(msg=""))
         if path == "/":
             return self.send(200, PAGE.replace("__DEMO__", "true" if DRY else "false").replace("__AUTO__", "true" if AUTO else "false"))
+        if path == "/analytics":
+            return self.send(200, ANPAGE)
+        if path == "/api/analytics":
+            q = {k: v[0] for k, v in urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query).items()}
+            return self.json(analytics.report(q.get("from", ""), q.get("to", ""), q.get("acct", ""), q.get("plat", ""), q.get("kind", "")))
         if path == "/api/items":
             items = sorted(STATE["items"].values(), key=lambda x: x["time"], reverse=True)
             return self.json({"items": [i for i in items if i["status"] in ("new", "sent")][:400], "refresh": REFRESH, "job": JOB, "caps": CAPS, "auto": AUTO,
@@ -512,6 +519,9 @@ class H(http.server.BaseHTTPRequestHandler):
                     STATE["items"][key]["status"] = "skipped"
             save_state()
             return self.json({"ok": True})
+        if path == "/api/an_refresh":
+            threading.Thread(target=analytics.refresh, daemon=True).start()
+            return self.json({"ok": True})
         if path == "/api/save":
             for key, text in (body.get("edits") or {}).items():
                 if key in STATE["items"]:
@@ -530,6 +540,9 @@ def main():
     for it in STATE["items"].values():      # re-write old suggestions once so they carry the safe/unsafe flag
         if it.get("status") == "new" and "auto_ok" not in it:
             it["suggestion"], it["sugg_done"] = "", False
+    analytics.init(HERE, env, ACCOUNTS, yt_token)
+    if not DEMO:
+        threading.Thread(target=analytics.loop, daemon=True).start()
     if AUTO and not DEMO:
         threading.Thread(target=auto_loop, daemon=True).start()
     srv = http.server.ThreadingHTTPServer((BIND, PORT), H)
