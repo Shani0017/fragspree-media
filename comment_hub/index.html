@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Comment Hub</title>
+<style>
+:root{--bg:#0f1220;--card:#181c33;--card2:#1f2442;--ink:#f2f4ff;--dim:#9aa3d4;--accent:#6d5efc;--ok:#2fd27a;--warn:#ffb020;--bad:#ff5c7a;--line:#2a3158}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding-bottom:110px}
+header{position:sticky;top:0;z-index:5;background:rgba(15,18,32,.95);backdrop-filter:blur(8px);padding:12px 16px 8px;border-bottom:1px solid var(--line)}
+h1{font-size:20px;margin:0 0 6px;display:flex;justify-content:space-between;align-items:center}
+button{font:inherit;cursor:pointer;border:0;border-radius:12px;padding:10px 14px;background:var(--card2);color:var(--ink)}
+button.primary{background:var(--accent)}
+button.go{background:var(--ok);color:#06210f;font-weight:700;font-size:18px}
+button:disabled{opacity:.5}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 6px;scrollbar-width:none}
+.chip{white-space:nowrap;padding:7px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--dim);font-size:14px}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.notes{margin:8px 16px;padding:10px 12px;border-radius:12px;background:#3a2a14;color:#ffd9a0;font-size:14px}
+.demo{margin:8px 16px;padding:8px 12px;border-radius:12px;background:#143a2a;color:#9ff0c4;font-size:14px}
+main{padding:8px 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;margin:10px 0}
+.card.sent{opacity:.55}
+.top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--dim)}
+.badge{padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600}
+.b-ig{background:#4a2a5e;color:#f3c6ff}.b-yt{background:#5e2a2a;color:#ffc6c6}
+.k-question{background:#1f3d63;color:#a8d3ff}.k-request{background:#2b3f5f;color:#c6d6ff}.k-positive{background:#1c4a35;color:#9ff0c4}
+.k-negative{background:#5a2433;color:#ffb3c4}.k-spam{background:#4a4a1c;color:#f3f0a0}.k-other{background:#2b2f4d;color:#c9cdf0}
+.where{font-size:13px;color:var(--dim);margin:4px 0}
+.ctx{margin:6px 0;padding:8px 10px;border-radius:10px;background:#12263f;color:#bcd6ff;font-size:13px;line-height:1.35}.text{margin:6px 0 10px;font-size:16px;word-break:break-word}
+textarea{width:100%;min-height:54px;resize:vertical;border-radius:12px;border:1px solid var(--line);background:var(--card2);color:var(--ink);padding:10px;font:inherit}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:8px;gap:10px}
+.row label{display:flex;align-items:center;gap:8px;color:var(--ink)}
+input[type=checkbox]{width:22px;height:22px;accent-color:var(--ok)}
+.small{font-size:14px;padding:7px 11px}
+a{color:#9db4ff}
+footer{position:fixed;left:0;right:0;bottom:0;background:rgba(15,18,32,.97);border-top:1px solid var(--line);padding:12px 16px calc(12px + env(safe-area-inset-bottom));z-index:6}
+footer .info{font-size:13px;color:var(--dim);margin-bottom:8px;min-height:18px}
+.empty{padding:40px 10px;text-align:center;color:var(--dim)}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>Comment Hub</span><button class="primary small" id="refresh">Refresh</button></h1>
+  <div class="chips" id="chips"></div>
+</header>
+<div id="demo" class="demo" hidden>DEMO MODE: these are made-up comments and nothing is posted.</div>
+<div id="notes" class="notes" hidden></div>
+<main id="list"></main>
+<footer>
+  <div class="info" id="info"></div>
+  <button class="go" id="send" style="width:100%">Send</button>
+</footer>
+<script>
+const DEMO = __DEMO__;
+let items = [], filter = 'all', edits = {}, checked = {}, busy = false, caps = {}, sentToday = {};
+const FILTERS = [['all','All'],['FragSpree|Instagram','FragSpree IG'],['FragSpree|YouTube','FragSpree YT'],['Brain Massage|Instagram','Brain IG'],['Brain Massage|YouTube','Brain YT'],['question','Questions'],['negative','Negative'],['spam','Spam']];
+const $ = id => document.getElementById(id);
+const api = (p, body) => fetch(p, body === undefined ? {} : {method:'POST', headers:{'Content-Type':'application/json','X-Hub':'1'}, body:JSON.stringify(body)}).then(r => r.json());
+function ago(t){const s=(Date.now()-new Date(t))/1000;if(s<3600)return Math.max(1,Math.round(s/60))+' min ago';if(s<86400)return Math.round(s/3600)+' h ago';return Math.round(s/86400)+' d ago';}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function visible(){return items.filter(i=>{
+  if(filter==='all')return true;
+  if(filter.includes('|'))return (i.acct+'|'+i.platform)===filter;
+  return i.kind===filter;});}
+function defaultChecked(i){return i.status==='new' && !!i.suggestion && !['spam','negative'].includes(i.kind);}
+function render(){
+  $('chips').innerHTML=FILTERS.map(([k,l])=>{const n=items.filter(i=>k==='all'?true:k.includes('|')?(i.acct+'|'+i.platform)===k:i.kind===k).length;return `<div class="chip ${filter===k?'on':''}" data-f="${k}">${l} ${n}</div>`}).join('');
+  document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{filter=c.dataset.f;render();});
+  const v=visible();
+  $('list').innerHTML=v.length?v.map(i=>{
+    if(!(i.key in checked))checked[i.key]=defaultChecked(i);
+    const text=(i.key in edits)?edits[i.key]:i.suggestion;
+    const sent=i.status==='sent';
+    return `<div class="card ${sent?'sent':''}" data-k="${esc(i.key)}">
+      <div class="top"><span class="badge ${i.platform==='Instagram'?'b-ig':'b-yt'}">${i.platform==='Instagram'?'IG':'YT'}</span><b style="color:var(--ink)">${esc(i.user)}</b><span>${esc(i.acct)}</span><span>${ago(i.time)}</span><span class="badge k-${i.kind}">${i.kind}</span></div>
+      <div class="where">on ${esc(i.where||'')} ${i.link?`· <a href="${esc(i.link)}" target="_blank" rel="noopener">open</a>`:''}</div>
+      ${i.ctx ? `<div class="ctx"><b>Reel:</b> ${esc((i.ctx.q || '').slice(0, 170))}${(i.ctx.q || '').length > 170 ? '...' : ''}<br><b>Answer:</b> ${esc((i.ctx.a || '').slice(0, 120))}</div>` : ''}
+      <div class="text">${esc(i.text)}</div>
+      ${sent?`<div style="color:var(--ok)">Sent: ${esc(i.sent_text||'')}</div>`:`
+      <textarea data-k="${esc(i.key)}" placeholder="No suggested reply - write one, or skip">${esc(text||'')}</textarea>
+      <div class="row"><label><input type="checkbox" data-c="${esc(i.key)}" ${checked[i.key]?'checked':''}> send this reply</label><button class="small" data-s="${esc(i.key)}">Skip</button></div>`}
+    </div>`}).join(''):'<div class="empty">No comments here yet.<br>Tap Refresh to read the latest.</div>';
+  document.querySelectorAll('textarea').forEach(t=>{t.oninput=()=>{edits[t.dataset.k]=t.value;if(t.value.trim()){checked[t.dataset.k]=true;const cb=document.querySelector(`[data-c="${CSS.escape(t.dataset.k)}"]`);if(cb)cb.checked=true;}count();};});
+  document.querySelectorAll('[data-c]').forEach(c=>c.onchange=()=>{checked[c.dataset.c]=c.checked;count();});
+  document.querySelectorAll('[data-s]').forEach(b=>b.onclick=async()=>{await api('/api/skip',{keys:[b.dataset.s]});load();});
+  count();
+}
+function toSend(){return visible().filter(i=>i.status==='new'&&checked[i.key]&&((i.key in edits?edits[i.key]:i.suggestion)||'').trim());}
+function count(){
+  const n=toSend().length;$('send').textContent=busy?'Sending...':(n?`Approve & send ${n} repl${n===1?'y':'ies'}`:'Nothing selected');$('send').disabled=busy||!n;
+  $('info').textContent=`Today sent - Instagram ${sentToday.Instagram||0}/${caps.Instagram||'-'} · YouTube ${sentToday.YouTube||0}/${caps.YouTube||'-'}   (one reply every ~20 s, like a person)`;
+}
+async function load(){
+  const d=await api('/api/items');items=d.items;caps=d.caps;sentToday=d.sent_today;
+  const notes=d.refresh.notes||[];$('notes').hidden=!notes.length;$('notes').innerHTML=notes.map(esc).join('<br>');
+  $('refresh').textContent=d.refresh.running?d.refresh.msg||'Reading...':'Refresh';$('refresh').disabled=d.refresh.running;
+  if(d.job.running){busy=true;$('info').textContent=`Sending ${d.job.done}/${d.job.total} · ok ${d.job.ok} · failed ${d.job.fail}`;}
+  else if(busy){busy=false;if(d.job.fail)alert(`Sent ${d.job.ok}. ${d.job.fail} could not be sent:\n`+d.job.log.join('\n'));}
+  if(!document.activeElement||document.activeElement.tagName!=='TEXTAREA')render();else count();
+  return d;
+}
+$('refresh').onclick=async()=>{await api('/api/refresh',{});poll();};
+$('send').onclick=async()=>{
+  const list=toSend();if(!list.length)return;
+  if(!confirm(`Send ${list.length} repl${list.length===1?'y':'ies'} now?\nThey post under your accounts and cannot be unsent here.`))return;
+  const replies={};list.forEach(i=>replies[i.key]=(i.key in edits?edits[i.key]:i.suggestion).trim());
+  const r=await api('/api/send',{replies});if(!r.ok){alert(r.error||'could not start');return;}
+  busy=true;count();poll();
+};
+async function poll(){const d=await load();if(d.refresh.running||d.job.running)setTimeout(poll,2500);}
+$('demo').hidden=!DEMO;
+load().then(d=>{if(!d.items.length&&!d.refresh.running)api('/api/refresh',{}).then(poll);else if(d.job.running||d.refresh.running)poll();});
+</script>
+</body>
+</html>
