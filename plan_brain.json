@@ -1,23 +1,5 @@
 [
  {
-  "n": 18,
-  "time": "2026-10-15T22:00:00+08:00",
-  "unix": 1792072800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d67c87d04dd9.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/45c2f63f34fd.jpg",
-  "caption": "Heavy Coin Among 1000\n\nYou have one thousand coins and exactly one is heavier. You have a balance scale. What's the minimum number of weighings that guarantees you find it?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "045 Heavy Coin Among 1000 - Interview Question.mp4"
- },
- {
-  "n": 19,
-  "time": "2026-10-16T00:00:00+08:00",
-  "unix": 1792080000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fb440c3ec3bb.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/809bbeec9571.jpg",
-  "caption": "The Midpoint Overflow Bug\n\nIn binary search, the line mid equals low plus high, divided by two, looks perfectly fine. Why can it be a bug, and how do you fix it?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "077 The Midpoint Overflow Bug - Interview Question.mp4"
- },
- {
   "n": 20,
   "time": "2026-10-16T14:00:00+08:00",
   "unix": 1792130400,
@@ -331,60 +313,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 62,
-  "time": "2026-10-16T02:00:00+08:00",
-  "unix": 1792087200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/76169d043b7a.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f7cb1ea4b242.jpg",
-  "caption": "Stack With Constant Time Minimum\n\nDesign a stack that supports push, pop and getting the minimum, all in constant time.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "081 Stack With Constant Time Minimum - Interview Question.mp4"
- },
- {
-  "n": 63,
-  "time": "2026-10-16T04:00:00+08:00",
-  "unix": 1792094400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c489bafbeee0.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ae6481f77076.jpg",
-  "caption": "Three And Five Litre Jugs\n\nYou have a three litre jug and a five litre jug and unlimited water. Neither has markings. How do you measure exactly four litres?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "024 Three And Five Litre Jugs - Interview Question.mp4"
- },
- {
-  "n": 64,
-  "time": "2026-10-16T06:00:00+08:00",
-  "unix": 1792101600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6d33d4b1b312.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/92f2c5ee4709.jpg",
-  "caption": "Hat Check Derangement\n\nTen people check their hats. The hats are returned in random order. What's the probability that nobody gets their own hat back?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "012 Hat Check Derangement - Interview Question.mp4"
- },
- {
-  "n": 65,
-  "time": "2026-10-16T08:00:00+08:00",
-  "unix": 1792108800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5f9119e048b8.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1c5eb5f7a99a.jpg",
-  "caption": "Bloom Filter\n\nHow can you test whether an item is in a huge set using very little memory, accepting occasional false positives but no false negatives?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "073 Bloom Filter - Interview Question.mp4"
- },
- {
-  "n": 66,
-  "time": "2026-10-16T10:00:00+08:00",
-  "unix": 1792116000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/878d42338d0b.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/54f6e8e2b6b7.jpg",
-  "caption": "Boy Or Girl Paradox\n\nA family has two children. At least one of them is a boy. What's the probability that both are boys?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "006 Boy Or Girl Paradox - Interview Question.mp4"
- },
- {
-  "n": 67,
-  "time": "2026-10-16T12:00:00+08:00",
-  "unix": 1792123200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/46e561479384.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e54df41b7b9.jpg",
-  "caption": "Gray Code\n\nHow do you list all two bit numbers so that consecutive numbers differ by exactly one bit, and how do you generate it for any n?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "084 Gray Code - Interview Question.mp4"
  },
  {
   "n": 68,
