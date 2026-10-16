@@ -299,6 +299,8 @@ def do_refresh():
                     for x in items:
                         key = f"{acct}|{plat}|{x['id']}"
                         if key in STATE["items"]:
+                            if STATE["items"][key].get("user") in ("?", "", None) and x.get("user") not in ("?", "", None):
+                                STATE["items"][key]["user"] = x["user"]
                             if x["answered"] and STATE["items"][key]["status"] == "new":
                                 STATE["items"][key]["status"] = "answered"
                             continue
@@ -378,7 +380,10 @@ def run_send(batch):
                 ok, msg = send_one(it, text)
             except Exception as e:
                 ok, msg = False, str(e)[:80]
-            if ok:
+            if ok and DRY:
+                JOB["ok"] += 1                      # test mode: nothing was posted, so nothing is marked as sent or counted
+                JOB["log"].append(f"{it['user']}: test mode, not posted")
+            elif ok:
                 it["status"], it["sent_text"], it["sent_at"] = "sent", text, dt.datetime.now().isoformat()
                 sent[plat] = sent.get(plat, 0) + 1
                 JOB["ok"] += 1
