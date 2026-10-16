@@ -54,9 +54,9 @@ footer .info{font-size:13px;color:var(--dim);margin-bottom:8px;min-height:18px}
   <button class="go" id="send" style="width:100%">Send</button>
 </footer>
 <script>
-const DEMO = __DEMO__;
+const DEMO = __DEMO__, AUTO = __AUTO__;
 let items = [], filter = 'all', edits = {}, checked = {}, busy = false, caps = {}, sentToday = {};
-const FILTERS = [['all','All'],['FragSpree|Instagram','FragSpree IG'],['FragSpree|YouTube','FragSpree YT'],['Brain Massage|Instagram','Brain IG'],['Brain Massage|YouTube','Brain YT'],['question','Questions'],['negative','Negative'],['spam','Spam']];
+const FILTERS = [['all','All'],['FragSpree|Instagram','FragSpree IG'],['FragSpree|YouTube','FragSpree YT'],['Brain Massage|Instagram','Brain IG'],['Brain Massage|YouTube','Brain YT'],['held','Held back'],['question','Questions'],['negative','Negative'],['spam','Spam']];
 const $ = id => document.getElementById(id);
 const api = (p, body) => fetch(p, body === undefined ? {} : {method:'POST', headers:{'Content-Type':'application/json','X-Hub':'1'}, body:JSON.stringify(body)}).then(r => r.json());
 function ago(t){const s=(Date.now()-new Date(t))/1000;if(s<3600)return Math.max(1,Math.round(s/60))+' min ago';if(s<86400)return Math.round(s/3600)+' h ago';return Math.round(s/86400)+' d ago';}
@@ -64,10 +64,11 @@ function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','
 function visible(){return items.filter(i=>{
   if(filter==='all')return true;
   if(filter.includes('|'))return (i.acct+'|'+i.platform)===filter;
+  if(filter==='held')return i.status==='new'&&i.held;
   return i.kind===filter;});}
 function defaultChecked(i){return i.status==='new' && !!i.suggestion && !['spam','negative'].includes(i.kind);}
 function render(){
-  $('chips').innerHTML=FILTERS.map(([k,l])=>{const n=items.filter(i=>k==='all'?true:k.includes('|')?(i.acct+'|'+i.platform)===k:i.kind===k).length;return `<div class="chip ${filter===k?'on':''}" data-f="${k}">${l} ${n}</div>`}).join('');
+  $('chips').innerHTML=FILTERS.map(([k,l])=>{const n=items.filter(i=>k==='all'?true:k.includes('|')?(i.acct+'|'+i.platform)===k:k==='held'?(i.status==='new'&&i.held):i.kind===k).length;return `<div class="chip ${filter===k?'on':''}" data-f="${k}">${l} ${n}</div>`}).join('');
   document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{filter=c.dataset.f;render();});
   const v=visible();
   $('list').innerHTML=v.length?v.map(i=>{
@@ -79,7 +80,7 @@ function render(){
       <div class="where">on ${esc(i.where||'')} ${i.link?`· <a href="${esc(i.link)}" target="_blank" rel="noopener">open</a>`:''}</div>
       ${i.ctx ? `<div class="ctx"><b>Reel:</b> ${esc((i.ctx.q || '').slice(0, 170))}${(i.ctx.q || '').length > 170 ? '...' : ''}<br><b>Answer:</b> ${esc((i.ctx.a || '').slice(0, 120))}</div>` : ''}
       <div class="text">${esc(i.text)}</div>
-      ${sent?`<div style="color:var(--ok)">Sent: ${esc(i.sent_text||'')}</div>`:`
+      ${sent?`<div style="color:var(--ok)">Sent${i.auto?' (auto)':''}: ${esc(i.sent_text||'')}</div>`:`
       <textarea data-k="${esc(i.key)}" placeholder="No suggested reply - write one, or skip">${esc(text||'')}</textarea>
       <div class="row"><label><input type="checkbox" data-c="${esc(i.key)}" ${checked[i.key]?'checked':''}> send this reply</label><button class="small" data-s="${esc(i.key)}">Skip</button></div>`}
     </div>`}).join(''):'<div class="empty">No comments here yet.<br>Tap Refresh to read the latest.</div>';
@@ -91,7 +92,7 @@ function render(){
 function toSend(){return visible().filter(i=>i.status==='new'&&checked[i.key]&&((i.key in edits?edits[i.key]:i.suggestion)||'').trim());}
 function count(){
   const n=toSend().length;$('selinfo').textContent=`${n} selected`;$('send').textContent=busy?'Sending...':(n?`Approve & send ${n} repl${n===1?'y':'ies'}`:'Nothing selected');$('send').disabled=busy||!n;
-  $('info').textContent=`Today sent - Instagram ${sentToday.Instagram||0}/${caps.Instagram||'-'} · YouTube ${sentToday.YouTube||0}/${caps.YouTube||'-'}   (one reply every ~20 s, like a person)`;
+  $('info').textContent=`Today sent - Instagram ${sentToday.Instagram||0}/${caps.Instagram||'-'} · YouTube ${sentToday.YouTube||0}/${caps.YouTube||'-'}   (one reply every ~20 s, like a person)`+(AUTO?'   - AUTO MODE: safe replies are sent for you; unclear ones are under Held back':'');
 }
 async function load(){
   const d=await api('/api/items');items=d.items;caps=d.caps;sentToday=d.sent_today;
