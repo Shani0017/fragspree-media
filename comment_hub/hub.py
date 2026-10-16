@@ -43,6 +43,9 @@ DAYS = int(CFG.get("DAYS", "7"))
 GEMINI = CFG.get("GEMINI_API_KEY", "")
 DRY = DEMO or CFG.get("DRY_RUN", "0") == "1"
 CAPS = {"Instagram": int(CFG.get("IG_REPLY_CAP", "120")), "YouTube": int(CFG.get("YT_REPLY_CAP", "60"))}   # replies per day (YouTube: 50 quota units each)
+AUTO = CFG.get("AUTO_SEND", "0") == "1"          # 1 = safe replies are sent without anyone looking; unclear ones are held back
+REFRESH_MIN = int(CFG.get("AUTO_EVERY_MIN", "60"))
+AUTO_MAX = int(CFG.get("AUTO_MAX_PER_RUN", "40"))
 PAUSE = (int(CFG.get("PAUSE_MIN", "12")), int(CFG.get("PAUSE_MAX", "35")))
 ACCOUNTS = {
     "FragSpree": dict(env=CFG.get("FRAG_ENV", r"C:\fragspree\.env"), yt="yt_token.json"),
@@ -234,7 +237,7 @@ def suggest_batch(items):
                   "if the viewer gives an answer, say kindly whether it matches the correct answer, and if it is wrong give a one-line hint from the solution without being rude; "
                   "if they ask about the solution, answer it from the solution summary; if they ask something we cannot know, say you'll look into it; if they suggest a video, thank them "
                   "and say it is noted; if it is praise, thank them in a specific way that mentions the video's topic; never invent facts that are not in the data; if the comment is rude "
-                  "or spam leave the reply empty; also leave it empty if the comment contains a stereotype or anything offensive about a group of people, or if you are not sure what the viewer means (never guess: a person may be bragging about what happened to them, joking, or only greeting). Do not agree with or praise a comparison you have not understood. Vary the wording so replies do not look copied. Return ONLY a JSON list like [{{\"i\":0,\"reply\":\"...\"}}].\n\n").format(acct=items[0]["acct"]) + json.dumps(payload)
+                  "or spam leave the reply empty; also leave it empty if the comment contains a stereotype or anything offensive about a group of people, or if you are not sure what the viewer means (never guess: a person may be bragging about what happened to them, joking, or only greeting). Do not agree with or praise a comparison you have not understood. Vary the wording so replies do not look copied. Also give each row \"safe\": true ONLY when you clearly understand the comment AND it is one of: a clear answer attempt to the video's question, plain praise or thanks or emojis, a simple greeting, a question the given data answers, a suggestion for a new video; otherwise \"safe\": false (jokes, sarcasm, comparisons, stories about the viewer, insults, anything unclear or sensitive). Return ONLY a JSON list like [{{\"i\":0,\"reply\":\"...\",\"safe\":true}}].\n\n").format(acct=items[0]["acct"]) + json.dumps(payload)
         try:
             r = requests.post("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent", params={"key": GEMINI},
                               json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.8}}, timeout=90).json()
@@ -242,6 +245,7 @@ def suggest_batch(items):
             for row in json.loads(txt):
                 it = items[int(row["i"])]
                 it["suggestion"] = re.sub(r"https?://\S+", "", str(row.get("reply", ""))).strip()[:260]
+                it["auto_ok"] = bool(row.get("safe")) and bool(it["suggestion"])
             return
         except Exception as e:
             REFRESH["notes"].append("AI suggestions unavailable (using simple rules): " + str(e)[:80])
@@ -252,12 +256,14 @@ def suggest_batch(items):
         mine = numbers(it["text"])
         if c and c.get("a") and mine and it["kind"] in ("question", "other", "request", "positive"):
             right = numbers(c["a"].split(".")[0])
+            it["auto_ok"] = True
             if right and right & mine:
                 it["suggestion"] = random.choice(["Correct! Nicely done.", "Yes, that's right! Great thinking.", "Spot on! Well done."])
             else:
                 it["suggestion"] = random.choice(["Good try! Watch the explanation again, the key step is easy to miss.", "Close, but not quite. Check the solution in the video and try again!"])
         elif it["kind"] in ("positive", "other"):
             it["suggestion"] = random.choice(POS_TEMPLATES)
+            it["auto_ok"] = it["kind"] == "positive"
         elif it["kind"] == "request":
             it["suggestion"] = random.choice(["Great idea, noted! Thanks for the suggestion.", "Love that idea, adding it to the list!"])
         elif it["kind"] == "question" and DEMO:
@@ -376,6 +382,44 @@ def run_send(batch):
     JOB["running"] = False
 
 
+def auto_cycle():
+    """Refresh, then send every reply the AI marked safe (never spam/negative/unclear). Everything else is held for you."""
+    if REFRESH.get("running") or JOB.get("running"):
+        return
+    do_refresh()
+    if DRY:
+        return
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=10)
+    batch = []
+    for it in STATE["items"].values():
+        if it["status"] != "new" or it["kind"] in ("spam", "negative") or not it.get("auto_ok") or not (it.get("suggestion") or "").strip():
+            it["held"] = it["status"] == "new"
+            continue
+        try:
+            if dt.datetime.fromisoformat(it["time"]) > cutoff:
+                continue
+        except Exception:
+            pass
+        it["held"] = False
+        it["auto"] = True
+        batch.append((it, clean_reply(it["suggestion"])))
+        if len(batch) >= AUTO_MAX:
+            break
+    save_state()
+    if batch:
+        run_send(batch)
+
+
+def auto_loop():
+    time.sleep(20)
+    while True:
+        try:
+            auto_cycle()
+        except Exception as e:
+            REFRESH["notes"].append("auto error: " + str(e)[:80])
+        time.sleep(max(10, REFRESH_MIN) * 60)
+
+
 # ------------------------------------------------------------------ web
 PAGE = open(HERE / "index.html", encoding="utf-8").read() if (HERE / "index.html").exists() else "<h1>index.html missing</h1>"
 LOGIN = """<!doctype html><meta name=viewport content="width=device-width,initial-scale=1"><title>Comment Hub</title>
@@ -417,10 +461,10 @@ class H(http.server.BaseHTTPRequestHandler):
         if not self.authed():
             return self.send(200, LOGIN.format(msg=""))
         if path == "/":
-            return self.send(200, PAGE.replace("__DEMO__", "true" if DRY else "false"))
+            return self.send(200, PAGE.replace("__DEMO__", "true" if DRY else "false").replace("__AUTO__", "true" if AUTO else "false"))
         if path == "/api/items":
             items = sorted(STATE["items"].values(), key=lambda x: x["time"], reverse=True)
-            return self.json({"items": [i for i in items if i["status"] in ("new", "sent")][:400], "refresh": REFRESH, "job": JOB, "caps": CAPS,
+            return self.json({"items": [i for i in items if i["status"] in ("new", "sent")][:400], "refresh": REFRESH, "job": JOB, "caps": CAPS, "auto": AUTO,
                               "sent_today": STATE["sent"].get(dt.datetime.now().strftime("%Y-%m-%d"), {})})
         self.send(404, "not found")
 
@@ -483,6 +527,11 @@ def main():
     if DEMO:
         demo_items()
         do_refresh()
+    for it in STATE["items"].values():      # re-write old suggestions once so they carry the safe/unsafe flag
+        if it.get("status") == "new" and "auto_ok" not in it:
+            it["suggestion"], it["sugg_done"] = "", False
+    if AUTO and not DEMO:
+        threading.Thread(target=auto_loop, daemon=True).start()
     srv = http.server.ThreadingHTTPServer((BIND, PORT), H)
     print(f"Comment Hub on http://{BIND}:{PORT}" + ("   (DEMO / dry run: nothing is posted)" if DRY else ""), flush=True)
     srv.serve_forever()
