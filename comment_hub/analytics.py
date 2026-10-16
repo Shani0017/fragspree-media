@@ -18,8 +18,8 @@ _cfg = {}
 LOCK = threading.Lock()
 
 
-def init(here, env, accounts, yt_token):
-    _cfg.update(here=Path(here), env=env, accounts=accounts, yt_token=yt_token)
+def init(here, env, accounts, yt_token, why=lambda j: "YouTube channel lookup failed"):
+    _cfg.update(here=Path(here), env=env, accounts=accounts, yt_token=yt_token, why=why)
     f = Path(here) / "analytics.json"
     _cfg["file"] = f
     if f.exists():
@@ -92,7 +92,7 @@ def fetch_yt(acct, token_file):
     api = "https://www.googleapis.com/youtube/v3"
     ch = requests.get(f"{api}/channels", params={"part": "contentDetails,statistics", "mine": "true"}, headers=h, timeout=30).json()
     if "items" not in ch:
-        return None, "YouTube channel lookup failed (sign-in?)"
+        return None, _cfg["why"](ch)
     c = ch["items"][0]
     up = c["contentDetails"]["relatedPlaylists"]["uploads"]
     ids, page = [], None
