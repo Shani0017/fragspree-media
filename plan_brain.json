@@ -1,14 +1,5 @@
 [
  {
-  "n": 24,
-  "time": "2026-10-17T00:00:00+08:00",
-  "unix": 1792166400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/dccf5bbedcb0.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0410b6ad4da5.jpg",
-  "caption": "Expected Maximum Of Two Dice\n\nYou roll two fair dice and keep the larger value. What's the expected value?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "091 Expected Maximum Of Two Dice - Interview Question.mp4"
- },
- {
   "n": 25,
   "time": "2026-10-17T14:00:00+08:00",
   "unix": 1792216800,
@@ -277,51 +268,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 69,
-  "time": "2026-10-17T02:00:00+08:00",
-  "unix": 1792173600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/86db06e488d0.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b7721047a8b1.jpg",
-  "caption": "Trailing Zeros Of 100 Factorial\n\nHow many zeros are at the end of one hundred factorial, that is, one times two times three, all the way to one hundred?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "035 Trailing Zeros Of 100 Factorial - Interview Question.mp4"
- },
- {
-  "n": 70,
-  "time": "2026-10-17T04:00:00+08:00",
-  "unix": 1792180800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1cef05526d6a.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f9ee806bdba6.jpg",
-  "caption": "Why Sorting Takes n Log n\n\nWhy can no comparison based sorting algorithm be faster than n log n in the worst case?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "064 Why Sorting Takes n Log n - Interview Question.mp4"
- },
- {
-  "n": 71,
-  "time": "2026-10-17T06:00:00+08:00",
-  "unix": 1792188000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cc996b8d0fab.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9a5b7ea22184.jpg",
-  "caption": "Find The Duplicate Number\n\nAn array has n plus one integers, each between one and n. At least one repeats. How do you find a duplicate in linear time, constant space, without modifying the array?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "069 Find The Duplicate Number - Interview Question.mp4"
- },
- {
-  "n": 72,
-  "time": "2026-10-17T08:00:00+08:00",
-  "unix": 1792195200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/65db549d001c.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/abc6e8b015fe.jpg",
-  "caption": "Rate Limiter Token Bucket\n\nHow would you design a rate limiter that allows short bursts but enforces an average limit?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "071 Rate Limiter Token Bucket - Interview Question.mp4"
- },
- {
-  "n": 73,
-  "time": "2026-10-17T10:00:00+08:00",
-  "unix": 1792202400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5b90ac32bb22.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/041db46af9e3.jpg",
-  "caption": "Sun Tzu's Remainder Problem\n\nA number leaves remainder two when divided by three, remainder three when divided by five, and remainder two when divided by seven. What's the smallest such number?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "049 Sun Tzu's Remainder Problem - Interview Question.mp4"
  },
  {
   "n": 74,
