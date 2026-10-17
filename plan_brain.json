@@ -270,15 +270,6 @@
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
  },
  {
-  "n": 74,
-  "time": "2026-10-17T12:00:00+08:00",
-  "unix": 1792209600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/de0b741eccef.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5077b60a9d5c.jpg",
-  "caption": "Reservoir Sampling\n\nItems arrive one at a time, and you don't know how many there will be. How do you pick one uniformly at random, using constant memory?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "066 Reservoir Sampling - Interview Question.mp4"
- },
- {
   "n": 75,
   "time": "2026-10-17T16:00:00+08:00",
   "unix": 1792224000,
