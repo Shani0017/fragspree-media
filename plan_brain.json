@@ -1,14 +1,5 @@
 [
  {
-  "n": 26,
-  "time": "2026-10-17T18:00:00+08:00",
-  "unix": 1792231200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/201bf42f60d9.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bc2d49dab413.jpg",
-  "caption": "Ants On A Stick\n\nMany ants are placed at random spots on a one metre stick, each walking left or right at one metre per minute. When two meet they turn around. What's the longest time before every ant has fallen off?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "097 Ants On A Stick - Interview Question.mp4"
- },
- {
   "n": 27,
   "time": "2026-10-17T20:00:00+08:00",
   "unix": 1792238400,
@@ -259,15 +250,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 75,
-  "time": "2026-10-17T16:00:00+08:00",
-  "unix": 1792224000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/09e9d6376d21.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/717bf157784b.jpg",
-  "caption": "Reverse A Linked List\n\nHow do you reverse a singly linked list in place, in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "054 Reverse A Linked List - Interview Question.mp4"
  },
  {
   "n": 76,
