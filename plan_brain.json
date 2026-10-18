@@ -1,32 +1,5 @@
 [
  {
-  "n": 27,
-  "time": "2026-10-17T20:00:00+08:00",
-  "unix": 1792238400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7414962b159b.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/594ce0acd794.jpg",
-  "caption": "Consistent Hashing\n\nYou spread keys over servers with hash modulo n. When you add a server, almost every key moves. How do you avoid that?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "072 Consistent Hashing - Interview Question.mp4"
- },
- {
-  "n": 28,
-  "time": "2026-10-17T22:00:00+08:00",
-  "unix": 1792245600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f70fef71db5d.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9ad7d17897b6.jpg",
-  "caption": "Swap Without A Temp Variable\n\nHow do you swap two integers without using a temporary variable?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "059 Swap Without A Temp Variable - Interview Question.mp4"
- },
- {
-  "n": 29,
-  "time": "2026-10-18T00:00:00+08:00",
-  "unix": 1792252800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f289a5ffdf1b.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e6f8c0fe7547.jpg",
-  "caption": "Bits For A Billion IDs\n\nHow many bits are needed to give a unique number to each of one billion items?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "075 Bits For A Billion IDs - Interview Question.mp4"
- },
- {
   "n": 30,
   "time": "2026-10-18T14:00:00+08:00",
   "unix": 1792303200,
@@ -250,42 +223,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 76,
-  "time": "2026-10-18T02:00:00+08:00",
-  "unix": 1792260000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2b2557c2e800.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c6d5a374dc0a.jpg",
-  "caption": "Coprime Probability\n\nYou choose two large random positive integers. What's the probability that they have no common factor other than one?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "018 Coprime Probability - Interview Question.mp4"
- },
- {
-  "n": 77,
-  "time": "2026-10-18T04:00:00+08:00",
-  "unix": 1792267200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b03716247ed5.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4d7c13a9c9c5.jpg",
-  "caption": "Three Points On A Circle\n\nThree points are chosen at random on a circle. What's the probability that all three lie in the same semicircle?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "093 Three Points On A Circle - Interview Question.mp4"
- },
- {
-  "n": 78,
-  "time": "2026-10-18T06:00:00+08:00",
-  "unix": 1792274400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/beb90a4ce87a.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c50c69ae5eb9.jpg",
-  "caption": "Primes Under 100\n\nHow many prime numbers are there less than one hundred, and how can you find them all without testing every number?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "047 Primes Under 100 - Interview Question.mp4"
- },
- {
-  "n": 79,
-  "time": "2026-10-18T08:00:00+08:00",
-  "unix": 1792281600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b61b76d5acb9.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/712811a6b8f3.jpg",
-  "caption": "Hash Collisions Birthday Bound\n\nA hash function outputs 32 bit values, about four point three billion possibilities. Roughly how many items can you hash before a collision is more likely than not?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "067 Hash Collisions Birthday Bound - Interview Question.mp4"
  },
  {
   "n": 80,
