@@ -61,7 +61,7 @@ textarea{width:100%;min-height:68px;resize:vertical;background:var(--bg2);border
 <script>
 const DEMO = __DEMO__, AUTO = __AUTO__;
 let items = [], filter = 'all', edits = {}, checked = {}, busy = false, caps = {}, sentToday = {};
-const FILTERS = [['all','All'],['FragSpree|Instagram','FragSpree IG'],['FragSpree|YouTube','FragSpree YT'],['Brain Massage|Instagram','Brain IG'],['Brain Massage|YouTube','Brain YT'],['held','Held back'],['question','Questions'],['negative','Negative'],['spam','Spam']];
+const FILTERS = [['all','Needs reply'],['FragSpree|Instagram','FragSpree IG'],['FragSpree|YouTube','FragSpree YT'],['Brain Massage|Instagram','Brain IG'],['Brain Massage|YouTube','Brain YT'],['held','Held back'],['question','Questions'],['negative','Negative'],['spam','Spam'],['done','Answered']];
 const $ = id => document.getElementById(id);
 const api = (p, body) => fetch(p, body === undefined ? {} : {method:'POST', headers:{'Content-Type':'application/json','X-Hub':'1'}, body:JSON.stringify(body)}).then(r => r.json());
 const I = {
@@ -74,15 +74,21 @@ const COLORS = ['#7c6bff','#5b8cff','#22c3a6','#f59e0b','#ec4899','#ef4444','#14
 function ago(t){const s=(Date.now()-new Date(t))/1000;if(s<3600)return Math.max(1,Math.round(s/60))+' min ago';if(s<86400)return Math.round(s/3600)+' h ago';return Math.round(s/86400)+' d ago';}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function colorOf(s){let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return COLORS[h%COLORS.length];}
-function visible(){return items.filter(i=>{
-  if(filter==='all')return true;
-  if(filter.includes('|'))return (i.acct+'|'+i.platform)===filter;
-  if(filter==='held')return i.status==='new'&&i.held;
-  return i.kind===filter;});}
+const pending=i=>i.status==='new'&&i.kind!=='spam';
+function match(i,k){
+  if(k==='done')return i.status==='sent';
+  if(k==='spam')return i.status==='new'&&i.kind==='spam';
+  if(!pending(i))return false;
+  if(k==='all')return true;
+  if(k.includes('|'))return (i.acct+'|'+i.platform)===k;
+  if(k==='held')return !!i.held;
+  return i.kind===k;
+}
+function visible(){return items.filter(i=>match(i,filter));}
 function defaultChecked(i){return i.status==='new' && !!i.suggestion && !['spam','negative'].includes(i.kind);}
 const KIND_PILL={question:['q','Question'],negative:['neg','Negative'],spam:['spam','Spam'],positive:['pos','Praise'],request:['q','Request']};
 function render(){
-  $('chips').innerHTML=FILTERS.map(([k,l])=>{const n=items.filter(i=>k==='all'?true:k.includes('|')?(i.acct+'|'+i.platform)===k:k==='held'?(i.status==='new'&&i.held):i.kind===k).length;return `<div class="chip ${filter===k?'on':''}" data-f="${k}">${l}<b>${n}</b></div>`}).join('');
+  $('chips').innerHTML=FILTERS.map(([k,l])=>{const n=items.filter(i=>match(i,k)).length;return `<div class="chip ${filter===k?'on':''}" data-f="${k}">${l}<b>${n}</b></div>`}).join('');
   document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{filter=c.dataset.f;render();});
   const v=visible();
   $('count').textContent=`${v.length} comment${v.length===1?'':'s'}`;
@@ -101,7 +107,7 @@ function render(){
       <div class="lab">${I.spark}Suggested reply</div>
       <textarea data-k="${esc(i.key)}" placeholder="No suggested reply. Write one, or skip.">${esc(text||'')}</textarea>
       <div class="foot"><label class="sw"><input type="checkbox" data-c="${esc(i.key)}" ${checked[i.key]?'checked':''}><i></i>Send this reply</label><span class="sp"></span><button class="btn ghost sm" data-s="${esc(i.key)}">Skip</button></div>`}
-    </article>`}).join(''):`<div class="card empty"><div class="ring">${I.inbox}</div><b>No comments here yet</b><p class="muted" style="margin:6px 0 0">Tap Refresh to read the latest.</p></div>`;
+    </article>`}).join(''):`<div class="card empty"><div class="ring">${I.inbox}</div><b>${filter==='all'?'All caught up':'Nothing here'}</b><p class="muted" style="margin:6px 0 0">${filter==='all'?'No comments are waiting for a reply.':''} Tap Refresh to read the latest.</p></div>`;
   document.querySelectorAll('textarea').forEach(t=>{t.oninput=()=>{edits[t.dataset.k]=t.value;if(t.value.trim()){checked[t.dataset.k]=true;const cb=document.querySelector(`[data-c="${CSS.escape(t.dataset.k)}"]`);if(cb)cb.checked=true;}count();};});
   document.querySelectorAll('[data-c]').forEach(c=>c.onchange=()=>{checked[c.dataset.c]=c.checked;count();});
   document.querySelectorAll('[data-s]').forEach(b=>b.onclick=async()=>{await api('/api/skip',{keys:[b.dataset.s]});load();});
