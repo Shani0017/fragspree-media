@@ -180,15 +180,6 @@
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
  },
  {
-  "n": 87,
-  "time": "2026-10-19T10:00:00+08:00",
-  "unix": 1792375200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4075914f98fa.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c81173085d94.jpg",
-  "caption": "Maximum Subarray Kadane\n\nGiven an array of positive and negative numbers, find the contiguous subarray with the largest sum, in linear time.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "070 Maximum Subarray Kadane - Interview Question.mp4"
- },
- {
   "n": 88,
   "time": "2026-10-19T12:00:00+08:00",
   "unix": 1792382400,
