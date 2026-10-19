@@ -1,50 +1,5 @@
 [
  {
-  "n": 30,
-  "time": "2026-10-18T14:00:00+08:00",
-  "unix": 1792303200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/435662e91433.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/dac230b4b702.jpg",
-  "caption": "Two Guards One Question\n\nYou face two doors. One leads to freedom, one to death. Two guards stand there: one always tells the truth, the other always lies. You don't know which is which. You may ask one question to one guard. What do you ask?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "030 Two Guards One Question - Interview Question.mp4"
- },
- {
-  "n": 31,
-  "time": "2026-10-18T18:00:00+08:00",
-  "unix": 1792317600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/67e5ebc8db75.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f95834f472cf.jpg",
-  "caption": "Hourglasses 7 And 4 Make 9\n\nYou have a seven minute hourglass and a four minute hourglass. How do you measure exactly nine minutes?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "099 Hourglasses 7 And 4 Make 9 - Interview Question.mp4"
- },
- {
-  "n": 32,
-  "time": "2026-10-18T20:00:00+08:00",
-  "unix": 1792324800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/71be395e20da.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/361e938c64c3.jpg",
-  "caption": "100 Doors Toggle\n\nThere are one hundred closed doors. On pass one you toggle every door. On pass two every second door, on pass three every third door, up to pass one hundred. Which doors end up open?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "020 100 Doors Toggle - Interview Question.mp4"
- },
- {
-  "n": 33,
-  "time": "2026-10-18T22:00:00+08:00",
-  "unix": 1792332000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b1244889e10e.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/da7ebdc2f1e0.jpg",
-  "caption": "Clock Hands Overlap\n\nHow many times in twenty four hours do the hour hand and the minute hand of a clock overlap exactly?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "033 Clock Hands Overlap - Interview Question.mp4"
- },
- {
-  "n": 34,
-  "time": "2026-10-19T00:00:00+08:00",
-  "unix": 1792339200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/694a2b767048.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/163c92bc500b.jpg",
-  "caption": "Mutilated Chessboard\n\nA chessboard has two opposite corners removed. You have thirty one dominoes, each covering two adjacent squares. Can you cover the whole board without gaps or overlaps?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "032 Mutilated Chessboard - Interview Question.mp4"
- },
- {
   "n": 35,
   "time": "2026-10-19T14:00:00+08:00",
   "unix": 1792389600,
@@ -223,69 +178,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 80,
-  "time": "2026-10-18T10:00:00+08:00",
-  "unix": 1792288800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1fbe96da5e69.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/281d75eda735.jpg",
-  "caption": "Coin Flips HH Versus HT\n\nYou flip a fair coin until a pattern appears. How many flips does it take on average to see heads then heads? And how many to see heads then tails?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "007 Coin Flips HH Versus HT - Interview Question.mp4"
- },
- {
-  "n": 81,
-  "time": "2026-10-18T12:00:00+08:00",
-  "unix": 1792296000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/77e8393aa814.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2faa21c7cf96.jpg",
-  "caption": "Rotate An Array By K\n\nHow do you rotate an array of n elements to the right by k positions in place, in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "088 Rotate An Array By K - Interview Question.mp4"
- },
- {
-  "n": 82,
-  "time": "2026-10-18T16:00:00+08:00",
-  "unix": 1792310400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5dc31df5def1.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d20b9227d850.jpg",
-  "caption": "Euclid's GCD Of 1071 And 462\n\nWhat is the greatest common divisor of one thousand seventy one and four hundred sixty two, and how do you find it without factoring?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "046 Euclid's GCD Of 1071 And 462 - Interview Question.mp4"
- },
- {
-  "n": 83,
-  "time": "2026-10-19T02:00:00+08:00",
-  "unix": 1792346400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/85ef7b2a0966.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cdd45fda66eb.jpg",
-  "caption": "Collect All Six Faces\n\nYou roll a fair die repeatedly. On average, how many rolls until every face from one to six has appeared at least once?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "009 Collect All Six Faces - Interview Question.mp4"
- },
- {
-  "n": 84,
-  "time": "2026-10-19T04:00:00+08:00",
-  "unix": 1792353600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5db066d015c8.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7af0009de17b.jpg",
-  "caption": "Random Point In A Circle\n\nA point is chosen uniformly at random inside a circle of radius one. What's the expected distance from the centre?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "019 Random Point In A Circle - Interview Question.mp4"
- },
- {
-  "n": 85,
-  "time": "2026-10-19T06:00:00+08:00",
-  "unix": 1792360800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0b42b1dae251.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/24745509e403.jpg",
-  "caption": "Best Time To Buy And Sell\n\nGiven a list of daily stock prices, find the maximum profit from one buy followed by one sell, in a single pass.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "087 Best Time To Buy And Sell - Interview Question.mp4"
- },
- {
-  "n": 86,
-  "time": "2026-10-19T08:00:00+08:00",
-  "unix": 1792368000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f8afc9355cb2.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ab1488423a57.jpg",
-  "caption": "Sum Of 1 To 100\n\nWhat is the sum of all whole numbers from one to one hundred, and how can you do it in seconds?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "036 Sum Of 1 To 100 - Interview Question.mp4"
  },
  {
   "n": 87,
