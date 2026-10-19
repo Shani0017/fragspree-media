@@ -39,7 +39,7 @@ CFG.update({k: v for k, v in os.environ.items() if k.startswith(("HUB_", "GEMINI
 PASSWORD = CFG.get("HUB_PASSWORD", "")
 PORT = int(CFG.get("HUB_PORT", "8780"))
 BIND = CFG.get("HUB_BIND", "127.0.0.1")
-DAYS = int(CFG.get("DAYS", "7"))
+DAYS = max(30, int(CFG.get("DAYS", "30")))          # look back a month so older unanswered comments do not disappear
 GEMINI = CFG.get("GEMINI_API_KEY", "")
 DRY = DEMO or CFG.get("DRY_RUN", "0") == "1"
 CAPS = {"Instagram": int(CFG.get("IG_REPLY_CAP", "120")), "YouTube": int(CFG.get("YT_REPLY_CAP", "60"))}   # replies per day (YouTube: 50 quota units each)
@@ -247,7 +247,7 @@ def suggest_batch(items):
                   "if the viewer gives an answer, say kindly whether it matches the correct answer, and if it is wrong give a one-line hint from the solution without being rude; "
                   "if they ask about the solution, answer it from the solution summary; if they ask something we cannot know, say you'll look into it; if they suggest a video, thank them "
                   "and say it is noted; if it is praise, thank them in a specific way that mentions the video's topic; never invent facts that are not in the data; if the comment is rude "
-                  "or spam leave the reply empty; also leave it empty if the comment contains a stereotype or anything offensive about a group of people. If you are not sure what the viewer means, or they disagree or debate the answer, or tell a story about themselves, still write a short, polite, neutral DRAFT that engages with what they said using only the given data (for a disagreement about how the puzzle is read, say the answer depends on the wording and give the solution's reasoning briefly), but mark it \"safe\": false so a person approves it first. Never claim you agree with something you do not understand. Vary the wording so replies do not look copied. Also give each row \"safe\": true ONLY when you clearly understand the comment AND it is one of: a clear answer attempt to the video's question, plain praise or thanks or emojis, a simple greeting, a question the given data answers, a suggestion for a new video; otherwise \"safe\": false (jokes, sarcasm, comparisons, stories about the viewer, insults, anything unclear or sensitive). Return ONLY a JSON list like [{{\"i\":0,\"reply\":\"...\",\"safe\":true}}].\n\n").format(acct=items[0]["acct"]) + json.dumps(payload)
+                  "or spam leave the reply empty. Every other comment MUST get a draft, never empty: if it is negative, rude, offensive or contains a stereotype, write a short, calm, polite reply that does not argue, does not repeat or agree with the offensive part and does not insult back (mark \"safe\": false). If you are not sure what the viewer means, or they disagree or debate the answer, or tell a story about themselves, write a short, polite, neutral DRAFT that engages with what they said using only the given data (for a disagreement about how the puzzle is read, say the answer depends on the wording and give the solution's reasoning briefly), and mark it \"safe\": false so a person approves it first. Never claim you agree with something you do not understand. Vary the wording so replies do not look copied. Also give each row \"safe\": true ONLY when you clearly understand the comment AND it is one of: a clear answer attempt to the video's question, plain praise or thanks or emojis, a simple greeting, a question the given data answers, a suggestion for a new video; otherwise \"safe\": false (jokes, sarcasm, comparisons, stories about the viewer, insults, anything unclear or sensitive). Return ONLY a JSON list like [{{\"i\":0,\"reply\":\"...\",\"safe\":true}}].\n\n").format(acct=items[0]["acct"]) + json.dumps(payload)
         try:
             r = requests.post("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent", params={"key": GEMINI},
                               json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.8}}, timeout=90).json()
@@ -256,6 +256,9 @@ def suggest_batch(items):
                 it = items[int(row["i"])]
                 it["suggestion"] = re.sub(r"https?://\S+", "", str(row.get("reply", ""))).strip()[:260]
                 it["auto_ok"] = bool(row.get("safe")) and bool(it["suggestion"])
+            for it in items:
+                if not (it.get("suggestion") or "").strip() and it["kind"] != "spam":
+                    it["suggestion"], it["auto_ok"] = "Thanks for watching and for sharing your thoughts!", False
             return
         except Exception as e:
             REFRESH["notes"].append("AI suggestions unavailable (using simple rules): " + str(e)[:80])
@@ -308,7 +311,7 @@ def do_refresh():
                         x["status"] = "answered" if x["answered"] else "new"
                         STATE["items"][key] = x
         REFRESH["msg"] = "Writing suggested replies..."
-        todo = [it for it in STATE["items"].values() if it["status"] == "new" and not it.get("suggestion") and it["kind"] not in ("spam", "negative") and not it.get("sugg_done")]
+        todo = [it for it in STATE["items"].values() if it["status"] == "new" and not it.get("suggestion") and it["kind"] != "spam" and not it.get("sugg_done")]
         by = {}
         for it in todo:
             by.setdefault(it["acct"], []).append(it)
@@ -563,8 +566,8 @@ def main():
         demo_items()
         do_refresh()
     for it in STATE["items"].values():      # re-write old suggestions once so they carry the safe/unsafe flag
-        if it.get("status") == "new" and ("auto_ok" not in it or (not it.get("suggestion") and it["kind"] not in ("spam", "negative") and not it.get("draft2"))):
-            it["draft2"] = True
+        if it.get("status") == "new" and ("auto_ok" not in it or (not it.get("suggestion") and it["kind"] != "spam" and not it.get("draft3"))):
+            it["draft3"] = True
             it["suggestion"], it["sugg_done"] = "", False
     analytics.init(HERE, env, ACCOUNTS, yt_token, yt_why)
     if not DEMO:
