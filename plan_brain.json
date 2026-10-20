@@ -1,14 +1,5 @@
 [
  {
-  "n": 43,
-  "time": "2026-10-20T22:00:00+08:00",
-  "unix": 1792504800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a289ec767008.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f4d0ff94ee31.jpg",
-  "caption": "Ants On A Triangle\n\nThree ants sit on the corners of a triangle. Each one picks an edge at random and starts walking along it. What's the probability that no two ants collide?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "017 Ants On A Triangle - Interview Question.mp4"
- },
- {
   "n": 44,
   "time": "2026-10-21T00:00:00+08:00",
   "unix": 1792512000,
