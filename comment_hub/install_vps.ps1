@@ -6,7 +6,7 @@ $base = "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/commen
 $dir = "C:\comment_hub"
 New-Item -ItemType Directory -Force $dir | Out-Null
 Write-Host "1/5 Downloading the page and the reel list..." -ForegroundColor Cyan
-foreach ($f in "hub.py", "index.html", "analytics.py", "analytics.html", "ui.css", "video_context.json") {
+foreach ($f in "hub.py", "index.html", "analytics.py", "analytics.html", "schedule.html", "ui.css", "video_context.json") {
     Invoke-WebRequest "${base}/${f}?t=$([DateTimeOffset]::UtcNow.ToUnixTimeSeconds())" -OutFile "$dir\$f" -UseBasicParsing
 }
 if (-not (Test-Path "$dir\cloudflared.exe")) {
