@@ -441,6 +441,22 @@ def auto_loop():
 # ------------------------------------------------------------------ web
 import analytics
 ANPAGE = open(HERE / "analytics.html", encoding="utf-8").read() if (HERE / "analytics.html").exists() else "<h1>analytics.html missing</h1>"
+SCPAGE = open(HERE / "schedule.html", encoding="utf-8").read() if (HERE / "schedule.html").exists() else "<h1>schedule.html missing</h1>"
+_SC = {"t": 0, "d": None}
+
+
+def schedule_data():
+    """until-when-is-each-account-scheduled, published by the PC's scheduler as coverage.json in the public media repo"""
+    if _SC["d"] and time.time() - _SC["t"] < 120:
+        return _SC["d"]
+    try:
+        r = requests.get("https://raw.githubusercontent.com/Shani0017/fragspree-media/main/coverage.json", params={"t": int(time.time())}, timeout=20)
+        d = r.json() if r.ok else {"error": "The PC has not published the schedule yet."}
+    except Exception:
+        d = _SC["d"] or {"error": "Could not reach the schedule file."}
+    _SC.update(t=time.time(), d=d)
+    return d
+
 PAGE = open(HERE / "index.html", encoding="utf-8").read() if (HERE / "index.html").exists() else "<h1>index.html missing</h1>"
 LOGIN = """<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#0a0c12"><title>Sign in - Comment Hub</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel=stylesheet>
@@ -494,6 +510,10 @@ class H(http.server.BaseHTTPRequestHandler):
             return self.send(200, PAGE.replace("__DEMO__", "true" if DRY else "false").replace("__AUTO__", "true" if AUTO else "false"))
         if path == "/analytics":
             return self.send(200, ANPAGE)
+        if path == "/schedule":
+            return self.send(200, SCPAGE)
+        if path == "/api/schedule":
+            return self.json(schedule_data())
         if path == "/api/analytics":
             q = {k: v[0] for k, v in urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query).items()}
             return self.json(analytics.report(q.get("from", ""), q.get("to", ""), q.get("acct", ""), q.get("plat", ""), q.get("kind", "")))
