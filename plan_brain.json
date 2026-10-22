@@ -1,41 +1,5 @@
 [
  {
-  "n": 47,
-  "time": "2026-10-21T20:00:00+08:00",
-  "unix": 1792584000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b0373587e1fd.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/97beddfaf2ae.jpg",
-  "caption": "Binary Search A Billion\n\nA sorted list has one billion items. In the worst case, how many comparisons does binary search need?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "061 Binary Search A Billion - Interview Question.mp4"
- },
- {
-  "n": 48,
-  "time": "2026-10-21T22:00:00+08:00",
-  "unix": 1792591200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3d35cf67c365.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7cf55eaed467.jpg",
-  "caption": "Birthday Paradox 23 People\n\nHow many people do you need in a room before there's a better than fifty percent chance that two of them share a birthday?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "005 Birthday Paradox 23 People - Interview Question.mp4"
- },
- {
-  "n": 49,
-  "time": "2026-10-22T00:00:00+08:00",
-  "unix": 1792598400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/57a158aae019.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ac76f7806daf.jpg",
-  "caption": "Find The Missing Number\n\nAn array contains the numbers one to n, with exactly one missing. How do you find the missing number in linear time and constant space?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "053 Find The Missing Number - Interview Question.mp4"
- },
- {
-  "n": 50,
-  "time": "2026-10-22T14:00:00+08:00",
-  "unix": 1792648800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c8fa3f754895.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f817a8d2fa2b.jpg",
-  "caption": "Majority Element\n\nAn array has an element that appears more than half the time. How do you find it in one pass with constant extra memory?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "056 Majority Element - Interview Question.mp4"
- },
- {
   "n": 51,
   "time": "2026-10-22T18:00:00+08:00",
   "unix": 1792663200,
@@ -70,60 +34,6 @@
   "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8e001caeef17.jpg",
   "caption": "Eight Queens Puzzle\n\nHow many ways can you place eight queens on a chessboard so that no two attack each other?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "043 Eight Queens Puzzle - Interview Question.mp4"
- },
- {
-  "n": 104,
-  "time": "2026-10-22T02:00:00+08:00",
-  "unix": 1792605600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ef6bd4a90936.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/011806b286cc.jpg",
-  "caption": "Rotate A Matrix 90 Degrees\n\nHow do you rotate an n by n matrix ninety degrees clockwise in place?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "146 Rotate A Matrix 90 Degrees - Interview Question.mp4"
- },
- {
-  "n": 105,
-  "time": "2026-10-22T04:00:00+08:00",
-  "unix": 1792612800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a8979ce00e8a.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ece164450240.jpg",
-  "caption": "Exactly One Six In Six Dice\n\nYou roll six fair dice. What's the probability that exactly one of them shows a six?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "101 Exactly One Six In Six Dice - Interview Question.mp4"
- },
- {
-  "n": 106,
-  "time": "2026-10-22T06:00:00+08:00",
-  "unix": 1792620000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3485e3199eb0.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f2e581c72ee1.jpg",
-  "caption": "Sum Of The First 50 Odd Numbers\n\nWhat's the sum of the first fifty odd numbers, one plus three plus five, and so on?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "118 Sum Of The First 50 Odd Numbers - Interview Question.mp4"
- },
- {
-  "n": 107,
-  "time": "2026-10-22T08:00:00+08:00",
-  "unix": 1792627200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4c4676c123d5.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/1e9e32eaf5c3.jpg",
-  "caption": "Fibonacci 40 Naive Recursion\n\nThe naive recursive Fibonacci function calls itself twice. How many calls does it make to compute fib of forty, and how do you fix it?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "139 Fibonacci 40 Naive Recursion - Interview Question.mp4"
- },
- {
-  "n": 108,
-  "time": "2026-10-22T10:00:00+08:00",
-  "unix": 1792634400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/23b79cb84a72.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3d5b7686df73.jpg",
-  "caption": "Five Integers Two Differ By 4\n\nProve that among any five integers, two have a difference divisible by four.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "153 Five Integers Two Differ By 4 - Interview Question.mp4"
- },
- {
-  "n": 109,
-  "time": "2026-10-22T12:00:00+08:00",
-  "unix": 1792641600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/fff0c7f99ba5.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0a47709ef281.jpg",
-  "caption": "Stacking Books For Overhang\n\nYou stack identical books on a table, each book one unit long. With four books, how far past the table edge can the top book reach?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "159 Stacking Books For Overhang - Interview Question.mp4"
  },
  {
   "n": 110,
