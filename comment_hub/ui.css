@@ -69,7 +69,16 @@ h2.sec{font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:upperc
 .pill.q{background:rgba(91,140,255,.16);color:#9db8ff}.pill.neg{background:var(--bad-soft);color:var(--bad)}.pill.spam{background:var(--warn-soft);color:var(--warn)}.pill.pos{background:var(--ok-soft);color:var(--ok)}
 
 @media(max-width:700px){
-  .seg button{padding:6px 9px;font-size:13px}
-  .top-in{padding:10px 14px;gap:10px}.tabs{order:3;width:100%}.tabs a{flex:1;justify-content:center}
-  .wrap{padding:14px 14px 130px}
+  .seg button{padding:8px 10px;font-size:13.5px}
+  .top-in{padding:10px 14px;gap:10px}
+  .tabs{order:3;width:100%;gap:2px;padding:3px}
+  .tabs a{flex:1 1 0;min-width:0;justify-content:center;padding:10px 4px;font-size:14px;gap:5px;white-space:nowrap}
+  .tabs svg.i{width:16px;height:16px}
+  .wrap{padding:14px 14px calc(130px + env(safe-area-inset-bottom))}
+  input,select,textarea,.field{font-size:16px}
+  .btn{min-height:44px}.btn.sm{min-height:38px}
+  .chip{padding:10px 14px}
+  .bar{padding-bottom:env(safe-area-inset-bottom)}
+  body{overflow-x:hidden}
 }
+@media(max-width:360px){.tabs a svg{display:none}.brand{font-size:15px}}
