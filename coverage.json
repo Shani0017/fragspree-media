@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T01:19+08:00",
+ "updated": "2026-10-26T02:09+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -8,11 +8,11 @@
      "name": "Facebook",
      "last": "Mon 23 Nov 2026, 00:00",
      "days": 27.9,
-     "count": 234,
-     "next": "Mon 26 Oct 02:00",
+     "count": 233,
+     "next": "Mon 26 Oct 04:00",
      "level": "good",
      "per_day": {
-      "2026-10-26": 11,
+      "2026-10-26": 10,
       "2026-10-27": 12,
       "2026-10-28": 12,
       "2026-10-29": 12,
@@ -32,11 +32,11 @@
      "name": "Instagram",
      "last": "Sat 07 Nov 2026, 00:00",
      "days": 11.9,
-     "count": 144,
-     "next": "Mon 26 Oct 02:00",
+     "count": 143,
+     "next": "Mon 26 Oct 04:00",
      "level": "good",
      "per_day": {
-      "2026-10-26": 11,
+      "2026-10-26": 10,
       "2026-10-27": 12,
       "2026-10-28": 12,
       "2026-10-29": 12,
@@ -53,15 +53,19 @@
     },
     {
      "name": "YouTube",
-     "last": "nothing scheduled",
-     "days": 0,
-     "count": 0,
-     "next": "-",
-     "level": "bad",
-     "per_day": {}
+     "last": "Wed 28 Oct 2026, 10:00",
+     "days": 2.3,
+     "count": 32,
+     "next": "Mon 26 Oct 04:00",
+     "level": "warn",
+     "per_day": {
+      "2026-10-26": 14,
+      "2026-10-27": 12,
+      "2026-10-28": 6
+     }
     }
    ],
-   "yt_error": "YouTube sign-in expired - sign in again"
+   "yt_error": null
   },
   {
    "name": "Brain Massage by CN",
@@ -70,11 +74,11 @@
      "name": "Facebook",
      "last": "Wed 28 Oct 2026, 06:00",
      "days": 2.2,
-     "count": 27,
-     "next": "Mon 26 Oct 02:00",
+     "count": 26,
+     "next": "Mon 26 Oct 04:00",
      "level": "warn",
      "per_day": {
-      "2026-10-26": 11,
+      "2026-10-26": 10,
       "2026-10-27": 12,
       "2026-10-28": 4
      }
@@ -82,12 +86,12 @@
     {
      "name": "Instagram",
      "last": "Mon 09 Nov 2026, 22:00",
-     "days": 14.9,
-     "count": 179,
-     "next": "Mon 26 Oct 02:00",
+     "days": 14.8,
+     "count": 178,
+     "next": "Mon 26 Oct 04:00",
      "level": "good",
      "per_day": {
-      "2026-10-26": 11,
+      "2026-10-26": 10,
       "2026-10-27": 12,
       "2026-10-28": 12,
       "2026-10-29": 12,
@@ -105,15 +109,30 @@
     },
     {
      "name": "YouTube",
-     "last": "nothing scheduled",
-     "days": 0,
-     "count": 0,
-     "next": "-",
-     "level": "bad",
-     "per_day": {}
+     "last": "Fri 20 Nov 2026, 10:00",
+     "days": 25.3,
+     "count": 187,
+     "next": "Tue 03 Nov 18:00",
+     "level": "good",
+     "per_day": {
+      "2026-11-03": 3,
+      "2026-11-04": 8,
+      "2026-11-05": 11,
+      "2026-11-06": 11,
+      "2026-11-07": 7,
+      "2026-11-08": 10,
+      "2026-11-09": 10,
+      "2026-11-10": 12,
+      "2026-11-11": 12,
+      "2026-11-12": 12,
+      "2026-11-13": 12,
+      "2026-11-14": 12,
+      "2026-11-15": 12,
+      "2026-11-16": 12
+     }
     }
    ],
-   "yt_error": "YouTube sign-in expired - sign in again"
+   "yt_error": null
   }
  ]
 }
