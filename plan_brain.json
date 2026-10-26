@@ -1,50 +1,5 @@
 [
  {
-  "n": 147,
-  "time": "2026-10-26T02:00:00+08:00",
-  "unix": 1792951200,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9f2362363e53.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/91b8c84bfeed.jpg",
-  "caption": "Unique IDs Across Servers\n\nHow do you generate unique, roughly time ordered ids on many servers without coordinating, using sixty four bits?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "192 Unique IDs Across Servers - Interview Question.mp4"
- },
- {
-  "n": 148,
-  "time": "2026-10-26T04:00:00+08:00",
-  "unix": 1792958400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/73c85fc1b414.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/04cc40b082ee.jpg",
-  "caption": "Top K Frequent Elements\n\nGiven one, one, one, two, two, three and k equal two, how do you find the k most frequent elements in linear time?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "186 Top K Frequent Elements - Interview Question.mp4"
- },
- {
-  "n": 149,
-  "time": "2026-10-26T06:00:00+08:00",
-  "unix": 1792965600,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3882e73c9ab6.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a08ed8218e72.jpg",
-  "caption": "Poker Flush Probability\n\nYou are dealt five cards from a standard fifty two card deck. What's the probability that all five are the same suit?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "103 Poker Flush Probability - Interview Question.mp4"
- },
- {
-  "n": 150,
-  "time": "2026-10-26T08:00:00+08:00",
-  "unix": 1792972800,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f2098ea4013f.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/87eb511c1b4b.jpg",
-  "caption": "Longest Substring Without Repeats\n\nGiven a string, find the length of the longest substring without repeating characters. For example, a b c a b c b b.\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "124 Longest Substring Without Repeats - Interview Question.mp4"
- },
- {
-  "n": 151,
-  "time": "2026-10-26T10:00:00+08:00",
-  "unix": 1792980000,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9f84b150083a.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/00ac1b2d4826.jpg",
-  "caption": "Largest Product With Sum 10\n\nYou split ten into positive whole numbers that add up to ten. What's the largest possible product of the parts?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
-  "file": "173 Largest Product With Sum 10 - Interview Question.mp4"
- },
- {
   "n": 152,
   "time": "2026-10-26T12:00:00+08:00",
   "unix": 1792987200,
@@ -1583,5 +1538,525 @@
   "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9b72b782d789.mp4",
   "caption": "Roll Every Face Of A Die\n\nHow many rolls does it take on average to see all six faces of a die?\n\nComment your answer, then watch the solution.\nFollow Brain Massage by CN for a new brain teaser every day\n\n#interviewquestion #brainteaser #logic #puzzle #problemsolving",
   "file": "311 Roll Every Face Of A Die - Interview Question.mp4"
+ },
+ {
+  "n": 326,
+  "time": "2026-11-10T00:00:00+08:00",
+  "unix": 1794240000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ad5ddfd786c5.mp4",
+  "caption": "Make It Satisfying\n\nIt starts with a green owl that sends millions of reminders. Language app Duolingo uses a simple counter: how many days in a row you have practiced.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "411 Make It Satisfying - Interview Question.mp4"
+ },
+ {
+  "n": 327,
+  "time": "2026-11-10T02:00:00+08:00",
+  "unix": 1794247200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e617925df158.mp4",
+  "caption": "The Binary Search Bug\n\nIt starts with a bug that sat in textbooks for decades. Binary search looks simple, and for decades programmers wrote it the same way.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "431 The Binary Search Bug - Interview Question.mp4"
+ },
+ {
+  "n": 328,
+  "time": "2026-11-10T04:00:00+08:00",
+  "unix": 1794254400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/aa7aca3302b7.mp4",
+  "caption": "Hide The Candy\n\nIt starts with a bowl of candy in a tech company's office. Google wanted its employees to snack healthier, so it studied its own offices.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "402 Hide The Candy - Interview Question.mp4"
+ },
+ {
+  "n": 329,
+  "time": "2026-11-10T06:00:00+08:00",
+  "unix": 1794261600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d67173fff50d.mp4",
+  "caption": "The Same Cure Described Two Ways\n\nIt starts with a disease problem and two ways of telling it. Tversky and Kahneman told people a disease threatened six hundred lives and offered two programs.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "449 The Same Cure Described Two Ways - Interview Question.mp4"
+ },
+ {
+  "n": 330,
+  "time": "2026-11-10T08:00:00+08:00",
+  "unix": 1794268800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/41c170072ca5.mp4",
+  "caption": "Patience Pays\n\nIt starts with a number about one of the richest investors ever. Warren Buffett began investing as a child, and for decades his wealth looked ordinary.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "413 Patience Pays - Interview Question.mp4"
+ },
+ {
+  "n": 331,
+  "time": "2026-11-10T10:00:00+08:00",
+  "unix": 1794276000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/73e9b1947bec.mp4",
+  "caption": "The Bug That Leaked The Internet\n\nIt starts with a feature that was meant to keep connections alive. In 2014, a bug called Heartbleed was found in OpenSSL, software that secures much of the web.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "430 The Bug That Leaked The Internet - Interview Question.mp4"
+ },
+ {
+  "n": 332,
+  "time": "2026-11-10T12:00:00+08:00",
+  "unix": 1794283200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d72369aadf8a.mp4",
+  "caption": "The Rocket That Exploded\n\nIt starts with a rocket that blew itself up in under a minute. In 1996, Europe launched the Ariane 5 rocket on its very first flight.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "425 The Rocket That Exploded - Interview Question.mp4"
+ },
+ {
+  "n": 333,
+  "time": "2026-11-10T14:00:00+08:00",
+  "unix": 1794290400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d3c6fa928cee.mp4",
+  "caption": "Point And Call\n\nIt starts with a strange habit on Japanese railways. Train staff in Japan point at signals and say what they see out loud, like signal is green.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "423 Point And Call - Interview Question.mp4"
+ },
+ {
+  "n": 334,
+  "time": "2026-11-10T16:00:00+08:00",
+  "unix": 1794297600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4913ab17a0e8.mp4",
+  "caption": "The Useless Third Option\n\nIt starts with a magazine subscription page. Dan Ariely offered students a web only subscription, a print only subscription, and a print plus web bundle.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "466 The Useless Third Option - Interview Question.mp4"
+ },
+ {
+  "n": 335,
+  "time": "2026-11-10T18:00:00+08:00",
+  "unix": 1794304800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/95e2a24a234a.mp4",
+  "caption": "The Season Ticket Study\n\nIt starts with theatre tickets sold at three different prices. Researchers sold season theatre tickets at full price, at a discount, or at a bigger discount.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "456 The Season Ticket Study - Interview Question.mp4"
+ },
+ {
+  "n": 336,
+  "time": "2026-11-10T20:00:00+08:00",
+  "unix": 1794312000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f0cb8c07f2da.mp4",
+  "caption": "The 49 Day Crash\n\nIt starts with a bug nobody found for years. Windows 95 would crash if it ran continuously for about 49 and a half days.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "443 The 49 Day Crash - Interview Question.mp4"
+ },
+ {
+  "n": 337,
+  "time": "2026-11-10T22:00:00+08:00",
+  "unix": 1794319200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ccb63bf5470d.mp4",
+  "caption": "Everyone Else Is Doing It\n\nIt starts with a sign in a hotel bathroom. Researchers tested signs asking hotel guests to reuse their towels.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "417 Everyone Else Is Doing It - Interview Question.mp4"
+ },
+ {
+  "n": 338,
+  "time": "2026-11-11T00:00:00+08:00",
+  "unix": 1794326400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ec34a435b7c8.mp4",
+  "caption": "The Missing Bullet Holes\n\nIt starts with a war plane covered in bullet holes. In World War Two, the military studied bombers returning from missions and mapped where they had bullet holes.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "461 The Missing Bullet Holes - Interview Question.mp4"
+ },
+ {
+  "n": 339,
+  "time": "2026-11-11T02:00:00+08:00",
+  "unix": 1794333600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/881195176b0c.mp4",
+  "caption": "The 1 Percent Rule\n\nIt starts with a cycling team that had won almost nothing in a hundred years. British cycling had won one Olympic gold medal in nearly a century. Then Dave Brailsford took over.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "401 The 1 Percent Rule - Interview Question.mp4"
+ },
+ {
+  "n": 340,
+  "time": "2026-11-11T04:00:00+08:00",
+  "unix": 1794340800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5cb77f8192c0.mp4",
+  "caption": "The Day Facebook Vanished\n\nIt starts with six hours when billions couldn't reach their apps. In October 2021, Facebook, Instagram, and WhatsApp all went offline for about six hours.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "440 The Day Facebook Vanished - Interview Question.mp4"
+ },
+ {
+  "n": 341,
+  "time": "2026-11-11T06:00:00+08:00",
+  "unix": 1794348000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5bf59fa9e4b7.mp4",
+  "caption": "A Clock That Drifted\n\nIt starts with a tiny rounding error in a missile defense system. During the 1991 Gulf War, a Patriot missile battery failed to intercept an incoming missile.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "434 A Clock That Drifted - Interview Question.mp4"
+ },
+ {
+  "n": 342,
+  "time": "2026-11-11T08:00:00+08:00",
+  "unix": 1794355200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a0d777f4c592.mp4",
+  "caption": "The Confident Beginners\n\nIt starts with a test of logic, grammar, and humour. In 1999, psychologists Dunning and Kruger tested students on logic, grammar, and humour.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "459 The Confident Beginners - Interview Question.mp4"
+ },
+ {
+  "n": 343,
+  "time": "2026-11-11T10:00:00+08:00",
+  "unix": 1794362400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/de51486e04b6.mp4",
+  "caption": "Don't Break The Chain\n\nIt starts with advice a comedian is said to have given. The story goes that Jerry Seinfeld told a young comic to write jokes every day.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "412 Don't Break The Chain - Interview Question.mp4"
+ },
+ {
+  "n": 344,
+  "time": "2026-11-11T12:00:00+08:00",
+  "unix": 1794369600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e013f9dbd26f.mp4",
+  "caption": "The Embarrassing T-Shirt\n\nIt starts with a student wearing a Barry Manilow T-shirt. Psychologist Thomas Gilovich had students wear a large Barry Manilow T-shirt they found embarrassing into a room.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "460 The Embarrassing T-Shirt - Interview Question.mp4"
+ },
+ {
+  "n": 345,
+  "time": "2026-11-11T14:00:00+08:00",
+  "unix": 1794376800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/eef0219519d6.mp4",
+  "caption": "Peer Pressure Is Real\n\nIt starts with a test that should have been easy. Psychologist Solomon Asch showed people three lines and asked which matched a fourth.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "421 Peer Pressure Is Real - Interview Question.mp4"
+ },
+ {
+  "n": 346,
+  "time": "2026-11-11T16:00:00+08:00",
+  "unix": 1794384000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/f709971e43e5.mp4",
+  "caption": "The Room Filling With Smoke\n\nIt starts with smoke pouring into a waiting room. Latané and Darley had students fill out a form while smoke slowly poured into the room.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "465 The Room Filling With Smoke - Interview Question.mp4"
+ },
+ {
+  "n": 347,
+  "time": "2026-11-11T18:00:00+08:00",
+  "unix": 1794391200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c417c30434a2.mp4",
+  "caption": "Excel Renamed Human Genes\n\nIt starts with a spreadsheet that quietly changed gene names. Excel automatically converts some text into dates, so the gene SEPT2 became the second of September.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "446 Excel Renamed Human Genes - Interview Question.mp4"
+ },
+ {
+  "n": 348,
+  "time": "2026-11-11T20:00:00+08:00",
+  "unix": 1794398400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4a301bfde562.mp4",
+  "caption": "The Mug Experiment\n\nIt starts with free coffee mugs in a classroom. Researchers gave some students a coffee mug and asked others to bid for the same mug.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "448 The Mug Experiment - Interview Question.mp4"
+ },
+ {
+  "n": 349,
+  "time": "2026-11-11T22:00:00+08:00",
+  "unix": 1794405600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/95487a1c45b6.mp4",
+  "caption": "The Checklist That Saved Lives\n\nIt starts with a hospital problem that kept killing patients. Doctors at Johns Hopkins faced deadly infections from central lines in intensive care.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "422 The Checklist That Saved Lives - Interview Question.mp4"
+ },
+ {
+  "n": 350,
+  "time": "2026-11-12T00:00:00+08:00",
+  "unix": 1794412800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3c178ef22770.mp4",
+  "caption": "A Machine That Overdosed Patients\n\nIt starts with a hospital machine that sometimes gave far too much radiation. The Therac 25 was a radiation therapy machine used in hospitals in the 1980s.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "429 A Machine That Overdosed Patients - Interview Question.mp4"
+ },
+ {
+  "n": 351,
+  "time": "2026-11-12T02:00:00+08:00",
+  "unix": 1794420000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/01add094235b.mp4",
+  "caption": "Add Friction\n\nIt starts with a button that plays the next episode for you. Streaming services figured out that people watch more when the next episode starts on its own.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "410 Add Friction - Interview Question.mp4"
+ },
+ {
+  "n": 352,
+  "time": "2026-11-12T04:00:00+08:00",
+  "unix": 1794427200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/11c16ef5068e.mp4",
+  "caption": "The Chip That Couldn't Divide\n\nIt starts with a professor who noticed a division that looked off. In 1994, a mathematician found that Intel's new Pentium chip gave slightly wrong answers for some divisions.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "432 The Chip That Couldn't Divide - Interview Question.mp4"
+ },
+ {
+  "n": 353,
+  "time": "2026-11-12T06:00:00+08:00",
+  "unix": 1794434400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/7434c20aca1b.mp4",
+  "caption": "The Rigged Wheel\n\nIt starts with a rigged wheel and a question about Africa. Psychologists Kahneman and Tversky spun a wheel rigged to stop on either ten or sixty five.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "447 The Rigged Wheel - Interview Question.mp4"
+ },
+ {
+  "n": 354,
+  "time": "2026-11-12T08:00:00+08:00",
+  "unix": 1794441600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d1027af405d7.mp4",
+  "caption": "Score Yourself Daily\n\nIt starts with a founding father's habit scorecard. Benjamin Franklin picked thirteen virtues he wanted to build, like order and moderation.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "418 Score Yourself Daily - Interview Question.mp4"
+ },
+ {
+  "n": 355,
+  "time": "2026-11-12T10:00:00+08:00",
+  "unix": 1794448800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2794702fc420.mp4",
+  "caption": "The Smoke And The Seizure\n\nIt starts with a student having a fake seizure. Psychologists John Darley and Bibb Latané set up a staged emergency over an intercom.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "450 The Smoke And The Seizure - Interview Question.mp4"
+ },
+ {
+  "n": 356,
+  "time": "2026-11-12T12:00:00+08:00",
+  "unix": 1794456000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/3572bcbb144b.mp4",
+  "caption": "One Word Changed The Whole Impression\n\nIt starts with a guest lecturer who was introduced two different ways. Students were told a guest lecturer was either a rather warm person or a rather cold person, with everything else identical.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "455 One Word Changed The Whole Impression - Interview Question.mp4"
+ },
+ {
+  "n": 357,
+  "time": "2026-11-12T14:00:00+08:00",
+  "unix": 1794463200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b638260e9b2e.mp4",
+  "caption": "Lock Away The Escape\n\nIt starts with a famous author who kept missing his deadline. Victor Hugo was far behind on his book and kept getting distracted.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "419 Lock Away The Escape - Interview Question.mp4"
+ },
+ {
+  "n": 358,
+  "time": "2026-11-12T16:00:00+08:00",
+  "unix": 1794470400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/b8d9615ac758.mp4",
+  "caption": "Out Of Sight\n\nIt starts with a test where the phone stayed silent. Researchers at the University of Texas gave people tests that need focus.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "409 Out Of Sight - Interview Question.mp4"
+ },
+ {
+  "n": 359,
+  "time": "2026-11-12T18:00:00+08:00",
+  "unix": 1794477600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/cb713848351e.mp4",
+  "caption": "24 Jams Or 6 Jams\n\nIt starts with a jam stand in a supermarket. Researchers set up a tasting stand with twenty four jams, then another with only six.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "454 24 Jams Or 6 Jams - Interview Question.mp4"
+ },
+ {
+  "n": 360,
+  "time": "2026-11-12T20:00:00+08:00",
+  "unix": 1794484800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e294ebea1773.mp4",
+  "caption": "Why You Love What You Build\n\nIt starts with origami frogs and Ikea boxes. Researchers asked people to assemble Ikea boxes, and fold origami, and then say how much they'd pay.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "467 Why You Love What You Build - Interview Question.mp4"
+ },
+ {
+  "n": 361,
+  "time": "2026-11-12T22:00:00+08:00",
+  "unix": 1794492000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/864c82b31165.mp4",
+  "caption": "The Clock That Was 11 Hours Off\n\nIt starts with a capsule that fired its engines at the wrong moment. In 2019, Boeing's Starliner capsule launched on a test flight to the space station.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "439 The Clock That Was 11 Hours Off - Interview Question.mp4"
+ },
+ {
+  "n": 362,
+  "time": "2026-11-13T00:00:00+08:00",
+  "unix": 1794499200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0073d26078c7.mp4",
+  "caption": "Pounds Versus Newtons\n\nIt starts with a spacecraft that flew too low by a unit mistake. In 1999, NASA's Mars Climate Orbiter approached Mars and then vanished.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "426 Pounds Versus Newtons - Interview Question.mp4"
+ },
+ {
+  "n": 363,
+  "time": "2026-11-13T02:00:00+08:00",
+  "unix": 1794506400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5fd6394396bf.mp4",
+  "caption": "The 248 Day Bug\n\nIt starts with an official warning about a jet's electrical system. In 2015, aviation regulators warned that Boeing 787 generators could shut down if left powered on for too long.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "444 The 248 Day Bug - Interview Question.mp4"
+ },
+ {
+  "n": 364,
+  "time": "2026-11-13T04:00:00+08:00",
+  "unix": 1794513600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/574d2b4baa46.mp4",
+  "caption": "A Typo That Broke The Internet\n\nIt starts with an engineer fixing a slow billing system. In 2017, an Amazon engineer ran a command to remove a few servers from a billing system.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "445 A Typo That Broke The Internet - Interview Question.mp4"
+ },
+ {
+  "n": 365,
+  "time": "2026-11-13T06:00:00+08:00",
+  "unix": 1794520800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4fb856071a6e.mp4",
+  "caption": "The Discounted Energy Drink\n\nIt starts with an energy drink that was meant to boost thinking. Researchers gave students the same energy drink and told them it improves mental performance.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "458 The Discounted Energy Drink - Interview Question.mp4"
+ },
+ {
+  "n": 366,
+  "time": "2026-11-13T08:00:00+08:00",
+  "unix": 1794528000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/55ff56fd3f6b.mp4",
+  "caption": "The Leap Year Freeze\n\nIt starts with a music player that stopped working on New Year's Eve. On December 31, 2008, Microsoft Zune players froze when they were switched on.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "441 The Leap Year Freeze - Interview Question.mp4"
+ },
+ {
+  "n": 367,
+  "time": "2026-11-13T10:00:00+08:00",
+  "unix": 1794535200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5ec1963009aa.mp4",
+  "caption": "Wanting Beats Having\n\nIt starts with a lab experiment on monkeys. Neuroscientist Wolfram Schultz watched monkey brains while they got a juice reward after a light.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "415 Wanting Beats Having - Interview Question.mp4"
+ },
+ {
+  "n": 368,
+  "time": "2026-11-13T12:00:00+08:00",
+  "unix": 1794542400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/2705d72098ef.mp4",
+  "caption": "Become The Type Of Person\n\nIt starts with a change of just one word on a survey. Researchers asked some people, how important is it to you to vote.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "408 Become The Type Of Person - Interview Question.mp4"
+ },
+ {
+  "n": 369,
+  "time": "2026-11-13T14:00:00+08:00",
+  "unix": 1794549600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/40831d4580b7.mp4",
+  "caption": "Eleven Lines That Broke Builds\n\nIt starts with a developer removing a package in a dispute. In 2016, a developer pulled his packages from npm after a naming dispute.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "437 Eleven Lines That Broke Builds - Interview Question.mp4"
+ },
+ {
+  "n": 370,
+  "time": "2026-11-13T16:00:00+08:00",
+  "unix": 1794556800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/50283406c545.mp4",
+  "caption": "The Checkbox That Saves Lives\n\nIt starts with the rate of organ donors in neighbouring countries. Researchers compared organ donation rates across European countries.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "457 The Checkbox That Saves Lives - Interview Question.mp4"
+ },
+ {
+  "n": 371,
+  "time": "2026-11-13T18:00:00+08:00",
+  "unix": 1794564000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/c6195e8e11e0.mp4",
+  "caption": "The 2 4 6 Puzzle\n\nIt starts with three numbers and a hidden rule. Peter Wason showed people the numbers two, four, six and said they follow a rule.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "452 The 2 4 6 Puzzle - Interview Question.mp4"
+ },
+ {
+  "n": 372,
+  "time": "2026-11-13T20:00:00+08:00",
+  "unix": 1794571200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d1b093de0731.mp4",
+  "caption": "A Pattern That Broke The Web\n\nIt starts with a rule that was supposed to block attackers. In 2019, Cloudflare pushed a new firewall rule to all its servers worldwide.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "436 A Pattern That Broke The Web - Interview Question.mp4"
+ },
+ {
+  "n": 373,
+  "time": "2026-11-13T22:00:00+08:00",
+  "unix": 1794578400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/d20350d5dab0.mp4",
+  "caption": "What Do People Fear?\n\nIt starts with a survey about causes of death. Researchers asked people to estimate how often different things cause death.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "462 What Do People Fear - Interview Question.mp4"
+ },
+ {
+  "n": 374,
+  "time": "2026-11-14T00:00:00+08:00",
+  "unix": 1794585600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/9380fc69b5f4.mp4",
+  "caption": "A Tingle That Sold Toothpaste\n\nIt starts with a toothpaste ad about a film on your teeth. In the early 1900s hardly anyone brushed their teeth. Pepsodent changed that with a big ad campaign.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "416 A Tingle That Sold Toothpaste - Interview Question.mp4"
+ },
+ {
+  "n": 375,
+  "time": "2026-11-14T02:00:00+08:00",
+  "unix": 1794592800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0fc93f58f23e.mp4",
+  "caption": "I Knew It All Along\n\nIt starts with predictions about a president's trip. Before Nixon visited China and Russia in 1972, Baruch Fischhoff asked people to predict possible outcomes.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "463 I Knew It All Along - Interview Question.mp4"
+ },
+ {
+  "n": 376,
+  "time": "2026-11-14T04:00:00+08:00",
+  "unix": 1794600000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/84ecd60f9a4e.mp4",
+  "caption": "45 Minutes To Lose 440 Million\n\nIt starts with a trading firm that died in under an hour. In 2012, Knight Capital deployed new trading software to its servers.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "427 45 Minutes To Lose 440 Million - Interview Question.mp4"
+ },
+ {
+  "n": 377,
+  "time": "2026-11-14T06:00:00+08:00",
+  "unix": 1794607200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/5a33a03da505.mp4",
+  "caption": "The Two Digit Year\n\nIt starts with a shortcut programmers took to save memory. In the early days of computing, memory was expensive, so programs stored years as two digits.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "428 The Two Digit Year - Interview Question.mp4"
+ },
+ {
+  "n": 378,
+  "time": "2026-11-14T08:00:00+08:00",
+  "unix": 1794614400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/4d7928033f46.mp4",
+  "caption": "The Two Minute Rule\n\nIt starts with a man who kept a promise so small it felt silly. Stephen Guise was tired of failing at big workout plans.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "406 The Two Minute Rule - Interview Question.mp4"
+ },
+ {
+  "n": 379,
+  "time": "2026-11-14T10:00:00+08:00",
+  "unix": 1794621600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/a831433af121.mp4",
+  "caption": "Say When And Where\n\nIt starts with a study on who actually exercises. Researchers split people into three groups to see who would exercise each week.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "403 Say When And Where - Interview Question.mp4"
+ },
+ {
+  "n": 380,
+  "time": "2026-11-14T12:00:00+08:00",
+  "unix": 1794628800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/598be828abbf.mp4",
+  "caption": "Join The Right Tribe\n\nIt starts with a study of thousands of people over thirty years. The Framingham Heart Study followed thousands of people and tracked who they were connected to.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "414 Join The Right Tribe - Interview Question.mp4"
+ },
+ {
+  "n": 381,
+  "time": "2026-11-14T14:00:00+08:00",
+  "unix": 1794636000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/ba71fe2927c4.mp4",
+  "caption": "The Rover That Kept Rebooting\n\nIt starts with a robot on Mars that kept restarting. In 1997, NASA's Mars Pathfinder landed and started sending back pictures.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "433 The Rover That Kept Rebooting - Interview Question.mp4"
+ },
+ {
+  "n": 382,
+  "time": "2026-11-14T16:00:00+08:00",
+  "unix": 1794643200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/e1182ead1dda.mp4",
+  "caption": "Habit Stacking\n\nIt starts with a Stanford researcher and a very odd rule. BJ Fogg, a Stanford researcher, wanted to build an exercise habit.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "404 Habit Stacking - Interview Question.mp4"
+ },
+ {
+  "n": 383,
+  "time": "2026-11-14T18:00:00+08:00",
+  "unix": 1794650400,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/bf7bad0e5eba.mp4",
+  "caption": "The Plane That Ran Out Of Fuel\n\nIt starts with a passenger jet that lost both engines at cruising height. In 1983, an Air Canada Boeing 767 ran out of fuel in mid flight.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "438 The Plane That Ran Out Of Fuel - Interview Question.mp4"
+ },
+ {
+  "n": 384,
+  "time": "2026-11-14T20:00:00+08:00",
+  "unix": 1794657600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/0d61a42fef8b.mp4",
+  "caption": "Pay For Your Habit\n\nIt starts with people who paid for a gym they didn't use. Economists studied thousands of gym members who chose monthly memberships.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "424 Pay For Your Habit - Interview Question.mp4"
+ },
+ {
+  "n": 385,
+  "time": "2026-11-14T22:00:00+08:00",
+  "unix": 1794664800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/127f890190dd.mp4",
+  "caption": "Words Nobody Could Read\n\nIt starts with strange symbols printed in a newspaper. Psychologist Robert Zajonc showed people meaningless words and Chinese-like symbols.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "464 Words Nobody Could Read - Interview Question.mp4"
+ },
+ {
+  "n": 386,
+  "time": "2026-11-15T00:00:00+08:00",
+  "unix": 1794672000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8643ecd4f151.mp4",
+  "caption": "The Wrong Server Wipe\n\nIt starts with a tired engineer and a delete command. In 2017, a GitLab engineer was fixing a database problem late at night.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "435 The Wrong Server Wipe - Interview Question.mp4"
+ },
+ {
+  "n": 389,
+  "time": "2026-11-15T06:00:00+08:00",
+  "unix": 1794693600,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6466b5f832ba.mp4",
+  "caption": "Never Miss Twice\n\nIt starts with a study that tracked how habits really form. Researchers at University College London followed volunteers building a new daily habit.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "407 Never Miss Twice - Interview Question.mp4"
+ },
+ {
+  "n": 390,
+  "time": "2026-11-15T08:00:00+08:00",
+  "unix": 1794700800,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6d737e88bbf6.mp4",
+  "caption": "The Obedience Experiment\n\nIt starts with a lab, a white coat, and a shock machine. In 1961, Stanley Milgram told volunteers to give electric shocks to a stranger whenever he answered wrongly.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #psychology #cognitivebias #behavioraleconomics #decisionmaking #mindset",
+  "file": "451 The Obedience Experiment - Interview Question.mp4"
+ },
+ {
+  "n": 391,
+  "time": "2026-11-15T10:00:00+08:00",
+  "unix": 1794708000,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/899745b821cc.mp4",
+  "caption": "Change The Scene\n\nIt starts with a puzzling finding after the Vietnam War. Around one in five American soldiers in Vietnam had used heroin, and experts feared a wave of addiction at home.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #atomichabits #habits #selfimprovement #psychology #productivity",
+  "file": "420 Change The Scene - Interview Question.mp4"
+ },
+ {
+  "n": 392,
+  "time": "2026-11-15T12:00:00+08:00",
+  "unix": 1794715200,
+  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/6866d36509e4.mp4",
+  "caption": "One Extra Line\n\nIt starts with a bug that was literally one line repeated. In 2014, Apple fixed a serious security flaw in iPhones and Macs.\n\nWhat do you think? Tell us below.\nFollow Brain Massage by CN for real stories that explain how the world works.\n\n#brainmassage #programming #softwareengineering #coding #techfails #developer",
+  "file": "442 One Extra Line - Interview Question.mp4"
  }
 ]
