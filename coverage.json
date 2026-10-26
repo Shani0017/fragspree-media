@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-27T03:20+08:00",
+ "updated": "2026-10-27T04:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
    "plats": [
     {
      "name": "Facebook",
-     "last": "Tue 24 Nov 2026, 02:00",
-     "days": 27.9,
+     "last": "Tue 24 Nov 2026, 04:00",
+     "days": 28.0,
      "count": 234,
-     "next": "Tue 27 Oct 04:00",
+     "next": "Tue 27 Oct 06:00",
      "level": "good",
      "per_day": {
-      "2026-10-27": 10,
+      "2026-10-27": 9,
       "2026-10-28": 12,
       "2026-10-29": 12,
       "2026-10-30": 12,
@@ -30,13 +30,13 @@
     },
     {
      "name": "Instagram",
-     "last": "Sun 08 Nov 2026, 02:00",
-     "days": 11.9,
+     "last": "Sun 08 Nov 2026, 04:00",
+     "days": 12.0,
      "count": 144,
-     "next": "Tue 27 Oct 04:00",
+     "next": "Tue 27 Oct 06:00",
      "level": "good",
      "per_day": {
-      "2026-10-27": 10,
+      "2026-10-27": 9,
       "2026-10-28": 12,
       "2026-10-29": 12,
       "2026-10-30": 12,
@@ -48,7 +48,7 @@
       "2026-11-05": 12,
       "2026-11-06": 12,
       "2026-11-07": 12,
-      "2026-11-08": 2
+      "2026-11-08": 3
      }
     },
     {
@@ -81,23 +81,23 @@
      "name": "Facebook",
      "last": "Wed 28 Oct 2026, 08:00",
      "days": 1.2,
-     "count": 15,
-     "next": "Tue 27 Oct 04:00",
+     "count": 14,
+     "next": "Tue 27 Oct 06:00",
      "level": "bad",
      "per_day": {
-      "2026-10-27": 10,
+      "2026-10-27": 9,
       "2026-10-28": 5
      }
     },
     {
      "name": "Instagram",
      "last": "Sun 15 Nov 2026, 12:00",
-     "days": 19.4,
-     "count": 233,
-     "next": "Tue 27 Oct 04:00",
+     "days": 19.3,
+     "count": 232,
+     "next": "Tue 27 Oct 06:00",
      "level": "good",
      "per_day": {
-      "2026-10-27": 10,
+      "2026-10-27": 9,
       "2026-10-28": 12,
       "2026-10-29": 12,
       "2026-10-30": 12,
@@ -115,30 +115,15 @@
     },
     {
      "name": "YouTube",
-     "last": "Thu 26 Nov 2026, 00:00",
-     "days": 29.9,
-     "count": 198,
-     "next": "Thu 05 Nov 12:00",
-     "level": "good",
-     "per_day": {
-      "2026-11-05": 1,
-      "2026-11-06": 1,
-      "2026-11-08": 3,
-      "2026-11-09": 1,
-      "2026-11-10": 11,
-      "2026-11-11": 12,
-      "2026-11-12": 12,
-      "2026-11-13": 12,
-      "2026-11-14": 12,
-      "2026-11-15": 12,
-      "2026-11-16": 12,
-      "2026-11-17": 12,
-      "2026-11-18": 13,
-      "2026-11-19": 12
-     }
+     "last": "nothing scheduled",
+     "days": 0,
+     "count": 0,
+     "next": "-",
+     "level": "bad",
+     "per_day": {}
     }
    ],
-   "yt_error": null
+   "yt_error": "HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/playlistItems?part=contentDetails&playlistId=UUP-NdNU4ODa2b"
   }
  ]
 }
