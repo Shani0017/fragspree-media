@@ -1,14 +1,5 @@
 [
  {
-  "n": 168,
-  "time": "2026-10-27T20:00:00+08:00",
-  "unix": 1793102400,
-  "video_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/716a3d1c84d0.mp4",
-  "cover_url": "https://raw.githubusercontent.com/Shani0017/fragspree-media/main/8bf7c6059aef.jpg",
-  "caption": "Delete Duplicate Rows Keep One\n\nGiven a table with id and email, how do you delete duplicate emails but keep the row with the smallest id?\n\nWrite your answer below, no peeking.\n\n#mathpuzzle #interviewquestion #iqtest",
-  "file": "195 Delete Duplicate Rows Keep One - Interview Question.mp4"
- },
- {
   "n": 169,
   "time": "2026-10-27T22:00:00+08:00",
   "unix": 1793109600,
