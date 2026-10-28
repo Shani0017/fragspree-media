@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:20+08:00",
+ "updated": "2026-10-29T01:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Thu 26 Nov 2026, 00:00",
-     "days": 28.0,
+     "days": 27.9,
      "count": 234,
      "next": "Thu 29 Oct 02:00",
      "level": "good",
@@ -31,7 +31,7 @@
     {
      "name": "Instagram",
      "last": "Tue 10 Nov 2026, 00:00",
-     "days": 12.0,
+     "days": 11.9,
      "count": 143,
      "next": "Thu 29 Oct 02:00",
      "level": "good",
@@ -54,7 +54,7 @@
     {
      "name": "YouTube",
      "last": "Sun 08 Nov 2026, 16:00",
-     "days": 10.7,
+     "days": 10.6,
      "count": 118,
      "next": "Fri 30 Oct 00:00",
      "level": "good",
@@ -79,19 +79,20 @@
    "plats": [
     {
      "name": "Facebook",
-     "last": "Thu 29 Oct 2026, 20:47",
-     "days": 0.9,
-     "count": 4,
+     "last": "Fri 30 Oct 2026, 08:59",
+     "days": 1.3,
+     "count": 5,
      "next": "Thu 29 Oct 08:59",
      "level": "bad",
      "per_day": {
-      "2026-10-29": 4
+      "2026-10-29": 4,
+      "2026-10-30": 1
      }
     },
     {
      "name": "Instagram",
      "last": "Sun 15 Nov 2026, 12:00",
-     "days": 17.5,
+     "days": 17.4,
      "count": 210,
      "next": "Thu 29 Oct 02:00",
      "level": "good",
@@ -115,7 +116,7 @@
     {
      "name": "YouTube",
      "last": "Thu 26 Nov 2026, 00:00",
-     "days": 28.0,
+     "days": 27.9,
      "count": 199,
      "next": "Thu 05 Nov 12:00",
      "level": "good",
