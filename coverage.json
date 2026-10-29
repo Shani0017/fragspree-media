@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-29T17:20+08:00",
+ "updated": "2026-10-29T18:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
    "plats": [
     {
      "name": "Facebook",
-     "last": "Thu 26 Nov 2026, 16:00",
-     "days": 27.9,
+     "last": "Thu 26 Nov 2026, 18:00",
+     "days": 28.0,
      "count": 234,
-     "next": "Thu 29 Oct 18:00",
+     "next": "Thu 29 Oct 20:00",
      "level": "good",
      "per_day": {
-      "2026-10-29": 3,
+      "2026-10-29": 2,
       "2026-10-30": 12,
       "2026-10-31": 10,
       "2026-11-01": 3,
@@ -30,13 +30,13 @@
     },
     {
      "name": "Instagram",
-     "last": "Tue 10 Nov 2026, 16:00",
-     "days": 11.9,
+     "last": "Tue 10 Nov 2026, 18:00",
+     "days": 12.0,
      "count": 143,
-     "next": "Thu 29 Oct 18:00",
+     "next": "Thu 29 Oct 20:00",
      "level": "good",
      "per_day": {
-      "2026-10-29": 3,
+      "2026-10-29": 2,
       "2026-10-30": 12,
       "2026-10-31": 12,
       "2026-11-01": 12,
@@ -48,13 +48,13 @@
       "2026-11-07": 12,
       "2026-11-08": 11,
       "2026-11-09": 12,
-      "2026-11-10": 9
+      "2026-11-10": 10
      }
     },
     {
      "name": "YouTube",
      "last": "Mon 16 Nov 2026, 02:00",
-     "days": 17.4,
+     "days": 17.3,
      "count": 188,
      "next": "Sat 31 Oct 06:00",
      "level": "good",
@@ -84,7 +84,7 @@
     {
      "name": "Facebook",
      "last": "Fri 30 Oct 2026, 08:59",
-     "days": 0.7,
+     "days": 0.6,
      "count": 2,
      "next": "Thu 29 Oct 20:47",
      "level": "bad",
@@ -96,12 +96,12 @@
     {
      "name": "Instagram",
      "last": "Sun 15 Nov 2026, 12:00",
-     "days": 16.8,
-     "count": 202,
-     "next": "Thu 29 Oct 18:00",
+     "days": 16.7,
+     "count": 201,
+     "next": "Thu 29 Oct 20:00",
      "level": "good",
      "per_day": {
-      "2026-10-29": 3,
+      "2026-10-29": 2,
       "2026-10-30": 12,
       "2026-10-31": 12,
       "2026-11-01": 12,
@@ -120,7 +120,7 @@
     {
      "name": "YouTube",
      "last": "Thu 26 Nov 2026, 00:00",
-     "days": 27.3,
+     "days": 27.2,
      "count": 199,
      "next": "Thu 05 Nov 12:00",
      "level": "good",
