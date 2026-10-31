@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T00:20+08:00",
+ "updated": "2026-11-01T01:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Sun 29 Nov 2026, 00:00",
-     "days": 28.0,
+     "days": 27.9,
      "count": 237,
      "next": "Sun 01 Nov 02:00",
      "level": "good",
@@ -31,7 +31,7 @@
     {
      "name": "Instagram",
      "last": "Fri 13 Nov 2026, 00:00",
-     "days": 12.0,
+     "days": 11.9,
      "count": 143,
      "next": "Sun 01 Nov 02:00",
      "level": "good",
@@ -95,7 +95,7 @@
     {
      "name": "Instagram",
      "last": "Sun 15 Nov 2026, 12:00",
-     "days": 14.5,
+     "days": 14.4,
      "count": 174,
      "next": "Sun 01 Nov 02:00",
      "level": "good",
@@ -119,7 +119,7 @@
     {
      "name": "YouTube",
      "last": "Sat 21 Nov 2026, 12:00",
-     "days": 20.5,
+     "days": 20.4,
      "count": 198,
      "next": "Sun 01 Nov 02:00",
      "level": "good",
