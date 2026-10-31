@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-30T22:21+08:00",
+ "updated": "2026-10-31T17:54+08:00",
  "accounts": [
   {
    "name": "FragSpree",
    "plats": [
     {
      "name": "Facebook",
-     "last": "Fri 27 Nov 2026, 22:00",
-     "days": 28.0,
-     "count": 234,
-     "next": "Sat 31 Oct 00:00",
+     "last": "Sat 28 Nov 2026, 02:00",
+     "days": 27.3,
+     "count": 227,
+     "next": "Sat 31 Oct 20:00",
      "level": "good",
      "per_day": {
-      "2026-10-31": 10,
+      "2026-10-31": 1,
       "2026-11-01": 3,
       "2026-11-02": 3,
       "2026-11-03": 3,
@@ -31,12 +31,12 @@
     {
      "name": "Instagram",
      "last": "Wed 11 Nov 2026, 22:00",
-     "days": 12.0,
-     "count": 143,
-     "next": "Sat 31 Oct 00:00",
+     "days": 11.2,
+     "count": 134,
+     "next": "Sat 31 Oct 18:00",
      "level": "good",
      "per_day": {
-      "2026-10-31": 12,
+      "2026-10-31": 3,
       "2026-11-01": 12,
       "2026-11-02": 12,
       "2026-11-03": 12,
@@ -53,12 +53,12 @@
     {
      "name": "YouTube",
      "last": "Sat 14 Nov 2026, 20:00",
-     "days": 14.9,
-     "count": 176,
-     "next": "Sat 31 Oct 00:00",
+     "days": 14.1,
+     "count": 167,
+     "next": "Sat 31 Oct 18:00",
      "level": "good",
      "per_day": {
-      "2026-10-31": 12,
+      "2026-10-31": 3,
       "2026-11-01": 12,
       "2026-11-02": 12,
       "2026-11-03": 11,
@@ -82,24 +82,24 @@
    "plats": [
     {
      "name": "Facebook",
-     "last": "Sat 31 Oct 2026, 13:16",
-     "days": 0.6,
-     "count": 2,
-     "next": "Sat 31 Oct 08:59",
+     "last": "Sat 31 Oct 2026, 20:47",
+     "days": 0.1,
+     "count": 1,
+     "next": "Sat 31 Oct 20:47",
      "level": "bad",
      "per_day": {
-      "2026-10-31": 2
+      "2026-10-31": 1
      }
     },
     {
      "name": "Instagram",
      "last": "Sun 15 Nov 2026, 12:00",
-     "days": 15.6,
-     "count": 187,
-     "next": "Sat 31 Oct 00:00",
+     "days": 14.8,
+     "count": 178,
+     "next": "Sat 31 Oct 18:00",
      "level": "good",
      "per_day": {
-      "2026-10-31": 12,
+      "2026-10-31": 3,
       "2026-11-01": 12,
       "2026-11-02": 12,
       "2026-11-03": 12,
@@ -118,7 +118,7 @@
     {
      "name": "YouTube",
      "last": "Sat 21 Nov 2026, 12:00",
-     "days": 21.6,
+     "days": 20.8,
      "count": 199,
      "next": "Sun 01 Nov 00:00",
      "level": "good",
