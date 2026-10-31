@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T02:20+08:00",
+ "updated": "2026-11-01T04:32+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Sun 29 Nov 2026, 02:00",
-     "days": 28.0,
+     "days": 27.9,
      "count": 237,
      "next": "Sun 01 Nov 06:00",
      "level": "good",
@@ -31,12 +31,12 @@
     {
      "name": "Instagram",
      "last": "Fri 13 Nov 2026, 02:00",
-     "days": 12.0,
-     "count": 143,
-     "next": "Sun 01 Nov 04:00",
+     "days": 11.9,
+     "count": 142,
+     "next": "Sun 01 Nov 06:00",
      "level": "good",
      "per_day": {
-      "2026-11-01": 10,
+      "2026-11-01": 9,
       "2026-11-02": 12,
       "2026-11-03": 12,
       "2026-11-04": 12,
@@ -54,12 +54,12 @@
     {
      "name": "YouTube",
      "last": "Sat 14 Nov 2026, 20:00",
-     "days": 13.7,
-     "count": 162,
-     "next": "Sun 01 Nov 04:00",
+     "days": 13.6,
+     "count": 161,
+     "next": "Sun 01 Nov 06:00",
      "level": "good",
      "per_day": {
-      "2026-11-01": 10,
+      "2026-11-01": 9,
       "2026-11-02": 12,
       "2026-11-03": 11,
       "2026-11-04": 12,
@@ -84,7 +84,7 @@
     {
      "name": "Facebook",
      "last": "Sun 01 Nov 2026, 16:59",
-     "days": 0.6,
+     "days": 0.5,
      "count": 3,
      "next": "Sun 01 Nov 08:59",
      "level": "bad",
@@ -95,12 +95,12 @@
     {
      "name": "Instagram",
      "last": "Sun 15 Nov 2026, 12:00",
-     "days": 14.4,
-     "count": 173,
-     "next": "Sun 01 Nov 04:00",
+     "days": 14.3,
+     "count": 172,
+     "next": "Sun 01 Nov 06:00",
      "level": "good",
      "per_day": {
-      "2026-11-01": 10,
+      "2026-11-01": 9,
       "2026-11-02": 12,
       "2026-11-03": 12,
       "2026-11-04": 12,
@@ -119,12 +119,12 @@
     {
      "name": "YouTube",
      "last": "Sat 21 Nov 2026, 12:00",
-     "days": 20.4,
-     "count": 197,
-     "next": "Sun 01 Nov 04:00",
+     "days": 20.3,
+     "count": 196,
+     "next": "Sun 01 Nov 06:00",
      "level": "good",
      "per_day": {
-      "2026-11-01": 10,
+      "2026-11-01": 9,
       "2026-11-02": 12,
       "2026-11-03": 12,
       "2026-11-04": 12,
