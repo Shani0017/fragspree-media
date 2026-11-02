@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-02T23:20+08:00",
+ "updated": "2026-11-03T00:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
    "plats": [
     {
      "name": "Facebook",
-     "last": "Mon 30 Nov 2026, 22:00",
-     "days": 27.9,
-     "count": 254,
+     "last": "Tue 01 Dec 2026, 00:00",
+     "days": 28.0,
+     "count": 255,
      "next": "Tue 03 Nov 02:00",
      "level": "good",
      "per_day": {
@@ -30,13 +30,13 @@
     },
     {
      "name": "Instagram",
-     "last": "Sat 14 Nov 2026, 22:00",
-     "days": 11.9,
+     "last": "Sun 15 Nov 2026, 00:00",
+     "days": 12.0,
      "count": 143,
-     "next": "Tue 03 Nov 00:00",
+     "next": "Tue 03 Nov 02:00",
      "level": "good",
      "per_day": {
-      "2026-11-03": 12,
+      "2026-11-03": 11,
       "2026-11-04": 12,
       "2026-11-05": 12,
       "2026-11-06": 12,
@@ -47,7 +47,8 @@
       "2026-11-11": 12,
       "2026-11-12": 12,
       "2026-11-13": 12,
-      "2026-11-14": 12
+      "2026-11-14": 12,
+      "2026-11-15": 1
      }
     },
     {
@@ -60,7 +61,7 @@
      "per_day": {}
     }
    ],
-   "yt_error": null
+   "yt_error": "'items'"
   },
   {
    "name": "Brain Massage by CN",
@@ -78,11 +79,11 @@
      "name": "Instagram",
      "last": "Mon 30 Nov 2026, 22:00",
      "days": 27.9,
-     "count": 229,
-     "next": "Tue 03 Nov 00:00",
+     "count": 228,
+     "next": "Tue 03 Nov 02:00",
      "level": "good",
      "per_day": {
-      "2026-11-03": 12,
+      "2026-11-03": 11,
       "2026-11-04": 12,
       "2026-11-05": 12,
       "2026-11-06": 12,
