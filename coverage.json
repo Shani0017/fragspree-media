@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T02:20+08:00",
+ "updated": "2026-11-09T03:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Sun 06 Dec 2026, 21:00",
-     "days": 27.8,
+     "days": 27.7,
      "count": 112,
      "next": "Mon 09 Nov 09:00",
      "level": "good",
@@ -31,7 +31,7 @@
     {
      "name": "Instagram",
      "last": "Thu 10 Dec 2026, 16:30",
-     "days": 31.6,
+     "days": 31.5,
      "count": 127,
      "next": "Mon 09 Nov 09:00",
      "level": "good",
@@ -54,49 +54,34 @@
     },
     {
      "name": "YouTube",
-     "last": "Wed 03 Feb 2027, 21:00",
-     "days": 86.8,
-     "count": 128,
-     "next": "Mon 09 Nov 09:00",
-     "level": "good",
-     "per_day": {
-      "2026-11-09": 4,
-      "2026-11-10": 4,
-      "2026-11-11": 5,
-      "2026-11-12": 6,
-      "2026-11-13": 6,
-      "2026-11-14": 6,
-      "2026-11-15": 6,
-      "2026-11-16": 6,
-      "2026-11-17": 6,
-      "2026-11-18": 6,
-      "2026-11-19": 6,
-      "2026-11-20": 6,
-      "2026-11-21": 2,
-      "2026-11-22": 2
-     }
+     "last": "nothing scheduled",
+     "days": 0,
+     "count": 0,
+     "next": "-",
+     "level": "bad",
+     "per_day": {}
     }
    ],
-   "yt_error": null
+   "yt_error": "'items'"
   },
   {
    "name": "Brain Massage by CN",
    "plats": [
     {
      "name": "Facebook",
-     "last": "Mon 09 Nov 2026, 12:34",
-     "days": 0.4,
-     "count": 2,
+     "last": "Mon 09 Nov 2026, 16:30",
+     "days": 0.5,
+     "count": 3,
      "next": "Mon 09 Nov 09:00",
      "level": "bad",
      "per_day": {
-      "2026-11-09": 2
+      "2026-11-09": 3
      }
     },
     {
      "name": "Instagram",
      "last": "Mon 28 Dec 2026, 16:30",
-     "days": 49.6,
+     "days": 49.5,
      "count": 199,
      "next": "Mon 09 Nov 09:00",
      "level": "good",
@@ -119,30 +104,15 @@
     },
     {
      "name": "YouTube",
-     "last": "Sun 14 Feb 2027, 09:00",
-     "days": 97.3,
-     "count": 142,
-     "next": "Mon 09 Nov 09:00",
-     "level": "good",
-     "per_day": {
-      "2026-11-09": 4,
-      "2026-11-10": 4,
-      "2026-11-11": 5,
-      "2026-11-12": 5,
-      "2026-11-13": 5,
-      "2026-11-14": 4,
-      "2026-11-15": 4,
-      "2026-11-16": 4,
-      "2026-11-17": 5,
-      "2026-11-18": 5,
-      "2026-11-19": 4,
-      "2026-11-20": 5,
-      "2026-11-21": 6,
-      "2026-11-22": 4
-     }
+     "last": "nothing scheduled",
+     "days": 0,
+     "count": 0,
+     "next": "-",
+     "level": "bad",
+     "per_day": {}
     }
    ],
-   "yt_error": null
+   "yt_error": "'items'"
   }
  ]
 }
