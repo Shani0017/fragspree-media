@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:21+08:00",
+ "updated": "2026-11-10T23:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Thu 17 Dec 2026, 12:30",
-     "days": 36.6,
+     "days": 36.5,
      "count": 119,
      "next": "Wed 11 Nov 09:00",
      "level": "good",
@@ -85,7 +85,7 @@
     {
      "name": "Facebook",
      "last": "Wed 11 Nov 2026, 12:29",
-     "days": 0.6,
+     "days": 0.5,
      "count": 2,
      "next": "Wed 11 Nov 08:59",
      "level": "bad",
