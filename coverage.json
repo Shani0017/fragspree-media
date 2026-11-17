@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:20+08:00",
+ "updated": "2026-11-17T23:20+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Thu 17 Dec 2026, 12:30",
-     "days": 29.6,
+     "days": 29.5,
      "count": 117,
      "next": "Wed 18 Nov 09:00",
      "level": "good",
@@ -84,13 +84,13 @@
    "plats": [
     {
      "name": "Facebook",
-     "last": "Wed 18 Nov 2026, 08:59",
-     "days": 0.4,
-     "count": 1,
+     "last": "Wed 18 Nov 2026, 12:29",
+     "days": 0.5,
+     "count": 2,
      "next": "Wed 18 Nov 08:59",
      "level": "bad",
      "per_day": {
-      "2026-11-18": 1
+      "2026-11-18": 2
      }
     },
     {
