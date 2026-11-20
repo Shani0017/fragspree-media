@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:23+08:00",
+ "updated": "2026-11-20T08:15+08:00",
  "accounts": [
   {
    "name": "FragSpree",
@@ -7,7 +7,7 @@
     {
      "name": "Facebook",
      "last": "Thu 17 Dec 2026, 21:00",
-     "days": 27.7,
+     "days": 27.5,
      "count": 112,
      "next": "Fri 20 Nov 09:00",
      "level": "good",
@@ -31,7 +31,7 @@
     {
      "name": "Instagram",
      "last": "Mon 21 Dec 2026, 09:00",
-     "days": 31.2,
+     "days": 31.0,
      "count": 107,
      "next": "Fri 20 Nov 09:00",
      "level": "good",
@@ -54,49 +54,34 @@
     },
     {
      "name": "YouTube",
-     "last": "Fri 25 Dec 2026, 21:00",
-     "days": 35.7,
-     "count": 206,
-     "next": "Fri 20 Nov 08:00",
-     "level": "good",
-     "per_day": {
-      "2026-11-20": 6,
-      "2026-11-21": 6,
-      "2026-11-22": 6,
-      "2026-11-23": 6,
-      "2026-11-24": 6,
-      "2026-11-25": 6,
-      "2026-11-26": 6,
-      "2026-11-27": 6,
-      "2026-11-28": 6,
-      "2026-11-29": 5,
-      "2026-11-30": 3,
-      "2026-12-01": 1,
-      "2026-12-03": 6,
-      "2026-12-04": 6
-     }
+     "last": "nothing scheduled",
+     "days": 0,
+     "count": 0,
+     "next": "-",
+     "level": "bad",
+     "per_day": {}
     }
    ],
-   "yt_error": null
+   "yt_error": "HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/playlistItems?part=contentDetails&playlistId=UUHMsLxpyoh1-P"
   },
   {
    "name": "Brain Massage by CN",
    "plats": [
     {
      "name": "Facebook",
-     "last": "Fri 20 Nov 2026, 08:59",
-     "days": 0.2,
-     "count": 1,
+     "last": "Fri 20 Nov 2026, 14:59",
+     "days": 0.3,
+     "count": 2,
      "next": "Fri 20 Nov 08:59",
      "level": "bad",
      "per_day": {
-      "2026-11-20": 1
+      "2026-11-20": 2
      }
     },
     {
      "name": "Instagram",
      "last": "Tue 16 Feb 2027, 21:00",
-     "days": 88.7,
+     "days": 88.5,
      "count": 161,
      "next": "Fri 20 Nov 09:00",
      "level": "good",
@@ -120,12 +105,12 @@
     {
      "name": "YouTube",
      "last": "Wed 17 Feb 2027, 21:00",
-     "days": 89.7,
-     "count": 126,
-     "next": "Fri 20 Nov 08:00",
+     "days": 89.5,
+     "count": 125,
+     "next": "Fri 20 Nov 14:30",
      "level": "good",
      "per_day": {
-      "2026-11-20": 6,
+      "2026-11-20": 5,
       "2026-11-21": 3,
       "2026-11-22": 2,
       "2026-11-23": 4,
