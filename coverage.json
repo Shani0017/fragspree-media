@@ -6,9 +6,9 @@
    "plats": [
     {
      "name": "Facebook",
-     "last": "Sat 19 Dec 2026, 16:30",
-     "days": 27.7,
-     "count": 111,
+     "last": "Sat 19 Dec 2026, 21:00",
+     "days": 27.9,
+     "count": 112,
      "next": "Sun 22 Nov 09:00",
      "level": "good",
      "per_day": {
@@ -32,7 +32,7 @@
      "name": "Instagram",
      "last": "Mon 21 Dec 2026, 09:00",
      "days": 29.4,
-     "count": 99,
+     "count": 100,
      "next": "Sun 22 Nov 09:00",
      "level": "good",
      "per_day": {
@@ -47,7 +47,7 @@
       "2026-11-30": 4,
       "2026-12-01": 4,
       "2026-12-02": 4,
-      "2026-12-03": 3,
+      "2026-12-03": 4,
       "2026-12-04": 3,
       "2026-12-05": 3
      }
