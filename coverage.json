@@ -32,7 +32,7 @@
      "name": "Instagram",
      "last": "Mon 21 Dec 2026, 09:00",
      "days": 25.4,
-     "count": 87,
+     "count": 88,
      "next": "Thu 26 Nov 09:00",
      "level": "good",
      "per_day": {
@@ -47,22 +47,37 @@
       "2026-12-04": 4,
       "2026-12-05": 4,
       "2026-12-06": 4,
-      "2026-12-07": 3,
+      "2026-12-07": 4,
       "2026-12-08": 3,
       "2026-12-09": 3
      }
     },
     {
      "name": "YouTube",
-     "last": "nothing scheduled",
-     "days": 0,
-     "count": 0,
-     "next": "-",
-     "level": "bad",
-     "per_day": {}
+     "last": "Fri 25 Dec 2026, 21:00",
+     "days": 29.9,
+     "count": 164,
+     "next": "Thu 26 Nov 08:00",
+     "level": "good",
+     "per_day": {
+      "2026-11-26": 6,
+      "2026-11-27": 6,
+      "2026-11-28": 5,
+      "2026-11-29": 3,
+      "2026-11-30": 1,
+      "2026-12-03": 6,
+      "2026-12-04": 6,
+      "2026-12-05": 6,
+      "2026-12-06": 6,
+      "2026-12-07": 6,
+      "2026-12-08": 6,
+      "2026-12-09": 6,
+      "2026-12-10": 6,
+      "2026-12-11": 6
+     }
     }
    ],
-   "yt_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+   "yt_error": null
   },
   {
    "name": "Brain Massage by CN",
